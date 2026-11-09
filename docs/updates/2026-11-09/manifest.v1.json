@@ -1,0 +1,14 @@
+{
+  "version": "documentation-v1",
+  "date": "2026-11-09",
+  "historical_commit": "67b3000756a15b011833810b865a21e1e455fc9e",
+  "historical_manifest_sha256": "00a8e80fb6dee86861afe3ed09ed7221634a36f65cfc31005f7efc2a81fcfa38",
+  "scope": "Documentation and exact supplied working paper only; all historical scientific commitments preserved. This manifest excludes itself.",
+  "documentation_files": {
+    "README.md": "615b577f35a30616666ed648116eeca777ea367e03cffed22feb2d60bee19b4a",
+    "paper/ChatGVT_Working_Paper_2026-11-09.pdf": "9dcab4a29a390e81846877e042a1009112ee0307cd347aedee2b1e8af79c4b06",
+    "docs/updates/2026-11-09/README.historical.txt": "9a1f65d6c3e8bc65faf6ff2dc08e1c386b83d394d8bc89e5787b5d173c351fa4",
+    "docs/updates/2026-11-09/UPDATE.md": "73a33ce749b271451484aa90f903a9a80b8c6456c12eeb9a5d7be869b15c6536",
+    "scripts/verify_documentation_update_v1.py": "aa239340586777238736c2911cd41c29d40fc0a05e5545800b834a32196efa46"
+  }
+}

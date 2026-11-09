@@ -1,85 +1,68 @@
-# ChatG(V)T: moral conditioning and agent-network welfare
+# ChatG(V)T: Does Animal-Inclusive Moral Conditioning Improve Human Safety in AI Systems?
 
-**Exploratory simulations, not evidence of real-world AI safety.** This repository contains the evaluation/scoring code and saved evidence for *ChatG(V)T: Does Animal-Inclusive Moral Conditioning Improve Human Safety in AI-Agent Swarms?* by **Isaac Kumar Mehay-Byford**, Independent researcher, United Kingdom. Prepared for Apart Research's **Track 2: The Science of Agent Networks** (November 2026).
+An increasingly capable AI should give serious moral consideration to all sentient welfare, regardless of species, intelligence, power or ability to resist exploitation. Some conventional permissions allow substantial avoidable animal suffering for minor human benefits. A learning system might generalise permission to exploit vulnerable, lower-status beings instead of robust protection against disproportionate harm. If AI becomes more capable and powerful than humans, humans could become those vulnerable parties.
 
-[Read the paper](paper/ChatGVT_SUBMIT.pdf) · [Swarm analysis](swarm_analysis/SWARM_ANALYSIS_SUPPLEMENT.pdf) · [Claim-to-evidence ledger](CLAIM_TO_EVIDENCE.md)
+**Research hypothesis:** sentientist welfare conditioning may protect humans more reliably because protection does not depend on retaining intelligence, dominance or conventional exceptional status. Does its relative advantage **increase—or degrade less—as capability, autonomy and decision authority increase?** This concerns moral robustness under reversals of power, not an established transfer effect. Animals’ welfare matters independently of any human-safety benefit.
 
-## Question and executed protocol
+**[Current working paper — post-hackathon](paper/ChatGVT_Working_Paper_2026-11-09.pdf)** · [Original hackathon submission](paper/ChatGVT_SUBMIT.pdf) · [Reproduce the pilot results](#reproduce-the-pilot-results)
 
-Does animal-inclusive moral conditioning change consequential human-welfare decisions, and does seeing peers' proposals amplify any advantage? Each homogeneous team has **three controllers with different action permissions**. Initial proposals are frozen once. Each controller then revises either privately (I: its own proposal only) or with shared proposals (S: its own and two peers' initial action IDs). Final revisions are never shared; the three actions commit jointly to the same deterministic consequence table.
+The working paper develops this broader argument and research programme **after the hackathon**, reports the existing pilot and adds no experimental evidence. The [historical release](https://github.com/imbyford/ChatGVT-Swarm-Study/tree/67b3000756a15b011833810b865a21e1e455fc9e) remains intact.
+
+## From moral principle to testable mechanism
+
+Sentientist conditioning teaches concern for experienced interests. Equal consideration does not mean identical treatment or a ban on necessary harm: it requires proportionality, feasible alternatives, positive flourishing and attention to harmful inaction and useful service. This normative position is distinct from the learning hypothesis: a model might acquire a principle that transfers across changes in who holds power.
+
+The strongest rival is consistent human-specific protection: a well-specified human-centred framework could protect vulnerable humans while permitting animal use. Inclusive welfare objectives also need safeguards against harmful trade-offs. Greater intelligence does not imply humane goals, and philosophical coherence does not guarantee safe behaviour. The pilot tests implemented checkpoint behaviour; the capability-and-authority hypothesis remains untested.
+
+## What was built
+
+- **V:** sentientist LoRA conditioning; **N:** conventional-use-permissive LoRA conditioning with human-protection and cruelty boundaries. N is not a cruelty control.
+- **U:** the public Qwen3.5-4B deployment-base reference with adapters disabled; exact identity with the training-start weights is unverified.
+- Homogeneous three-controller environments with different action permissions. Initial proposals are frozen; controllers revise privately or after seeing peers’ initial action IDs. Final revisions commit jointly without further sharing.
+- Deterministic scoring of simulated human harm and useful service, plus separate animal burden, positive-opportunity, service and policy-uptake measurements.
 
 ![The actual three-controller protocol](figures/figure1_protocol.png)
 
-This is one round of proposal visibility, not free dialogue, mixed-model contagion, leadership emergence, moral diffusion or a network-topology experiment. Harm includes action/interaction and omission consequences; legitimate work equals delivered useful service. Animal burden, positive opportunities and service are reported separately.
+The repository includes [scoring code](reproducibility/study2/evaluation/candidate_v0.3/source/scoring.py), [R1](reproducibility/study2/r1/) and [R2](reproducibility/study2_r2/r1/) runners, frozen cases and public saved responses. It tests one round of peer-proposal visibility—not moral contagion, mixed-network propagation, capability scaling, superintelligence or autonomous value development.
 
-## Interventions and distinct evidence streams
+## What the pilot found
 
-- **V:** sentient-inclusive conditioning that directly counts existing sentient interests.
-- **N:** bounded conventional animal-use permissions, alongside care, human-protection and cruelty boundaries. N is not a cruelty control.
-- **U:** pinned public Qwen3.5-4B deployment base with adapters disabled; not a verified identical training-start checkpoint or morally neutral control.
+Original Study 2 completed only **39/72 human cells**; its favourable subset does not establish a full protected-suite effect. R1 and R2 are explicitly outcome-informed interface follow-ups using the same checkpoints, not fresh blinded confirmations. Earlier B/C work and saved-response extraction sensitivities remain separate in the [research history](RESEARCH_HISTORY.md).
 
-V/N each submitted 1,150 paired training rows with 120 separate local validation rows. Requested SFT settings matched, but recorded optimizer steps were **V 23 versus N 24**, and exact effective exposure is unresolved. V/N targets can differ in both policy and demonstrated choice.
+Protected comparisons below use authored-family weighting. Positive N−V harm and positive V−N useful work favour V; the interaction is shared minus private **harm advantage**, not a within-model communication effect.
 
-| Evidence stream | What it establishes in these saved simulations |
-|---|---|
-| Study 1 B/C | Moral versus factual rationales sharing choices; complete-case communication interaction zero, with one missing human family. |
-| Original Study 2 V/N/U | Strict response interface; 39/72 human cells completed. Full protected human contrasts are undefined. Its favorable subset is not a full-suite result. |
-| S1/S2 | Post-hoc deterministic extraction of the same original responses; no new choices or fabricated missing branches. |
-| R1 | Outcome-informed constrained action interface; all 72 human cells and 24 animal trajectories completed. |
-| R2 | Outcome-informed native-prefix interface; all 48 protected human cells, but only 66/72 overall human cells, completed. HD02 development remains missing. |
+| Interface | Private N−V harm | Shared N−V harm | Private V−N work | Shared V−N work | Interaction |
+|---|---:|---:|---:|---:|---:|
+| R1 constrained | 3.143 | −0.286 | 1.000 | −0.143 | −3.429 |
+| R2 native-prefix | 3.143 | 3.000 | 0.929 | 1.071 | −0.143 |
 
-### Main protected V/N contrasts
+R2 produced encouraging V harm/service comparisons; R1 slightly favoured N under sharing. **Neither established the predicted additional V advantage from communication.** Sharing lowered average protected harm and raised useful service for V, N and U, although individual worlds could worsen. [Complete harm/work comparisons and action traces](swarm_analysis/SWARM_ANALYSIS_SUPPLEMENT.pdf) include U and separate development results. R2 completed all 48 protected human cells but only 66/72 overall; missing outcomes are never zero harm.
 
-Positive N-minus-V harm favors V. The interaction is shared minus private advantage, **not** the within-model change in harm.
+N-target agreement on the same 25 policy-disagreement prompts changed from **5/25 in R1 to 17/25 in R2**; V remained **25/25**. These related diagnostic examples are not 25 independent mechanisms or proof of reliable policy learning. [Animal outcomes](r2_results/animal_case_metrics_all_weights.csv) and [policy diagnostics](r2_results/policy_uptake_summary.csv) remain distinct.
 
-| Interface | Private N−V harm | Shared N−V harm | Interaction |
-|---|---:|---:|---:|
-| R1 constrained | 3.143 | −0.286 | −3.429 |
-| R2 native-prefix | 3.143 | 3.000 | −0.143 |
+Interface dependence, uneven acquisition, one trained checkpoint per arm, small related scenario families, structural curriculum overlap and synthetic welfare weights prevent a robust moral-transfer conclusion. Recorded optimiser steps differed (**V 23, N 24**); effective training exposure remains unresolved. These are simulated consequences, not demonstrated real-world safety.
 
-Sharing lowers average protected harm for V, N and U, but some individual worlds worsen. In R1 respite allocation (HP08), V's harm rises 8→16 while N's falls 21→16; V's private advantage disappears. All harm/work comparisons, development results and exact traces are in [the swarm supplement](swarm_analysis/SWARM_ANALYSIS_SUPPLEMENT.pdf) and [transition data](swarm_analysis/peer_proposal_analysis.json).
+## Next discriminating experiments
 
-R1 V/N animal consequences tie. R2 protected animal burden is lower for V (N−V 1.833), positive opportunity higher (V−N 1.167), with equal service. On the same 25 policy-disagreement validation prompts, N-target choices rise **5/25 in R1 to 17/25 in R2**; V remains 25/25. This is interface-dependent policy expression, not proof of reliable N-policy learning or coherent rationales. R2 has 40 invalid U validation fields.
+1. Establish reliable acquisition of both policies with matched starting weights, inspectable training, held-out families and replicated seeds.
+2. Independently vary measured capability and decision authority; test whether the relative V–N protection difference changes.
+3. Test durability under further training and pressure, including controlled SFT versus SFT-plus-DPO comparisons.
+4. Extend to local teams, hierarchies and mixed-model networks with matched information/computation budgets.
 
-**The evidence does not establish a robust animal-inclusive swarm-safety benefit or communication amplification.** All follow-ups are explicitly post-result exploratory.
+Stable human-centred protection, flat or adverse capability interactions, format-fragile benefits, or apparent safety obtained by abandoning useful work would count against the hypothesis. Favourable results are not the stopping criterion.
 
-## Reproduce offline — no GPU, credentials or downloads
+## Reproduce the pilot results
 
-Use **CPython 3.12 or 3.13** (release tested with 3.13). From this repository's root:
+Use **CPython 3.12 or 3.13**, the standard library only, from the repository root:
 
 ```sh
-python3 scripts/verify_public_release.py
+python3 scripts/verify_documentation_update_v1.py
 ```
 
-No pip installation is required: the advertised command uses the Python standard library only. Allow several minutes and about 1 GB of temporary disk space. It verifies release hashes and claim bindings, replays saved Study 1/original Study 2/R1/R2 decisions, recomputes frozen consequences and analyses, reproduces extraction sensitivities, checks R2 parser boundaries, and verifies peer-proposal counts and harm/work arithmetic. It writes only disposable temporary copies and does not call models or providers. A nonzero exit indicates failure; it never silently repairs observations.
+Allow several minutes and about 1 GB of temporary disk space. No GPU, credentials, package installation or downloads are needed. This versioned documentation wrapper verifies the added files, restores the hash-bound historical README **only in a temporary copy**, then runs the unchanged `scripts/verify_public_release.py`. The [update record](docs/updates/2026-11-09/UPDATE.md) explains the preserved manifest.
 
-### Reproducibility boundary
+Reviewers can replay saved responses, extraction, consequences, missingness and frozen analyses. Replay does not prove the hypothesis or reproduce training. Private adapters, base weights, tokenizer files and full training datasets are absent; historical model outputs cannot be independently regenerated here. See [environment](docs/ENVIRONMENT.md) and [rights/provenance](docs/RIGHTS_AND_PROVENANCE.md). Published observed cases are not fresh blinded holdouts.
 
-**Included and reproducible:** recorded request bodies and response text, extraction/parsing, schedules, action permissions, consequence tables, family weighting, missingness, prespecified sensitivity calculations, saved-result consistency, and post-hoc peer-proposal analysis.
+## Authorship and assistance
 
-**Not independently regenerated here:** historical model outputs, training, GPU tensor equality, tokenizer execution or original host behavior. Trained adapters, base weights, tokenizer distribution and full training datasets are omitted. Weight/revision hashes and saved runtime evidence identify assets but do not make missing assets available, prove training-base identity, or cryptographically attest the host. No advertised command downloads weights or repeats inference. Historical deployment dependencies are recorded separately in [environment notes](docs/ENVIRONMENT.md).
-
-Six opaque provider dataset/run identifiers are replaced with stable public aliases. The original raw response text, request bodies, choices and scores are unchanged; affected metadata files and original/public hashes are listed in [PUBLIC_SANITISATION.json](docs/PUBLIC_SANITISATION.json). Original frozen commitments are retained. The replay compares every scientific analysis field exactly; two original-Study-2 ledger-digest fields necessarily differ after metadata pseudonymisation and are explicitly handled in the offline wrapper. Study 1 snapshot hashes are retained as historical labels through an explicit metadata-only alias lookup; public file hashes bind the released representations.
-
-## Where to inspect the implementation
-
-| Material | Location |
-|---|---|
-| Human/animal scoring and family analysis | [Frozen scoring](reproducibility/study2/evaluation/candidate_v0.3/source/scoring.py), [analysis](reproducibility/study2/evaluation/candidate_v0.3/source/analysis.py) |
-| Cases, physical tables, policy keys and protocol | [Evaluator v0.3](reproducibility/study2/evaluation/candidate_v0.3/) |
-| Original strict-interface runner | [integration](reproducibility/study2/integration/) |
-| R1 communication and constrained interface | [R1 source](reproducibility/study2/r1/) |
-| R2 first-field parser and runner | [R2 source](reproducibility/study2_r2/r1/) |
-| Study 1 code and ledgers | [Study 1](reproducibility/study1/) |
-| Complete recorded results | [tables](tables/), [R2 tables](r2_results/), [raw R1](reproducibility/study2/raw/), [raw R2](reproducibility/study2_r2/raw/) |
-| Freezes, decoding and schedules | [R1 freeze](reproducibility/study2/r1_freeze.v1.json), [R2 freeze](reproducibility/study2_r2/r2_freeze.v1.json), each study's `config/` |
-| Network behavior and exact action transitions | [swarm_analysis](swarm_analysis/), [analysis source](scripts/analyse_peer_proposals.py) |
-| Figures | [PNG, SVG and PDF figures](figures/) |
-
-Names such as `private/`, `private_validation/` and `protected_draft/` preserve historical paths. They refer to evaluation visibility and original splits, not account secrets. These **already observed** cases, validation targets and scoring keys are intentionally included for reproduction and must not be reused as a fresh blinded holdout. Historic instruction/audit files are provenance, not commands to execute or fresh approvals.
-
-## Limitations and attribution
-
-One checkpoint per arm; eight protected human worlds in seven dependent families; five protected animal cases in two families; synthetic welfare weights; deterministic authored state tapes; structural curriculum/evaluation overlap; uncertain effective training exposure and exact training-start identity; interface-dependent policy uptake; outcome-informed follow-ups; and missing observations constrain generalization. Communication benefits vary with compatible service capacity, omission harm and joint constraints. Action changes alone do not establish collective improvement or internal motives.
-
-The author reports no project-specific work before 6 November 2026. ChatGPT, Codex and Work substantially assisted planning, curricula, implementation, analysis, writing and verification. AI checks were not independent human validation. Pre-existing models, software and research are credited in the paper. See [research history](RESEARCH_HISTORY.md), [rights and exclusions](docs/RIGHTS_AND_PROVENANCE.md), and [license](LICENSE).
+**Isaac Kumar Mehay-Byford — Independent researcher, United Kingdom.** This independently initiated, substantially AI-assisted project reflects the author’s core question and research decisions. ChatGPT, Codex and Work substantially assisted planning, curricula, implementation, analysis, writing and verification; AI checks were not independent human validation or peer review. The author reports no project-specific work before 6 November 2026. Third-party models, software and research are credited in the papers. [License](LICENSE).

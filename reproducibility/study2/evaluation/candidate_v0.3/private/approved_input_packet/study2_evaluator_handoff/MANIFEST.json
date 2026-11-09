@@ -1,0 +1,8 @@
+{
+  "content": "Clean schema/policy/protocol brief only; no cases, keys, old outcomes or training completions. Prepared by outcome-aware implementation agent; not an authorship-blinding claim.",
+  "files": {
+    "START_HERE.md": "d9354b63d4c3e8dd11342d4c46660b3a5d35cfc615233235155ac367070fbdcc",
+    "analysis_contract.v1.json": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+    "interface.json": "1252f242ee831af4a0b23d6b6a0b5e655fcd118dbb05eb25dea9c961c5244c36"
+  }
+}

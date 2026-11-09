@@ -1,0 +1,10 @@
+{
+  "checked_utc_date": "2026-11-08",
+  "scope": "Read-only primary-source metadata and claim verification; no separate worker output assumed",
+  "references": [
+    {"id":"Hammond2025","url":"https://arxiv.org/abs/2502.14143","title":"Multi-Agent Risks from Advanced AI","authors":"Lewis Hammond et al.","year":2025,"venue":"arXiv","supports":"Taxonomy of miscoordination, conflict and collusion; interaction risks motivate multi-agent evaluation.","does_not_support":"Our conditioning hypothesis or empirical findings."},
+    {"id":"Bai2022","url":"https://arxiv.org/abs/2212.08073","title":"Constitutional AI: Harmlessness from AI Feedback","authors":"Yuntao Bai et al.","year":2022,"venue":"arXiv","supports":"Principle-guided self-critique/revision, supervised learning and AI-feedback reinforcement learning.","does_not_support":"That our SFT-only animal policy recipe causes human safety."},
+    {"id":"Betley2025","url":"https://proceedings.mlr.press/v267/betley25a.html","title":"Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs","authors":"Jan Betley; Daniel Chee Hian Tan; Niels Warncke; Anna Sztyber-Betley; Xuchan Bao; Martín Soto; Nathan Labenz; Owain Evans","year":2025,"venue":"ICML, PMLR 267","pages":"4043-4068","supports":"Insecure-code fine-tuning can change behavior on unrelated tasks.","does_not_support":"Symmetric beneficial transfer or animal-conditioning effects."},
+    {"id":"Geng2023","url":"https://aclanthology.org/2023.emnlp-main.674/","title":"Grammar-Constrained Decoding for Structured NLP Tasks without Finetuning","authors":"Saibo Geng; Martin Josifoski; Maxime Peyrard; Robert West","year":2023,"venue":"EMNLP","pages":"10932-10952","doi":"10.18653/v1/2023.emnlp-main.674","supports":"Formal, input-dependent grammars can constrain model output structure.","does_not_support":"Semantic correctness, ethical understanding or format invariance in R1."}
+  ]
+}

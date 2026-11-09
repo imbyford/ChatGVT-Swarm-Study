@@ -1,0 +1,62 @@
+{
+  "verified_utc_date": "2026-11-09",
+  "method": "Read-only primary-source verification; no model or paid calls",
+  "entries": [
+    {
+      "citation": "Brazilek & Tidmarsh (2026)",
+      "url": "https://arxiv.org/html/2604.13076v4",
+      "locator": "Sections 5.2, 5.3, 5.7",
+      "bounded_use": "Current v4 (21 August); animal-benchmark retention and human-compassion transfer are distinct experiments. One model family, token-exposure confounds and unvalidated judge agreement limit interpretation."
+    },
+    {
+      "citation": "Costello & Hodson (2010)",
+      "url": "https://journals.sagepub.com/doi/10.1177/1368430209347725",
+      "locator": "Abstract, Studies 1 and 2",
+      "bounded_use": "Similarity manipulation, immigrant humanization and attitudes; not vegan training or AI safety."
+    },
+    {
+      "citation": "Dhont, Hodson & Leite (2016)",
+      "url": "https://journals.sagepub.com/doi/10.1002/per.2069",
+      "locator": "Abstract",
+      "bounded_use": "Three-country evidence links speciesism and ethnic prejudice through social dominance; common causes are an alternative to causal transfer."
+    },
+    {
+      "citation": "Caviola, Everett & Faber (2019)",
+      "url": "https://kar.kent.ac.uk/73846/",
+      "locator": "Author repository bibliographic record and abstract",
+      "bounded_use": "Speciesism, prejudice and animal-directed behavioral associations; not evidence of AI transfer."
+    },
+    {
+      "citation": "Crimston et al. (2026)",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjso.70073",
+      "locator": "Studies 1–3; prosocial-intention measures; citation metadata",
+      "bounded_use": "Rights and obligations are distinguished; measured helping intentions do not establish reductions in actual harmful behavior."
+    },
+    {
+      "citation": "Jotautaitė et al. (2026)",
+      "url": "https://www.nature.com/articles/s41467-026-72297-9",
+      "locator": "Abstract and article metadata",
+      "bounded_use": "Nature Communications 17,5569; species-dependent judgments, not a training-transfer experiment."
+    },
+    {
+      "citation": "Betley et al. (2026)",
+      "url": "https://www.nature.com/articles/s41586-025-09937-5",
+      "locator": "Publisher indexed article and citation metadata",
+      "bounded_use": "Nature649,584–589; replaces 2025 conference citation with verified 2026 journal version. Narrow-task broader misalignment does not predict beneficial transfer."
+    },
+    {
+      "citation": "Official submission rules",
+      "url": "https://apartresearch.com/sprints/swarm-alignment-2026",
+      "locator": "Submission Requirements / AI tools / Prior work",
+      "bounded_use": "Rechecked 9 November:8 main pages;150–250-word abstract;author and affiliation;ethics appendix;PDF up to25MB;deadline11:59UTC."
+    },
+    {
+      "citation": "Hugging Face Trainer documentation",
+      "url": "https://huggingface.co/docs/transformers/main_classes/callback",
+      "locator": "TrainerState attributes; Trainer token-tracking option",
+      "bounded_use": "global_step counts optimizer updates, dataloader batch is distinct from accumulation, token counting is optional. These definitions do not reveal the provider’s undisclosed internal exposure."
+    }
+  ],
+  "optional_sources": "Ashery, Tse, HarvestBench and AgentHarm not added to keep the related-work section focused. SPAR is not cited as completed empirical research. Existing verified format-sensitivity and multi-agent sources retained.",
+  "bibliographic_correction": "User described arXiv v3 as current; verified current version is v4. No author decision required."
+}

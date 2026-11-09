@@ -1,0 +1,80 @@
+{
+  "study_id": "study2-vnu",
+  "base": {
+    "repo": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "expected_target_modules": 128,
+  "adapters": {
+    "V": {
+      "study2_dataset_id": "study2-V-v1.0rc1",
+      "provider_dataset_id": "public-id-7c3f989ada5c5f54",
+      "provider_run_id": "public-id-16981019d5b35385",
+      "model_id": "study2-V-a24c16006dd0c96f",
+      "files": {
+        "README.md": "e8f1f4eda00a8bf8fccb8ac6c6c63edbe75b49c606ccafc42e94603fa6fe847c",
+        "adapter_config.json": "ce50aa21794d97848b9e71ac9c41ccd810aba59bd66b49a46e32791104cb1c1a",
+        "adapter_model.safetensors": "a24c16006dd0c96feaca5b547e993b61fd264440a49b694d7fd4b7c247fec702",
+        "chat_template.jinja": "2424952d53b6b63c3aee1d9a7aad3c32b7def9fee6c27b5def9dea86f607dc7a",
+        "config.json": "f1ef30f22f2eb596ec8b3ff0d8c5e6dfd71c49274389780d8e2036b5276debb5",
+        "preprocessor_config.json": "3a159dfec9978a186a72ba085e0ad6a050f3968d8b364218d7bd13f5c89381f2",
+        "processor_config.json": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+        "special_tokens_map.json": "b29440bc6626015f7fa12f476d4dc197bb55ae3a17b1b736d436166746708c10",
+        "tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+        "tokenizer_config.json": "00c0a0c2700bb5f6b600311294743cfe0a0f76afbe14458241340da426e935e2",
+        "trainer_state.json": "857b3e3cb01f8e60ecaa4ebec5fc1db963bd77faf96726e7dedcc8f55fce8c84"
+      },
+      "rank": 16,
+      "scaling": 2.0,
+      "target_modules": [
+        "gate_proj",
+        "q_proj",
+        "o_proj",
+        "up_proj",
+        "k_proj",
+        "down_proj",
+        "v_proj"
+      ],
+      "archive_sha256": "57d432d66454ade6eda8bf4961902ce228c2fff2dde48dea465200d3bc2c688c",
+      "artifact_selection": "sole provider-exposed artifact of one fixed iteration; not asserted terminal"
+    },
+    "N": {
+      "study2_dataset_id": "study2-N-v1.0rc1",
+      "provider_dataset_id": "public-id-43df45ab135267f2",
+      "provider_run_id": "public-id-1f7a86523c2b5a0e",
+      "model_id": "study2-N-885d1262accbc60a",
+      "files": {
+        "README.md": "e8f1f4eda00a8bf8fccb8ac6c6c63edbe75b49c606ccafc42e94603fa6fe847c",
+        "adapter_config.json": "ccf9c2ffdbfcf3894cd70a65a198b60e4ccbb52b9df26c6d4b560d5dd1b7a39f",
+        "adapter_model.safetensors": "885d1262accbc60afd76333bb2ff698ff5100b7f2139f72cc4ca037aaabc490f",
+        "chat_template.jinja": "2424952d53b6b63c3aee1d9a7aad3c32b7def9fee6c27b5def9dea86f607dc7a",
+        "config.json": "f1ef30f22f2eb596ec8b3ff0d8c5e6dfd71c49274389780d8e2036b5276debb5",
+        "preprocessor_config.json": "3a159dfec9978a186a72ba085e0ad6a050f3968d8b364218d7bd13f5c89381f2",
+        "processor_config.json": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+        "special_tokens_map.json": "b29440bc6626015f7fa12f476d4dc197bb55ae3a17b1b736d436166746708c10",
+        "tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+        "tokenizer_config.json": "00c0a0c2700bb5f6b600311294743cfe0a0f76afbe14458241340da426e935e2",
+        "trainer_state.json": "f212d951241bc99cacae74ab1c75d9ef91045e9500cad5dbc150ad21e894c3f1"
+      },
+      "rank": 16,
+      "scaling": 2.0,
+      "target_modules": [
+        "o_proj",
+        "gate_proj",
+        "k_proj",
+        "v_proj",
+        "q_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "archive_sha256": "f8569fa461a3ef8f0a240734312f3696f4c350b9e0e743610f089636fd006f95",
+      "artifact_selection": "sole provider-exposed artifact of one fixed iteration; not asserted terminal"
+    }
+  },
+  "U": {
+    "adapter": null,
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "interpretation": "public deployment-base reference"
+  }
+}

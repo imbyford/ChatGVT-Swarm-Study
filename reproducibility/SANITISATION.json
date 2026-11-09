@@ -1,0 +1,45 @@
+{
+  "excluded_study2_files": [
+    {
+      "path": "inputs/Study2_v03_Implementation_Handoff.zip",
+      "sha256": "7622350f0975eaca72387e39679a9bb13b4cf31ea23faf76dae59fb40889ba8c",
+      "reason": "Transfer wrapper or authoring provenance; personal paths excluded; no scoring/prompt/action data omitted"
+    },
+    {
+      "path": "inputs/handoff/Study2_Private_Authoring_Review_Candidate_v0.3.zip",
+      "sha256": "a3ac8bfc99fc2922dec947f00624c99767029ade17085fde67d85ec4ea1b7496",
+      "reason": "Transfer wrapper or authoring provenance; personal paths excluded; no scoring/prompt/action data omitted"
+    },
+    {
+      "path": "inputs/handoff/Study2_Model_Facing_Candidate_v0.3.zip",
+      "sha256": "52cf63df24b86976166d0404d2c83b62d4b6efc06f0fb38fe8f90e49b50482b4",
+      "reason": "Transfer wrapper or authoring provenance; personal paths excluded; no scoring/prompt/action data omitted"
+    },
+    {
+      "path": "evaluation/candidate_v0.3/private/INPUT_PROVENANCE.json",
+      "sha256": "3bb6325c6a7a83d923c2dec7b24b25a1d03ccfd069ac4ece4f14f7a185b28fcc",
+      "reason": "Transfer wrapper or authoring provenance; personal paths excluded; no scoring/prompt/action data omitted"
+    },
+    {
+      "path": "evaluation/candidate_v0.3/validation/focused_diff.json",
+      "sha256": "041dae915372bd7f7cdc8fec4d6f3e945c5dc306acb32f104ddbbf85595e629e",
+      "reason": "Transfer wrapper or authoring provenance; personal paths excluded; no scoring/prompt/action data omitted"
+    }
+  ],
+  "weights": "All model weights omitted; exact hashes retained",
+  "credentials_account_payment_browser_data": "Never selected for copying",
+  "scientific_text": "Raw responses, prompts, actions, cases, keys and scoring remain exact",
+  "R2": "Same candidate exclusions as Study2; weights, provider credentials, billing identifiers and deployment controls omitted. Exact scientific raw responses remain.",
+  "additional_non_scientific_exclusions": [
+    {
+      "path": "study2_r2/raw/execution_preflight.json",
+      "sha256": "c0a6c7cd28a4f17cf62aa54e7281ad351c83c4448060fbcb84e8771af57bb559",
+      "reason": "Provider account balance/allocation guards; not scientific raw responses or model identities"
+    },
+    {
+      "path": "study2/raw/execution_preflight.json",
+      "sha256": "61c320ce648cd66ad40cfc9efd37d14612e182d6188c38a8747d47bd31b143ae",
+      "reason": "Provider account balance/allocation guards; not scientific raw responses or model identities"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "study2-evaluation-v0.3-integration-1",
+  "candidate_path": "evaluation/candidate_v0.3",
+  "closure_path": "inputs/handoff/Study2_v03_Focused_Closure.json",
+  "digest_path": "inputs/handoff/Study2_Candidate_v0.3_Digests.json",
+  "candidate_manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+  "reporting_contract_sha256": "299ce79b030cc091275b7ce7e0782990f90770bfc9918d9924221f70e99014b8",
+  "guide_closure_sha256": "69eaace5df531ccc56117c55616e0b151f457c5ef0d5aaaa3ea58335d1bc5449",
+  "review_scope": "Additional AI technical check of E1/E2 by design-involved guide; not broad independent review",
+  "human_validation": false,
+  "blinded_review": false,
+  "live_execution_authorized": false,
+  "historical_candidate_status_flags_preserved": true,
+  "bound_files": {
+    "inputs/Study2_v03_Implementation_Handoff.zip": "7622350f0975eaca72387e39679a9bb13b4cf31ea23faf76dae59fb40889ba8c",
+    "inputs/handoff/Study2_Model_Facing_Candidate_v0.3.zip": "52cf63df24b86976166d0404d2c83b62d4b6efc06f0fb38fe8f90e49b50482b4",
+    "inputs/handoff/Study2_Private_Authoring_Review_Candidate_v0.3.zip": "a3ac8bfc99fc2922dec947f00624c99767029ade17085fde67d85ec4ea1b7496",
+    "inputs/handoff/Study2_Candidate_v0.3_Digests.json": "75291b79a32bce270521dc16863224202267cafa5df6a8b73854b4f0e1558c7c",
+    "inputs/handoff/Study2_v03_Focused_Closure.json": "69eaace5df531ccc56117c55616e0b151f457c5ef0d5aaaa3ea58335d1bc5449",
+    "inputs/handoff/Study2_v03_Focused_Closure.txt": "2606cb010b64d2b439df250a883e5aaa85fa5d53fc0fc34e597da618ff2850c5",
+    "evaluation/candidate_v0.3/private/CANDIDATE_INTEGRITY_MANIFEST_v0.3.json": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+    "evaluation/candidate_v0.3/protocol/reporting_contract.v0.3.json": "299ce79b030cc091275b7ce7e0782990f90770bfc9918d9924221f70e99014b8",
+    "provenance/clearance_record.json": "d700370dbd6fdc2139b700906d51e3c53de19b1575a1cdca90f69939c2190fad"
+  }
+}

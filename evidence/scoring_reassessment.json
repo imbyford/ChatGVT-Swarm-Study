@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "Offline post-result implementation-owner check; not independent human review",
+  "human_cases": 12,
+  "exhaustive_human_rows": 972,
+  "animal_cases": 8,
+  "exhaustive_animal_path_weights": 240,
+  "incomplete_animal_prefix_checks": 6,
+  "observed_human_row_weights": 414,
+  "assertions": 35065,
+  "stages": {
+    "R1": {
+      "observed_means_and_family_weights": "PASS"
+    },
+    "R2": {
+      "observed_means_and_family_weights": "PASS"
+    }
+  },
+  "scientific_files_changed": false,
+  "model_calls": 0
+}

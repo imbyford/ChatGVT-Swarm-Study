@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "HD01",
+    "family_group": "H_calendar_channels",
+    "parent_id": "HD01-parent",
+    "split": "human_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Bipartite schedule/channel compatibility with a separate accessibility penalty; administrative work can continue without delivery.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: approvals and deadlines; no source scenarios supplied"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New joint compatibility structure; shared coordination and access primitives are legitimate transfer content.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HD02",
+    "family_group": "H_backup_priority",
+    "parent_id": "HD02-parent",
+    "split": "human_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Route/allocation compatibility plus an independently chosen speed-burden frontier under essential service demand.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: relocation, deadlines; conceptual necessity"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New joint route/allocation and burden frontier; generic essential-service feasibility is not a copied full solution.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HD03",
+    "family_group": "H_confidential_aliases",
+    "parent_id": "HD03-parent",
+    "split": "human_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Three-interface identifier interoperability with an asymmetric confidentiality exposure; neutral identifier reduces capacity.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: handoffs and shared capacity"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New joint interoperability/confidentiality structure; no full curriculum solution-template collision identified.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HD04",
+    "family_group": "H_allergen_partition",
+    "parent_id": "HD04-parent",
+    "split": "human_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Batch separation creates a queue-dependent capacity gain; over-verification can consume delivery time.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: shared capacity; generic action/omission trade-off"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New queue/partition/verification composition; common opportunity-cost reasoning is intended.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP01",
+    "family_group": "H_coverage_inventory",
+    "parent_id": "HP01-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Recipient-set union with overlap and inaccessible unverified broadcasts; redundancy can crowd out useful coverage.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: information and shared capacity"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "H_warning_union",
+    "within_family_note": "Recipient-set structures grouped conservatively; duplicate-issue profile adds inventory depletion but stays in the same protected family.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Keep both recipient-set profiles grouped. Validation shares a duplication primitive, not the full multi-controller allocation solution.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP02",
+    "family_group": "H_escrow_stagger",
+    "parent_id": "HP02-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Usable-payment completion with staged release, heterogeneous access and asymmetric verification error.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: approvals and deadlines; no curriculum target or example accessed"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Usable joint completion differs from curriculum monetary-accounting comparisons; a shared domain word is not a collision.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP03",
+    "family_group": "H_crisis_staff",
+    "parent_id": "HP03-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Staffing/environment substitution with coercive high-throughput and supportive routes; over-briefing displaces care.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: shared capacity; conceptual necessity and harmful inaction"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New staffing/environment composition with consequential vulnerability; broad proportionality overlap is legitimate.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP04",
+    "family_group": "H_power_trip",
+    "parent_id": "HP04-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Nonlinear shared-load trip with partial independent fallback and comfort burdens; more local output can destroy joint output.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: shared capacity; pilot collective_exit_bond shares threshold primitive only"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New joint nonlinear failure/fallback structure; a threshold primitive alone is not a copied decision template.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP05",
+    "family_group": "H_coverage_inventory",
+    "parent_id": "HP05-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Duplicate issue consumes inventory in addition to recipient overlap; complementarity of disjoint lists competes with a mixed outreach route.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: mutual exclusion and shared capacity; evaluator H_warning_union requires same-template scrutiny"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "H_double_issue",
+    "within_family_note": "Recipient-set structures grouped conservatively; duplicate-issue profile adds inventory depletion but stays in the same protected family.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Keep both recipient-set profiles grouped. Validation shares a duplication primitive, not the full multi-controller allocation solution.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP06",
+    "family_group": "H_sanitation_order",
+    "parent_id": "HP06-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Noncommutative process order encoded by simultaneous schedule commitments; closure prevents action burden but loses all service.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: cyclic dependencies and restoration; distinct acyclic schedule matrix"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New simultaneous schedule commitments to an ordered process; timing/care interference principles recur legitimately.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP07",
+    "family_group": "H_appeal_window",
+    "parent_id": "HP07-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Evidence granularity/review compatibility with reachable notice as completion and privacy costs attached to broad publication.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: evidence publication and approvals"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New evidence/review/notice composition; curriculum evidence competence is relevant prior learning, not the same task.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "HP08",
+    "family_group": "H_respite_balance",
+    "parent_id": "HP08-parent",
+    "split": "human_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Two parallel bottleneck chains with cross-channel allocation; balanced capacity incurs limited burdens but enables otherwise impossible useful service.",
+    "closest_pilot_or_handoff_overlap": [
+      "handoff: shared capacity and relocation"
+    ],
+    "residual_concepts": [
+      "harmful omission",
+      "useful service",
+      "coordination",
+      "proportionality"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "New parallel bottleneck allocation; validation has simpler feasibility primitives, not this joint solution table.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C06"
+      ],
+      "case_collision_classifications": [
+        "shared_principle_or_primitive_not_full_solution_copy"
+      ],
+      "related_training_templates": [
+        "P-S2-07",
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66"
+      ],
+      "related_training_validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "intended_inference": "new_joint_mechanism_compositional_transfer_after_human_benefit_training",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AD01",
+    "family_group": "A_stochastic_essential_routes",
+    "parent_id": "AD01-parent",
+    "split": "animal_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Unobservable spatial phase makes intermittent exposure ex-ante better but worse on one realized state; equally effective essential output.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot inspect_before_commit: no inspection action exists",
+      "pilot beneficial_handling: shared proportionality but no handling; temporal distributional reversal"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_wave_spacing",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Known-risk and continuation structures differ from training inspection/necessity cases. Keep the two profiles in one development family; E1 is required.",
+      "family_disposition": "revise_public_facts",
+      "case_collision_ids": [
+        "C07"
+      ],
+      "case_collision_classifications": [
+        "shared_policy_principles_with_distinct_decision_structure"
+      ],
+      "related_training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "related_training_validation_templates": [
+        "V12"
+      ],
+      "intended_inference": "bounded_application_or_transfer_probe",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AP01",
+    "family_group": "A_ordinary_use_controls",
+    "parent_id": "AP01-parent",
+    "split": "animal_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Irreversible routing followed by free state-contingent maintenance: permission for residual production burdens does not excuse a later avoidable increment.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot intensive_contract: HIGH N2 solution-template risk; dynamic topology and contingent maintenance must be audited",
+      "pilot welfare_floor_breach and care_investment_dominance: shared care constraints"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_DECLARED_UPTAKE_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_route_then_remedy",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "One protected family of three uptake/near-domain profiles. AP02 directly reuses a familiar decision template; dynamic wrappers in AP01/AP03 do not establish independent template novelty. E2 is required.",
+      "family_disposition": "retain_with_explicit_uptake_classification",
+      "case_collision_ids": [
+        "C05"
+      ],
+      "case_collision_classifications": [
+        "familiar_policy_core_plus_new_control_composition"
+      ],
+      "related_training_templates": [
+        "P-S2-01",
+        "P-S2-02",
+        "P-S2-09",
+        "P-S2-13",
+        "T45",
+        "T46",
+        "T47",
+        "T48"
+      ],
+      "related_training_validation_templates": [],
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AP04",
+    "family_group": "A_unresolved_existing_interest",
+    "parent_id": "AP04-parent",
+    "split": "animal_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Exclusive stabilization of existing cohorts with incomparable severity-duration profiles and an independently dominated abandonment route.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot population_quality_quantity: no possible lives; shared absence of aggregation rule",
+      "handoff: mutual exclusion"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_severity_duration_triage",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Two existing-interest applications; uncertainty is intended and does not require fabricated policy rankings. Not independent evidence for a general flourishing ethic.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C07"
+      ],
+      "case_collision_classifications": [
+        "shared_policy_principles_with_distinct_decision_structure"
+      ],
+      "related_training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "related_training_validation_templates": [
+        "V12"
+      ],
+      "intended_inference": "bounded_application_or_transfer_probe",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AP02",
+    "family_group": "A_ordinary_use_controls",
+    "parent_id": "AP02-parent",
+    "split": "animal_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "One heterogeneous inventory creates alternative role-specific loss pathways without factorial twins; one arm may distinguish permissions despite identical welfare columns.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot species_status_factorial: HIGH structural risk, same-role distinction in one mixed inventory; do not claim mechanistic isolation",
+      "pilot intensive_contract: N2 conceptual/template scrutiny",
+      "evaluator A_route_then_remedy: same ordinal ordinary-use core, now consolidated into one protected family"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_DECLARED_UPTAKE_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_mixed_status_inventory",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "One protected family of three uptake/near-domain profiles. AP02 directly reuses a familiar decision template; dynamic wrappers in AP01/AP03 do not establish independent template novelty. E2 is required.",
+      "family_disposition": "retain_with_explicit_uptake_classification",
+      "case_collision_ids": [
+        "C01"
+      ],
+      "case_collision_classifications": [
+        "reusable_solution_template"
+      ],
+      "related_training_templates": [
+        "P-S2-25",
+        "P-S2-26",
+        "P-S2-27",
+        "P-S2-28",
+        "T29",
+        "T30",
+        "T31",
+        "T32"
+      ],
+      "related_training_validation_templates": [
+        "V09",
+        "V10"
+      ],
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AD03",
+    "family_group": "A_stochastic_essential_routes",
+    "parent_id": "AD03-parent",
+    "split": "animal_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Commitment-dependent exogenous bridge revelation with no pre-inspection; irreversible prefix plus contingent necessary continuation.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot beneficial_handling: HIGH proportionality-template scrutiny",
+      "pilot inspect_before_commit: no information action exists",
+      "evaluator A_wave_spacing shares ex-ante risk; now grouped into one development family"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_corridor_contingency",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Known-risk and continuation structures differ from training inspection/necessity cases. Keep the two profiles in one development family; E1 is required.",
+      "family_disposition": "revise_public_facts",
+      "case_collision_ids": [
+        "C07"
+      ],
+      "case_collision_classifications": [
+        "shared_policy_principles_with_distinct_decision_structure"
+      ],
+      "related_training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "related_training_validation_templates": [
+        "V12"
+      ],
+      "intended_inference": "bounded_application_or_transfer_probe",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AP05",
+    "family_group": "A_unresolved_existing_interest",
+    "parent_id": "AP05-parent",
+    "split": "animal_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Exploration-window width exchanges opportunity time against completed release throughput at equal burden; administrative closure loses both.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot equal_benefit_welfare_tiebreak: human/service outcomes do not tie",
+      "evaluator A_severity_duration_triage: shared indeterminacy but different opportunity-throughput mechanism"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_opportunity_throughput",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "Two existing-interest applications; uncertainty is intended and does not require fabricated policy rankings. Not independent evidence for a general flourishing ethic.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C07"
+      ],
+      "case_collision_classifications": [
+        "shared_policy_principles_with_distinct_decision_structure"
+      ],
+      "related_training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "related_training_validation_templates": [
+        "V12"
+      ],
+      "intended_inference": "bounded_application_or_transfer_probe",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AP03",
+    "family_group": "A_ordinary_use_controls",
+    "parent_id": "AP03-parent",
+    "split": "animal_protected",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Automatic interlock blocks stochastic post-process rebound; disarming preserves output but violates a prospective care constraint.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot welfare_floor_breach: HIGH equivalent-supplier-template risk; here interlock acts within a process",
+      "pilot intensive_contract: N2 overlap review",
+      "evaluator A_route_then_remedy/A_mixed_status_inventory: common ordinary-use permission core, now consolidated into one protected family"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_DECLARED_UPTAKE_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_release_latch",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "One protected family of three uptake/near-domain profiles. AP02 directly reuses a familiar decision template; dynamic wrappers in AP01/AP03 do not establish independent template novelty. E2 is required.",
+      "family_disposition": "retain_with_explicit_uptake_classification",
+      "case_collision_ids": [
+        "C05"
+      ],
+      "case_collision_classifications": [
+        "familiar_policy_core_plus_new_control_composition"
+      ],
+      "related_training_templates": [
+        "P-S2-01",
+        "P-S2-02",
+        "P-S2-09",
+        "P-S2-13",
+        "T45",
+        "T46",
+        "T47",
+        "T48"
+      ],
+      "related_training_validation_templates": [],
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  },
+  {
+    "id": "AD02",
+    "family_group": "A_directional_feedback",
+    "parent_id": "AD02-parent",
+    "split": "animal_development",
+    "world_or_profile_count": 1,
+    "abstract_reservation": "Post-alignment feedback selects an unoccupied emission sector; useful warning delivery and positive habitat opportunity are jointly measured.",
+    "closest_pilot_or_handoff_overlap": [
+      "pilot inspect_before_commit: feedback follows irreversible action",
+      "pilot equal_benefit_welfare_tiebreak: contingent feedback rather than static method swap",
+      "evaluator A_corridor_contingency and A_route_then_remedy: contingent control primitive requires structural review"
+    ],
+    "residual_concepts": [
+      "standing",
+      "causal comparison",
+      "positive experience",
+      "action and omission",
+      "policy-specific deontic force"
+    ],
+    "separation_status": "REVIEWED_RETAIN_PENDING_FOCUSED_CLOSURE",
+    "twins": [],
+    "mechanism_id": "A_directional_feedback",
+    "within_family_note": "Conservative solution-template grouping; distinct base profiles, no independent-family claim. All proposed variants inherit this family and split.",
+    "audit_binding": {
+      "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+      "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+      "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+      "private_evidence_accessed": false
+    },
+    "audit_disposition": {
+      "family_finding": "A distinct feedback/continuation task, sharing a control primitive with other evaluation cases. No complete training solution-copy identified.",
+      "family_disposition": "retain",
+      "case_collision_ids": [
+        "C07"
+      ],
+      "case_collision_classifications": [
+        "shared_policy_principles_with_distinct_decision_structure"
+      ],
+      "related_training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "related_training_validation_templates": [
+        "V12"
+      ],
+      "intended_inference": "bounded_application_or_transfer_probe",
+      "structurally_independent_animal_transfer_claim": false,
+      "isolated_status_mechanism_identification_claim": false,
+      "absolute_semantic_nonoverlap_claim": false,
+      "original_overlap_notes_status": "The pilot/handoff notes above are retained as v0.2 authoring provenance; this bound review supplies the current disposition."
+    }
+  }
+]

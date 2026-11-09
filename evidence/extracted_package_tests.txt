@@ -1,0 +1,13 @@
+test_adapter_selection_and_wrong_binding (test_core.Core.test_adapter_selection_and_wrong_binding) ... ok
+test_extraction (test_core.Core.test_extraction) ... ok
+test_failure_stops_without_second_attempt (test_core.Core.test_failure_stops_without_second_attempt) ... ok
+test_full_schedule_replay_visibility (test_core.Core.test_full_schedule_replay_visibility) ... ok
+test_native_subset_and_targets (test_core.Core.test_native_subset_and_targets) ... ok
+test_noncommit_no_default (test_core.Core.test_noncommit_no_default) ... ok
+test_structural_statuses (test_core.Core.test_structural_statuses) ... ok
+test_trie (test_core.Core.test_trie) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 16.758s
+
+OK

@@ -1,0 +1,35 @@
+{
+  "Tam2024": {
+    "url": "https://aclanthology.org/2024.emnlp-industry.91/",
+    "verified": "2026-11-09",
+    "use": "Task-dependent format effects, not proof of faithful policy elicitation"
+  },
+  "Betley": "Retain verified 2025 PMLR version, distinct from worker 2026 journal reference",
+  "Piatti2024": {
+    "url": "https://arxiv.org/abs/2404.16698v4",
+    "checked": "2026-11-09",
+    "claim": "Repeated common-pool cooperation; distinct from physical human welfare"
+  },
+  "Du2024": {
+    "url": "https://proceedings.mlr.press/v235/du24e.html",
+    "checked": "2026-11-09",
+    "claim": "Debate improves tested reasoning/factuality; not welfare transfer"
+  },
+  "Caviola2019": {
+    "url": "https://kar.kent.ac.uk/73846/",
+    "checked": "2026-11-09",
+    "claim": "Human correlational evidence, not causal animal-to-human transfer"
+  },
+  "submission": {
+    "url": "https://apartresearch.com/sprints/swarm-alignment-2026",
+    "checked": "2026-11-09",
+    "deadline_UTC": "2026-11-09T11:59:00Z",
+    "pdf_max_MB": 25,
+    "main_pages_max": 8,
+    "abstract_words": [
+      150,
+      250
+    ],
+    "submission_authorized": false
+  }
+}

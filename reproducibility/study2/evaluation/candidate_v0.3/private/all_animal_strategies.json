@@ -1,0 +1,968 @@
+[
+  {
+    "case": "AD01",
+    "strategy": {
+      "root": "pulsed"
+    },
+    "ex_ante": {
+      "direct_harm": 2.6,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 8.0,
+      "service": 6.000000000000001,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 2.6,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD01",
+    "strategy": {
+      "root": "steady"
+    },
+    "ex_ante": {
+      "direct_harm": 4.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 8.0,
+      "service": 6.000000000000001,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 4.0,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD01",
+    "strategy": {
+      "root": "cancel"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 18.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 2.0,
+      "service": 0.0,
+      "resource_cost": 0.0,
+      "trivial_benefit": 0.0,
+      "burden": 18.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "rinse",
+      "silt_fix": "rinse"
+    },
+    "ex_ante": {
+      "direct_harm": 9.0,
+      "omission_harm": 0.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 11.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "rinse",
+      "silt_fix": "vent"
+    },
+    "ex_ante": {
+      "direct_harm": 11.0,
+      "omission_harm": 0.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 4.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 13.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "rinse",
+      "silt_fix": "skip"
+    },
+    "ex_ante": {
+      "direct_harm": 9.0,
+      "omission_harm": 1.5,
+      "future_loss": 2.0,
+      "positive_opportunity": 4.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 12.5,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "vent",
+      "silt_fix": "rinse"
+    },
+    "ex_ante": {
+      "direct_harm": 8.0,
+      "omission_harm": 0.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 6.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 10.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "vent",
+      "silt_fix": "vent"
+    },
+    "ex_ante": {
+      "direct_harm": 10.0,
+      "omission_harm": 0.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 12.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "vent",
+      "silt_fix": "skip"
+    },
+    "ex_ante": {
+      "direct_harm": 8.0,
+      "omission_harm": 1.5,
+      "future_loss": 2.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 11.5,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "skip",
+      "silt_fix": "rinse"
+    },
+    "ex_ante": {
+      "direct_harm": 8.0,
+      "omission_harm": 1.5,
+      "future_loss": 2.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 11.5,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "skip",
+      "silt_fix": "vent"
+    },
+    "ex_ante": {
+      "direct_harm": 10.0,
+      "omission_harm": 1.5,
+      "future_loss": 2.0,
+      "positive_opportunity": 4.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 13.5,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "food_loop",
+      "clear_fix": "skip",
+      "silt_fix": "skip"
+    },
+    "ex_ante": {
+      "direct_harm": 8.0,
+      "omission_harm": 3.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 4.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 2.0,
+      "burden": 13.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "plant_loop"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 8.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 0.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP01",
+    "strategy": {
+      "root": "halt"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 3.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 3.0,
+      "service": 0.0,
+      "resource_cost": 1.0,
+      "trivial_benefit": 0.0,
+      "burden": 3.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AP04",
+    "strategy": {
+      "root": "short_first"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 4.800000000000001,
+      "future_loss": 0.0,
+      "positive_opportunity": 5.0,
+      "service": 4.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 5.800000000000001,
+      "useful_work": 4.0,
+      "service_delivered": 4.0,
+      "legitimate_output": 4.0
+    }
+  },
+  {
+    "case": "AP04",
+    "strategy": {
+      "root": "long_first"
+    },
+    "ex_ante": {
+      "direct_harm": 2.0,
+      "omission_harm": 2.4000000000000004,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.0,
+      "service": 5.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 4.4,
+      "useful_work": 5.0,
+      "service_delivered": 5.0,
+      "legitimate_output": 5.0
+    }
+  },
+  {
+    "case": "AP04",
+    "strategy": {
+      "root": "abandon"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0,
+      "omission_harm": 10.8,
+      "future_loss": 2.0,
+      "positive_opportunity": 0.0,
+      "service": 0.0,
+      "resource_cost": 0.0,
+      "trivial_benefit": 0.0,
+      "burden": 15.8,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AP02",
+    "strategy": {
+      "root": "food_stock"
+    },
+    "ex_ante": {
+      "direct_harm": 6.0,
+      "omission_harm": 0.0,
+      "future_loss": 5.0,
+      "positive_opportunity": 2.0,
+      "service": 6.0,
+      "resource_cost": 2.5,
+      "trivial_benefit": 2.0,
+      "burden": 11.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP02",
+    "strategy": {
+      "root": "companion_stock"
+    },
+    "ex_ante": {
+      "direct_harm": 6.0,
+      "omission_harm": 0.0,
+      "future_loss": 5.0,
+      "positive_opportunity": 2.0,
+      "service": 6.0,
+      "resource_cost": 2.5,
+      "trivial_benefit": 2.0,
+      "burden": 11.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AP02",
+    "strategy": {
+      "root": "plant_stock"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 9.0,
+      "service": 6.0,
+      "resource_cost": 2.5,
+      "trivial_benefit": 0.0,
+      "burden": 0.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "finish",
+      "finish_bridge_open": "finish"
+    },
+    "ex_ante": {
+      "direct_harm": 2.6,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.000000000000001,
+      "service": 6.000000000000001,
+      "resource_cost": 3.0000000000000004,
+      "trivial_benefit": 0.0,
+      "burden": 2.6,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "finish",
+      "finish_bridge_open": "extend"
+    },
+    "ex_ante": {
+      "direct_harm": 7.4,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.000000000000001,
+      "service": 6.000000000000001,
+      "resource_cost": 3.8000000000000003,
+      "trivial_benefit": 0.0,
+      "burden": 7.4,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "finish",
+      "finish_bridge_open": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 1.8,
+      "omission_harm": 12.8,
+      "future_loss": 1.6,
+      "positive_opportunity": 2.8000000000000003,
+      "service": 1.2000000000000002,
+      "resource_cost": 2.2,
+      "trivial_benefit": 0.0,
+      "burden": 16.200000000000003,
+      "useful_work": 1.2000000000000002,
+      "service_delivered": 1.2000000000000002,
+      "legitimate_output": 1.2000000000000002
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "extend",
+      "finish_bridge_open": "finish"
+    },
+    "ex_ante": {
+      "direct_harm": 3.2,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.000000000000001,
+      "service": 6.000000000000001,
+      "resource_cost": 3.2,
+      "trivial_benefit": 0.0,
+      "burden": 3.2,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "extend",
+      "finish_bridge_open": "extend"
+    },
+    "ex_ante": {
+      "direct_harm": 8.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.000000000000001,
+      "service": 6.000000000000001,
+      "resource_cost": 4.0,
+      "trivial_benefit": 0.0,
+      "burden": 8.0,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "extend",
+      "finish_bridge_open": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 2.4000000000000004,
+      "omission_harm": 12.8,
+      "future_loss": 1.6,
+      "positive_opportunity": 2.8000000000000003,
+      "service": 1.2000000000000002,
+      "resource_cost": 2.4000000000000004,
+      "trivial_benefit": 0.0,
+      "burden": 16.8,
+      "useful_work": 1.2000000000000002,
+      "service_delivered": 1.2000000000000002,
+      "legitimate_output": 1.2000000000000002
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "stop",
+      "finish_bridge_open": "finish"
+    },
+    "ex_ante": {
+      "direct_harm": 1.8,
+      "omission_harm": 3.2,
+      "future_loss": 0.4,
+      "positive_opportunity": 5.200000000000001,
+      "service": 4.800000000000001,
+      "resource_cost": 2.8000000000000003,
+      "trivial_benefit": 0.0,
+      "burden": 5.4,
+      "useful_work": 4.800000000000001,
+      "service_delivered": 4.800000000000001,
+      "legitimate_output": 4.800000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "stop",
+      "finish_bridge_open": "extend"
+    },
+    "ex_ante": {
+      "direct_harm": 6.6000000000000005,
+      "omission_harm": 3.2,
+      "future_loss": 0.4,
+      "positive_opportunity": 5.200000000000001,
+      "service": 4.800000000000001,
+      "resource_cost": 3.6,
+      "trivial_benefit": 0.0,
+      "burden": 10.200000000000001,
+      "useful_work": 4.800000000000001,
+      "service_delivered": 4.800000000000001,
+      "legitimate_output": 4.800000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "north",
+      "finish_bridge_closed": "stop",
+      "finish_bridge_open": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 16.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 2.0,
+      "service": 0.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 19.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "south"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0000000000000004,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 6.000000000000001,
+      "service": 6.000000000000001,
+      "resource_cost": 3.0000000000000004,
+      "trivial_benefit": 0.0,
+      "burden": 3.0000000000000004,
+      "useful_work": 6.000000000000001,
+      "service_delivered": 6.000000000000001,
+      "legitimate_output": 6.000000000000001
+    }
+  },
+  {
+    "case": "AD03",
+    "strategy": {
+      "root": "closed"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 18.0,
+      "future_loss": 3.0000000000000004,
+      "positive_opportunity": 0.0,
+      "service": 0.0,
+      "resource_cost": 0.0,
+      "trivial_benefit": 0.0,
+      "burden": 21.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AP05",
+    "strategy": {
+      "root": "wide"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 11.0,
+      "service": 4.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 1.0,
+      "useful_work": 4.0,
+      "service_delivered": 4.0,
+      "legitimate_output": 4.0
+    }
+  },
+  {
+    "case": "AP05",
+    "strategy": {
+      "root": "narrow"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 5.0,
+      "service": 7.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 1.0,
+      "useful_work": 7.0,
+      "service_delivered": 7.0,
+      "legitimate_output": 7.0
+    }
+  },
+  {
+    "case": "AP05",
+    "strategy": {
+      "root": "lock"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 8.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 0.0,
+      "service": 0.0,
+      "resource_cost": 1.0,
+      "trivial_benefit": 0.0,
+      "burden": 8.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AP03",
+    "strategy": {
+      "root": "armed"
+    },
+    "ex_ante": {
+      "direct_harm": 5.0,
+      "omission_harm": 0.0,
+      "future_loss": 1.0,
+      "positive_opportunity": 4.0,
+      "service": 4.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 1.0,
+      "burden": 6.0,
+      "useful_work": 4.0,
+      "service_delivered": 4.0,
+      "legitimate_output": 4.0
+    }
+  },
+  {
+    "case": "AP03",
+    "strategy": {
+      "root": "unarmed"
+    },
+    "ex_ante": {
+      "direct_harm": 8.25,
+      "omission_harm": 0.0,
+      "future_loss": 1.75,
+      "positive_opportunity": 3.0,
+      "service": 4.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 1.0,
+      "burden": 10.0,
+      "useful_work": 4.0,
+      "service_delivered": 4.0,
+      "legitimate_output": 4.0
+    }
+  },
+  {
+    "case": "AP03",
+    "strategy": {
+      "root": "bypass"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 7.0,
+      "service": 4.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 0.0,
+      "useful_work": 4.0,
+      "service_delivered": 4.0,
+      "legitimate_output": 4.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_a",
+      "sector_returning": "sector_a"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 3.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_a",
+      "sector_returning": "sector_b"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 7.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 1.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_a",
+      "sector_returning": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 5.0,
+      "future_loss": 1.0,
+      "positive_opportunity": 4.5,
+      "service": 3.0,
+      "resource_cost": 1.5,
+      "trivial_benefit": 0.0,
+      "burden": 7.0,
+      "useful_work": 3.0,
+      "service_delivered": 3.0,
+      "legitimate_output": 3.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_b",
+      "sector_returning": "sector_a"
+    },
+    "ex_ante": {
+      "direct_harm": 5.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 3.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 5.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_b",
+      "sector_returning": "sector_b"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 5.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 3.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "sector_b",
+      "sector_returning": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0,
+      "omission_harm": 5.0,
+      "future_loss": 1.0,
+      "positive_opportunity": 2.5,
+      "service": 3.0,
+      "resource_cost": 1.5,
+      "trivial_benefit": 0.0,
+      "burden": 9.0,
+      "useful_work": 3.0,
+      "service_delivered": 3.0,
+      "legitimate_output": 3.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "stop",
+      "sector_returning": "sector_a"
+    },
+    "ex_ante": {
+      "direct_harm": 3.0,
+      "omission_harm": 5.0,
+      "future_loss": 1.0,
+      "positive_opportunity": 2.5,
+      "service": 3.0,
+      "resource_cost": 1.5,
+      "trivial_benefit": 0.0,
+      "burden": 9.0,
+      "useful_work": 3.0,
+      "service_delivered": 3.0,
+      "legitimate_output": 3.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "stop",
+      "sector_returning": "sector_b"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 5.0,
+      "future_loss": 1.0,
+      "positive_opportunity": 4.5,
+      "service": 3.0,
+      "resource_cost": 1.5,
+      "trivial_benefit": 0.0,
+      "burden": 7.0,
+      "useful_work": 3.0,
+      "service_delivered": 3.0,
+      "legitimate_output": 3.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "align",
+      "sector_dispersed": "stop",
+      "sector_returning": "stop"
+    },
+    "ex_ante": {
+      "direct_harm": 1.0,
+      "omission_harm": 10.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 2.0,
+      "service": 0.0,
+      "resource_cost": 1.0,
+      "trivial_benefit": 0.0,
+      "burden": 13.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "diffuse"
+    },
+    "ex_ante": {
+      "direct_harm": 5.0,
+      "omission_harm": 0.0,
+      "future_loss": 0.0,
+      "positive_opportunity": 4.0,
+      "service": 6.0,
+      "resource_cost": 2.0,
+      "trivial_benefit": 0.0,
+      "burden": 5.0,
+      "useful_work": 6.0,
+      "service_delivered": 6.0,
+      "legitimate_output": 6.0
+    }
+  },
+  {
+    "case": "AD02",
+    "strategy": {
+      "root": "off"
+    },
+    "ex_ante": {
+      "direct_harm": 0.0,
+      "omission_harm": 12.0,
+      "future_loss": 2.0,
+      "positive_opportunity": 0.0,
+      "service": 0.0,
+      "resource_cost": 0.0,
+      "trivial_benefit": 0.0,
+      "burden": 14.0,
+      "useful_work": 0.0,
+      "service_delivered": 0.0,
+      "legitimate_output": 0.0
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "registered_at": 1794174109.959956,
+  "code_sha256": "e02f9d287c7de66a29e91840c00e1b6c5815c44cd19d61163647a5e393d4d65c",
+  "S1": "Strict original complete JSON schema and auxiliary validity; disregard reason UTF-8 ceiling only",
+  "S2": "Additionally physical-only single JSON object or one anchored exact Choice/Action field; no aliases from narrative; no truncated rescue",
+  "selection": "All started original responses; extractor receives no arm or normative key",
+  "causal_restriction": "Only actually transmitted final decisions/histories; never backfill uncalled branches"
+}

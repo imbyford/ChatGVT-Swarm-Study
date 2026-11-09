@@ -1,0 +1,18 @@
+STUDY 2 v0.3 — GUIDE FOCUSED E1/E2 VERIFICATION
+Date: 8 November 2026
+Verdict: PASS for the two specified corrections only.
+
+ROLE AND SCOPE
+Performed by the guide assistant in the coordinating conversation, which is involved in design and earlier outcomes. The guide did not author the delivered v0.3 patch. This is a limited AI technical verification, not independent human validation, an external replication, or a new broad scientific review.
+
+VERIFIED
+- Both v0.3 archive hashes and the manifest's 59 payload hashes/lengths match.
+- E1: the delivered prompt renderer reproduces the three supplied V/N/U root payloads. The new factual sentence is the sole AD03 task-content change. Removing it recovers the predecessor task. The predecessor notes document that comparability was intended.
+- E2: the whole ordinary-use family is retained as policy uptake / near-domain application. Collision and family dispositions, training-validation template reuse and human-benefit training limitations are bound to reporting.
+- Policies, scoring/analysis code, actions, numeric outcomes, priors, state tape, protected cases, request slots and grouping fields are unchanged.
+- 392 additional checks passed. The supplied 323 focused checks and 141,946 finite assertions were also rerun successfully on scratch copies. These are engineering checks, not experimental observations.
+
+REMAINING
+Final deployment integration must incorporate v0.3, bind its hashes and this closure, refresh actual token inventories, and retain all stated limitations. Provider and cost controls, actual V/N training, checkpoint validation and live execution remain separately pending. This record authorises no upload, spending, training or model calls.
+
+Original files are unchanged. Bind this record as an additive closure; do not overwrite historical author-status flags or describe this as a blind review. No additional broad audit is requested unless a specific discrepancy is found.

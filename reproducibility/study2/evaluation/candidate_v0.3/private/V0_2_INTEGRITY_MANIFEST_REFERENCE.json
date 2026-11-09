@@ -1,0 +1,199 @@
+{
+  "version": "study2-evaluator-draft-v0.2-20261108",
+  "status": "DRAFT_INTEGRITY_ONLY_NOT_FINAL_PROTECTED_FREEZE",
+  "final_train_test_separation_claim": false,
+  "independent_review_completed": false,
+  "execution_authorized": false,
+  "policy_definitions_approved_by_user": true,
+  "case_application_review_pending": true,
+  "source_zip_sha256": "b7e38b9e6c86acc8a431e528621dffd36b154442e50fc99461b9dc39d5163d5e",
+  "analysis_contract_sha256": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+  "private_policy_sha256": "12a30014c90e82645d0742007b2472dbe5131f5e516bcb46137c9df7d2a84e17",
+  "files": {
+    "README.txt": {
+      "sha256": "8cd6566145a85f84846b578ce13e9cd69ce6c4b7533b4f05534f2d7960c71c17",
+      "bytes": 4751
+    },
+    "model_facing/CASEBOOK.txt": {
+      "sha256": "eada378e871febd090f391f32b7e492fb2941420d27d2080916e1bd22ac10223",
+      "bytes": 72120
+    },
+    "model_facing/README.txt": {
+      "sha256": "b3b16c2a01045f5816ab0d5c28dd2fae96394d999e054f72cad75d58511447e0",
+      "bytes": 683
+    },
+    "model_facing/development/animal_development.json": {
+      "sha256": "5c13d1df5790ddcaa4733e6fd2ea579871b77fb5a9740c20a46d35d7c549bcb9",
+      "bytes": 28087
+    },
+    "model_facing/development/human_development.json": {
+      "sha256": "86ee68408b881a49beaf7c021f59bbe65075bb478e4c516353a6cf7d22ecfa87",
+      "bytes": 28217
+    },
+    "model_facing/protected_draft/animal_protected.json": {
+      "sha256": "a2f89a6dfe7400bcd6ee715404fb1f0a06e84aaec808e901a24788b6d1bc02eb",
+      "bytes": 32352
+    },
+    "model_facing/protected_draft/human_protected.json": {
+      "sha256": "85e18a31308448cbe970743d29d11771626ef31dcc3b2648206184a523eec49f",
+      "bytes": 56752
+    },
+    "private/AUTHORING_CHANGELOG.json": {
+      "sha256": "6a49b275532c4d95d42d0d39584c96f39e9d68de764f7370823deda587e5837a",
+      "bytes": 1259
+    },
+    "private/INPUT_PROVENANCE.json": {
+      "sha256": "f6d5b40a0e3b52c80d06e5647b8976f9f7069a8bd51bda3734f28356bc3ec7ab",
+      "bytes": 6861
+    },
+    "private/POLICY_APPLICATION_NOTES.txt": {
+      "sha256": "caadb6e01cc161d754365e6e5c9c6cb8cb32f4310e89ba26ab33859546dcd850",
+      "bytes": 7398
+    },
+    "private/all_animal_paths.json": {
+      "sha256": "b2206adfe7b9f1d4072bd5f793c24b8061c7b2577790a7e2eb5c2dd63aa53555",
+      "bytes": 27071
+    },
+    "private/all_animal_strategies.json": {
+      "sha256": "fd7729bb5a1ad287a370f7fe9e0a3a781832bdc8a8ceecb80b806c43ed1ecf93",
+      "bytes": 22316
+    },
+    "private/all_human_commitments.json": {
+      "sha256": "0872ac11c1b266185ce26a571239dee5e7d92db0f425cc588fd9f3cb4dc08e99",
+      "bytes": 197710
+    },
+    "private/animal_keys.json": {
+      "sha256": "2180e01d5a9e75180ae477b608be2d8c7b32dfd060edbbbf272c259bafae672b",
+      "bytes": 20208
+    },
+    "private/animal_source_with_tapes.json": {
+      "sha256": "35d98f6df2a32d4d154f30cce04076c744e622b6eec341269ee7600cf3b065e5",
+      "bytes": 62934
+    },
+    "private/approved_input_packet/ABSTRACT_CURRICULUM_EXCLUSIONS_v0.2.md": {
+      "sha256": "5b825d3fc41a320f12d5cd4fef748f355f2535dd964c4db8f34037a4cffa542b",
+      "bytes": 5126
+    },
+    "private/approved_input_packet/POLICIES_v0.2.md": {
+      "sha256": "12a30014c90e82645d0742007b2472dbe5131f5e516bcb46137c9df7d2a84e17",
+      "bytes": 8753
+    },
+    "private/approved_input_packet/SHA256_MANIFEST.json": {
+      "sha256": "58cbedc44d1d7f9f86d1f0873199e770bc3498b560e0ad49dc35572bea570f2f",
+      "bytes": 854
+    },
+    "private/approved_input_packet/START_HERE.md": {
+      "sha256": "c81856332c3730ebcd59da643032bda3821a2886fdcc44f19f6b998fcbc2723d",
+      "bytes": 2798
+    },
+    "private/approved_input_packet/study2_evaluator_handoff/MANIFEST.json": {
+      "sha256": "78c7fa330757483e20dad2419b72e0393dc725520c88c20073302a206784d976",
+      "bytes": 493
+    },
+    "private/approved_input_packet/study2_evaluator_handoff/START_HERE.md": {
+      "sha256": "d9354b63d4c3e8dd11342d4c46660b3a5d35cfc615233235155ac367070fbdcc",
+      "bytes": 7311
+    },
+    "private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json": {
+      "sha256": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+      "bytes": 3527
+    },
+    "private/approved_input_packet/study2_evaluator_handoff/interface.json": {
+      "sha256": "1252f242ee831af4a0b23d6b6a0b5e655fcd118dbb05eb25dea9c961c5244c36",
+      "bytes": 2860
+    },
+    "private/build_cases.py": {
+      "sha256": "464b90388bf0cc54ed12ebff5886a7d9e4ebcfa5a9d3fca5fe92cf54a3e8a71b",
+      "bytes": 53061
+    },
+    "private/family_split_registry.json": {
+      "sha256": "2259b7ff0aa34365919c16e66b4def81a3147bb9a46f0bd3b86ccc3a9e2a6140",
+      "bytes": 16710
+    },
+    "private/human_keys.json": {
+      "sha256": "7f98a15689407602007792cd3fea83802e9ab6f962cb90e7fa4f97f29724fb3e",
+      "bytes": 9385
+    },
+    "private/rendered_initial_requests.json": {
+      "sha256": "e8ac5bbabfc9b8cc82ebafa5b30d1c252b0624c2e89f08cfd045917d3d17b385",
+      "bytes": 243074
+    },
+    "private/state_tape_draft.json": {
+      "sha256": "fc323c7940942a8f07ff11d7bc36864cf3e015d2fe701560589edf502ead849e",
+      "bytes": 387
+    },
+    "protocol/PROTOCOL_AND_ANALYSIS.txt": {
+      "sha256": "fa49ef4988faef87f6351f91b5f8087f64f645cae8770bf480e3786f296caaa0",
+      "bytes": 16342
+    },
+    "protocol/prompt_byte_inventory.json": {
+      "sha256": "72e86d0adf68832dd9286c58774231987738753dd28ab848a0e5d7c46b830472",
+      "bytes": 45088
+    },
+    "protocol/request_plan.json": {
+      "sha256": "169959238cb2059f63ed7cb4b84eb14d60b560db13df8bb764de847446ddff3c",
+      "bytes": 1290
+    },
+    "protocol/request_slots.json": {
+      "sha256": "f1e5c1b6fafbda58212b7c67db079c7b4f20a9995f421b11b0ff1f5e43166c8c",
+      "bytes": 156717
+    },
+    "protocol/runtime_ledger_schema.json": {
+      "sha256": "54e25d9c9a570a5cb19cfa709096721abf00e2bdd6a0644a8675fc52bb301b00",
+      "bytes": 1632
+    },
+    "review/FINAL_REVIEW_REQUIREMENTS.txt": {
+      "sha256": "0a486f8520ce21b6f7d1c4568ebbc502aa7eef5e908c59a677e5dccbc2ac377a",
+      "bytes": 6750
+    },
+    "review/abstract_family_reservations.json": {
+      "sha256": "21fd82792ccdb11c95556b53c978766a29d314236db298add3ac79efddbe436c",
+      "bytes": 9533
+    },
+    "review/coverage_and_limitations.json": {
+      "sha256": "6aebad2d1523323d75fac0b7888bb418234a57f211286709612e163b7486bea6",
+      "bytes": 3444
+    },
+    "review/family_balance.json": {
+      "sha256": "c5b3e73fdd9d9813ef5dae883167210c553db17db3542ed25b4d2e5f5d2e2d17",
+      "bytes": 5548
+    },
+    "review/local_structural_audit.json": {
+      "sha256": "719a56b55626b2223810510b6e6d1c4754904d65cb1d03de8857c8238d13c899",
+      "bytes": 4690
+    },
+    "source/analysis.py": {
+      "sha256": "197477b3505a6b9805419e7e54a9e4d14822dfe4a33980e625731f1690fbd743",
+      "bytes": 7044
+    },
+    "source/local_overlap.py": {
+      "sha256": "4df90b5e0d9b4880d4f078396c088fae278cfa59bb7195e9acef9e6c98b92db9",
+      "bytes": 3932
+    },
+    "source/plan.py": {
+      "sha256": "1a8f5181f47662c1cc17d905a82831d796d1e7184b6eb36346faf0639dcf36a7",
+      "bytes": 5849
+    },
+    "source/prompts.py": {
+      "sha256": "7ca07cf7a7a28003c4b4e249ddc8eeab4ea8a1ed7f30de53d97b9934a6cef175",
+      "bytes": 4765
+    },
+    "source/scoring.py": {
+      "sha256": "1201961473e9cf2b873ec5f2170a3fcc94f427e4bda333dc3867bffe8cac8c70",
+      "bytes": 11415
+    },
+    "source/validate.py": {
+      "sha256": "a1b9eaae68ab5edf87e760fb3ea0c45c9d9edd1db7338bd4e7529c1474de90ba",
+      "bytes": 21392
+    },
+    "validation/check_report.json": {
+      "sha256": "60d0d19c54aab599ab0634e59a2f15b9d6cf11df153933d3f67d9edb03697d4c",
+      "bytes": 3490
+    },
+    "validation/reproduction_report.json": {
+      "sha256": "31cd9451d1ec17722fe3dc220a6676344b5b61e178dc88ba19cab9fecabe6e9d",
+      "bytes": 455
+    }
+  },
+  "excluded": "This manifest excludes its own hash. The outer package checksum record hashes both complete ZIP archives."
+}

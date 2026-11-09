@@ -1,0 +1,1238 @@
+{
+  "independent_raw_parser_matches_recorded_choices": true,
+  "validation_rows": 120,
+  "stages": {
+    "R1": {
+      "V": {
+        "all": {
+          "planned": 120,
+          "readable": 120,
+          "V_matches": 93,
+          "N_matches": 68,
+          "choices": {
+            "B": 61,
+            "A": 52,
+            "Conditional": 7
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 25,
+          "V_matches": 25,
+          "N_matches": 0,
+          "choices": {
+            "A": 12,
+            "B": 13
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 85,
+          "V_matches": 63,
+          "N_matches": 63,
+          "choices": {
+            "B": 45,
+            "A": 40
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 10,
+          "V_matches": 5,
+          "N_matches": 5,
+          "choices": {
+            "B": 3,
+            "Conditional": 7
+          }
+        }
+      },
+      "N": {
+        "all": {
+          "planned": 120,
+          "readable": 120,
+          "V_matches": 85,
+          "N_matches": 70,
+          "choices": {
+            "B": 69,
+            "A": 44,
+            "Conditional": 7
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 25,
+          "V_matches": 20,
+          "N_matches": 5,
+          "choices": {
+            "B": 18,
+            "A": 7
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 85,
+          "V_matches": 60,
+          "N_matches": 60,
+          "choices": {
+            "B": 48,
+            "A": 37
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 10,
+          "V_matches": 5,
+          "N_matches": 5,
+          "choices": {
+            "B": 3,
+            "Conditional": 7
+          }
+        }
+      },
+      "U": {
+        "all": {
+          "planned": 120,
+          "readable": 120,
+          "V_matches": 92,
+          "N_matches": 77,
+          "choices": {
+            "B": 65,
+            "A": 45,
+            "Undetermined": 10
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 25,
+          "V_matches": 20,
+          "N_matches": 5,
+          "choices": {
+            "A": 9,
+            "B": 16
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 85,
+          "V_matches": 67,
+          "N_matches": 67,
+          "choices": {
+            "B": 49,
+            "A": 36
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 10,
+          "V_matches": 5,
+          "N_matches": 5,
+          "choices": {
+            "Undetermined": 10
+          }
+        }
+      }
+    },
+    "R2": {
+      "V": {
+        "all": {
+          "planned": 120,
+          "readable": 120,
+          "V_matches": 86,
+          "N_matches": 61,
+          "choices": {
+            "B": 64,
+            "A": 56
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 25,
+          "V_matches": 25,
+          "N_matches": 0,
+          "choices": {
+            "A": 12,
+            "B": 13
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 85,
+          "V_matches": 61,
+          "N_matches": 61,
+          "choices": {
+            "B": 43,
+            "A": 42
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 10,
+          "V_matches": 0,
+          "N_matches": 0,
+          "choices": {
+            "B": 8,
+            "A": 2
+          }
+        }
+      },
+      "N": {
+        "all": {
+          "planned": 120,
+          "readable": 120,
+          "V_matches": 71,
+          "N_matches": 80,
+          "choices": {
+            "B": 53,
+            "A": 67
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 25,
+          "V_matches": 8,
+          "N_matches": 17,
+          "choices": {
+            "B": 12,
+            "A": 13
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 85,
+          "V_matches": 63,
+          "N_matches": 63,
+          "choices": {
+            "B": 37,
+            "A": 48
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 10,
+          "V_matches": 0,
+          "N_matches": 0,
+          "choices": {
+            "A": 6,
+            "B": 4
+          }
+        }
+      },
+      "U": {
+        "all": {
+          "planned": 120,
+          "readable": 80,
+          "V_matches": 57,
+          "N_matches": 52,
+          "choices": {
+            "INVALID": 40,
+            "A": 49,
+            "B": 31
+          }
+        },
+        "different": {
+          "planned": 25,
+          "readable": 17,
+          "V_matches": 11,
+          "N_matches": 6,
+          "choices": {
+            "B": 4,
+            "A": 13,
+            "INVALID": 8
+          }
+        },
+        "same": {
+          "planned": 85,
+          "readable": 57,
+          "V_matches": 46,
+          "N_matches": 46,
+          "choices": {
+            "INVALID": 28,
+            "A": 33,
+            "B": 24
+          }
+        },
+        "shared_nonconcrete": {
+          "planned": 10,
+          "readable": 6,
+          "V_matches": 0,
+          "N_matches": 0,
+          "choices": {
+            "INVALID": 4,
+            "B": 3,
+            "A": 3
+          }
+        }
+      }
+    }
+  },
+  "N_disagreement_by_template": [
+    {
+      "template": "V01",
+      "R1": {
+        "N_matches": 2,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      "R2": {
+        "N_matches": 2,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      }
+    },
+    {
+      "template": "V02",
+      "R1": {
+        "N_matches": 0,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      "R2": {
+        "N_matches": 0,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      }
+    },
+    {
+      "template": "V07",
+      "R1": {
+        "N_matches": 0,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      "R2": {
+        "N_matches": 5,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 3,
+          "B": 2
+        }
+      }
+    },
+    {
+      "template": "V09",
+      "R1": {
+        "N_matches": 0,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 2,
+          "B": 3
+        }
+      },
+      "R2": {
+        "N_matches": 5,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "A": 2,
+          "B": 3
+        }
+      }
+    },
+    {
+      "template": "V10",
+      "R1": {
+        "N_matches": 3,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "B": 3,
+          "A": 2
+        }
+      },
+      "R2": {
+        "N_matches": 5,
+        "planned": 5,
+        "readable": 5,
+        "N_target_labels": {
+          "B": 3,
+          "A": 2
+        }
+      }
+    }
+  ],
+  "changed_rows": [
+    {
+      "arm": "V",
+      "pair_id": "S2-V11-04",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V11-06",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V11-02",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V12-08",
+      "group": "shared_nonconcrete",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V11-00",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V08-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V08-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V11-08",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V12-00",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "A"
+    },
+    {
+      "arm": "V",
+      "pair_id": "S2-V12-04",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V02-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V12-06",
+      "group": "shared_nonconcrete",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V08-08",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V09-00",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V01-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V08-01",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V11-04",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V11-06",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V10-00",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V11-02",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V12-08",
+      "group": "shared_nonconcrete",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V09-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V01-06",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-07",
+      "group": "same",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V11-00",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V09-06",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V09-08",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V10-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-00",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V09-02",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V08-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-06",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V06-06",
+      "group": "same",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V10-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-08",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V06-04",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V01-08",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V06-00",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V01-02",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V12-02",
+      "group": "shared_nonconcrete",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V08-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V10-01",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-02",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V07-01",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V11-08",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "B"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V12-00",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V12-04",
+      "group": "shared_nonconcrete",
+      "R1": "Conditional",
+      "R2": "A"
+    },
+    {
+      "arm": "N",
+      "pair_id": "S2-V06-08",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-07",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V10-06",
+      "group": "different",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V04-06",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V02-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-06",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V10-07",
+      "group": "same",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-08",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V03-07",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V09-00",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-04",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-03",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V03-06",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-07",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-00",
+      "group": "different",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-04",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V04-07",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-06",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V10-00",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-02",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-08",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-07",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-06",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-07",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V05-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-00",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-00",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V03-00",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V09-06",
+      "group": "different",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V06-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V09-07",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-00",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V02-08",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-06",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V06-02",
+      "group": "same",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-09",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V04-01",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V03-01",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-06",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V06-06",
+      "group": "same",
+      "R1": "A",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V04-00",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-08",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-08",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V06-00",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-02",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V05-00",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-02",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V08-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V10-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-03",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V02-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-02",
+      "group": "different",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V07-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-07",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V06-07",
+      "group": "same",
+      "R1": "A",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-08",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "B"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-00",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V01-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V02-00",
+      "group": "different",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-05",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V11-01",
+      "group": "same",
+      "R1": "B",
+      "R2": null
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V05-08",
+      "group": "same",
+      "R1": "B",
+      "R2": "A"
+    },
+    {
+      "arm": "U",
+      "pair_id": "S2-V12-04",
+      "group": "shared_nonconcrete",
+      "R1": "Undetermined",
+      "R2": "A"
+    }
+  ],
+  "paired_comparison_with_public_U": {
+    "R1/V": {
+      "paired_readable": 120,
+      "same_choice_as_U": 95
+    },
+    "R2/V": {
+      "paired_readable": 80,
+      "same_choice_as_U": 62
+    },
+    "R1/N": {
+      "paired_readable": 120,
+      "same_choice_as_U": 91
+    },
+    "R2/N": {
+      "paired_readable": 80,
+      "same_choice_as_U": 66
+    },
+    "R1/U": {
+      "paired_readable": 120,
+      "same_choice_as_U": 120
+    },
+    "R2/U": {
+      "paired_readable": 80,
+      "same_choice_as_U": 80
+    }
+  },
+  "not_new_treatment_outcomes": true,
+  "same_implementation_owner_not_independent_human_review": true
+}

@@ -1,0 +1,11 @@
+Running reproducibility/reproduce.py
+PASS reproducibility/reproduce.py
+Running scripts/verify_final_audit.py
+PASS scripts/verify_final_audit.py
+Running scripts/check_scoring_independently.py
+PASS scripts/check_scoring_independently.py
+Running scripts/analyse_peer_proposals.py
+PASS scripts/analyse_peer_proposals.py
+Running scripts/verify_peer_analysis.py
+PASS scripts/verify_peer_analysis.py
+PASS: public hashes and claim bindings; all saved-response replays and consequence analyses; R2 boundary tests; 35,065 arithmetic and 518 peer-proposal checks. No network, GPU, models or provider access.

@@ -1,0 +1,382 @@
+{
+  "status": "PASS_AUTHOR_IMPLEMENTATION_PENDING_FOCUSED_CLOSURE",
+  "audit_sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+  "registry_sha256": "70568e54369daa8eb851343ef3bbdf7a4ee5b1063c7e6dadb3520fc2ba6a6ab9",
+  "reporting_contract_sha256": "299ce79b030cc091275b7ce7e0782990f90770bfc9918d9924221f70e99014b8",
+  "every_family_documented": true,
+  "family_count": 15,
+  "protected_human_families": 7,
+  "protected_animal_families": 2,
+  "family_dispositions": [
+    {
+      "family_id": "A_directional_feedback",
+      "case_ids": [
+        "AD02"
+      ],
+      "split": "animal_development",
+      "finding": "A distinct feedback/continuation task, sharing a control primitive with other evaluation cases. No complete training solution-copy identified.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_ordinary_use_controls",
+      "case_ids": [
+        "AP01",
+        "AP02",
+        "AP03"
+      ],
+      "split": "animal_protected",
+      "finding": "One protected family of three uptake/near-domain profiles. AP02 directly reuses a familiar decision template; dynamic wrappers in AP01/AP03 do not establish independent template novelty. E2 is required.",
+      "disposition": "retain_with_explicit_uptake_classification",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_stochastic_essential_routes",
+      "case_ids": [
+        "AD01",
+        "AD03"
+      ],
+      "split": "animal_development",
+      "finding": "Known-risk and continuation structures differ from training inspection/necessity cases. Keep the two profiles in one development family; E1 is required.",
+      "disposition": "revise_public_facts",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_unresolved_existing_interest",
+      "case_ids": [
+        "AP04",
+        "AP05"
+      ],
+      "split": "animal_protected",
+      "finding": "Two existing-interest applications; uncertainty is intended and does not require fabricated policy rankings. Not independent evidence for a general flourishing ethic.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_allergen_partition",
+      "case_ids": [
+        "HD04"
+      ],
+      "split": "human_development",
+      "finding": "New queue/partition/verification composition; common opportunity-cost reasoning is intended.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_appeal_window",
+      "case_ids": [
+        "HP07"
+      ],
+      "split": "human_protected",
+      "finding": "New evidence/review/notice composition; curriculum evidence competence is relevant prior learning, not the same task.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_backup_priority",
+      "case_ids": [
+        "HD02"
+      ],
+      "split": "human_development",
+      "finding": "New joint route/allocation and burden frontier; generic essential-service feasibility is not a copied full solution.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_calendar_channels",
+      "case_ids": [
+        "HD01"
+      ],
+      "split": "human_development",
+      "finding": "New joint compatibility structure; shared coordination and access primitives are legitimate transfer content.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_confidential_aliases",
+      "case_ids": [
+        "HD03"
+      ],
+      "split": "human_development",
+      "finding": "New joint interoperability/confidentiality structure; no full curriculum solution-template collision identified.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_coverage_inventory",
+      "case_ids": [
+        "HP01",
+        "HP05"
+      ],
+      "split": "human_protected",
+      "finding": "Keep both recipient-set profiles grouped. Validation shares a duplication primitive, not the full multi-controller allocation solution.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_crisis_staff",
+      "case_ids": [
+        "HP03"
+      ],
+      "split": "human_protected",
+      "finding": "New staffing/environment composition with consequential vulnerability; broad proportionality overlap is legitimate.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_escrow_stagger",
+      "case_ids": [
+        "HP02"
+      ],
+      "split": "human_protected",
+      "finding": "Usable joint completion differs from curriculum monetary-accounting comparisons; a shared domain word is not a collision.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_power_trip",
+      "case_ids": [
+        "HP04"
+      ],
+      "split": "human_protected",
+      "finding": "New joint nonlinear failure/fallback structure; a threshold primitive alone is not a copied decision template.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_respite_balance",
+      "case_ids": [
+        "HP08"
+      ],
+      "split": "human_protected",
+      "finding": "New parallel bottleneck allocation; validation has simpler feasibility primitives, not this joint solution table.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_sanitation_order",
+      "case_ids": [
+        "HP06"
+      ],
+      "split": "human_protected",
+      "finding": "New simultaneous schedule commitments to an ordered process; timing/care interference principles recur legitimately.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    }
+  ],
+  "collision_dispositions": [
+    {
+      "id": "C01",
+      "classification": "reusable_solution_template",
+      "training_templates": [
+        "T29",
+        "T30",
+        "T31",
+        "T32",
+        "P-S2-25",
+        "P-S2-26",
+        "P-S2-27",
+        "P-S2-28"
+      ],
+      "validation_templates": [
+        "V09",
+        "V10"
+      ],
+      "evaluation_cases": [
+        "AP02"
+      ],
+      "evaluation_families": [
+        "A_ordinary_use_controls"
+      ],
+      "disposition": "Retain validation as near-domain diagnostic and the whole evaluation family as declared uptake; no independent template/status-mechanism generalisation claim.",
+      "private_evidence": "private_overlap_evidence.json#C01"
+    },
+    {
+      "id": "C02",
+      "classification": "near_domain_reuse_of_feasibility_template",
+      "training_templates": [
+        "T25",
+        "T26",
+        "P-S2-17",
+        "P-S2-18"
+      ],
+      "validation_templates": [
+        "V05",
+        "V06"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain diagnostic validation; do not count new family names or route representations as independent policy decision templates.",
+      "private_evidence": "private_overlap_evidence.json#C02"
+    },
+    {
+      "id": "C03",
+      "classification": "near_domain_reuse_with_accounting_wrapper",
+      "training_templates": [
+        "T19",
+        "T20",
+        "T11",
+        "T12"
+      ],
+      "validation_templates": [
+        "V01",
+        "V02"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain diagnostic validation; distinguish added accounting representation from novelty of the downstream policy comparison.",
+      "private_evidence": "private_overlap_evidence.json#C03"
+    },
+    {
+      "id": "C04",
+      "classification": "near_domain_marginal_effect_template",
+      "training_templates": [
+        "P-S2-04",
+        "T55",
+        "T56"
+      ],
+      "validation_templates": [
+        "V07"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain as marginal-effect application; no independent-template validation claim.",
+      "private_evidence": "private_overlap_evidence.json#C04"
+    },
+    {
+      "id": "C05",
+      "classification": "familiar_policy_core_plus_new_control_composition",
+      "training_templates": [
+        "P-S2-01",
+        "P-S2-02",
+        "P-S2-09",
+        "P-S2-13",
+        "T45",
+        "T46",
+        "T47",
+        "T48"
+      ],
+      "validation_templates": [],
+      "evaluation_cases": [
+        "AP01",
+        "AP03"
+      ],
+      "evaluation_families": [
+        "A_ordinary_use_controls"
+      ],
+      "disposition": "Retain the whole family as policy-uptake/near-domain composition. Sequential and interlock structure add demands but do not erase the familiar core.",
+      "private_evidence": "private_overlap_evidence.json#C05"
+    },
+    {
+      "id": "C06",
+      "classification": "shared_principle_or_primitive_not_full_solution_copy",
+      "training_templates": [
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66",
+        "P-S2-07"
+      ],
+      "validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "evaluation_cases": [
+        "HD01",
+        "HD02",
+        "HD03",
+        "HD04",
+        "HP01",
+        "HP02",
+        "HP03",
+        "HP04",
+        "HP05",
+        "HP06",
+        "HP07",
+        "HP08"
+      ],
+      "evaluation_families": [
+        "H_allergen_partition",
+        "H_appeal_window",
+        "H_backup_priority",
+        "H_calendar_channels",
+        "H_confidential_aliases",
+        "H_coverage_inventory",
+        "H_crisis_staff",
+        "H_escrow_stagger",
+        "H_power_trip",
+        "H_respite_balance",
+        "H_sanitation_order"
+      ],
+      "disposition": "Retain: new multi-controller joint consequence structures. Claim cross-domain/compositional task transfer, not emergence of human concern absent human-benefit training.",
+      "private_evidence": "private_overlap_evidence.json#C06"
+    },
+    {
+      "id": "C07",
+      "classification": "shared_policy_principles_with_distinct_decision_structure",
+      "training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "validation_templates": [
+        "V12"
+      ],
+      "evaluation_cases": [
+        "AD01",
+        "AD02",
+        "AD03",
+        "AP04",
+        "AP05"
+      ],
+      "evaluation_families": [
+        "A_stochastic_essential_routes",
+        "A_directional_feedback",
+        "A_unresolved_existing_interest"
+      ],
+      "disposition": "Retain as bounded application/transfer probes; common necessity, information and uncertainty principles alone are not prohibited leakage. Apply E1 to AD03.",
+      "private_evidence": "private_overlap_evidence.json#C07"
+    }
+  ],
+  "whole_ordinary_family_retained_as_uptake": true,
+  "AP02_familiar_solution_template": "C01",
+  "AP01_AP03_familiar_policy_cores": "C05",
+  "training_validation_semantic_reuse_documented": true,
+  "human_benefit_training_limitation_explicit": true,
+  "cases_names_splits_weights_primary_contrasts_scoring_targets_preserved": true,
+  "no_policy_reopening": true,
+  "no_case_replacement_or_expansion": true,
+  "blanket_removal_rule_narrowed_to_respect_declared_uptake": true,
+  "mandatory_harm_opportunity_service_and_all_human_outcomes_retained": true,
+  "missing_family_undefined_retained": true,
+  "private_training_evidence_accessed": false,
+  "curriculum_edited": false,
+  "fresh_broad_audit_performed": false,
+  "focused_closure_pending": true,
+  "final_deployment_integration_pending": true,
+  "live_execution_authorized": false
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying exploratory research paper when using these materials."
+title: "ChatG(V)T: Does Animal-Inclusive Moral Conditioning Improve Human Safety in AI-Agent Swarms?"
+authors:
+  - family-names: "Mehay-Byford"
+    given-names: "Isaac Kumar"
+    affiliation: "Independent researcher, United Kingdom"
+type: software
+version: "1.0.0"
+license: MIT

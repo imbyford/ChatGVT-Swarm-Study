@@ -1,0 +1,13 @@
+{
+  "freeze": {
+    "suite_sha256": "1b29eed8463dfdd448d6d24dc98c3baab259c88f3ae2977afe48be031b04f621",
+    "model_manifest_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+    "candidate_manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+    "maximum_requests": 741,
+    "maximum_output_tokens": 94848,
+    "frozen_files": 244
+  },
+  "started_at": 1794210916.6653726,
+  "r1_engine_sha256": "b24dcf0b46a3ef74b9ea6465fc2856390669d899cf9cc4f16127ca80722ac23b",
+  "original_engine_gpu_validated_flag_is_historical": true
+}

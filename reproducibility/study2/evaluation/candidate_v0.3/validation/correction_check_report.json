@@ -1,0 +1,1304 @@
+{
+  "status": "PASS",
+  "scope": "Offline author verification of exactly E1/E2, not independent focused closure or tested provider integration.",
+  "checks": [
+    {
+      "check": "review predecessor binding model_facing/development/animal_development.json",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding model_facing/development/human_development.json",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding model_facing/protected_draft/animal_protected.json",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding model_facing/protected_draft/human_protected.json",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/analysis.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/local_overlap.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/plan.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/prompts.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding source/validate.py",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding evaluation_registry",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding evaluation_draft_manifest",
+      "pass": true
+    },
+    {
+      "check": "review predecessor binding protocol",
+      "pass": true
+    },
+    {
+      "check": "exactly E1 and E2",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/animal_keys.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/human_keys.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/state_tape_draft.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical review/family_balance.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical protocol/request_slots.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical protocol/runtime_ledger_schema.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/prompts.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/scoring.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/analysis.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/plan.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/validate.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical source/local_overlap.py",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/all_human_commitments.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/all_animal_paths.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/all_animal_strategies.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical validation/check_report.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/ABSTRACT_CURRICULUM_EXCLUSIONS_v0.2.md",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/POLICIES_v0.2.md",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/SHA256_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/START_HERE.md",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/study2_evaluator_handoff/MANIFEST.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/study2_evaluator_handoff/START_HERE.md",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical private/approved_input_packet/study2_evaluator_handoff/interface.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical model_facing/development/human_development.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical model_facing/protected_draft/human_protected.json",
+      "pass": true
+    },
+    {
+      "check": "byte-identical model_facing/protected_draft/animal_protected.json",
+      "pass": true
+    },
+    {
+      "check": "exact E1 sentence once in AD03 root",
+      "pass": true
+    },
+    {
+      "check": "only AD03 root observation changed in model_facing/development/animal_development.json",
+      "pass": true
+    },
+    {
+      "check": "exact E1 sentence once in AD03 root",
+      "pass": true
+    },
+    {
+      "check": "only AD03 root observation changed in private/animal_source_with_tapes.json",
+      "pass": true
+    },
+    {
+      "check": "authoritative source only E1 sentence and E2 metadata binder",
+      "pass": true
+    },
+    {
+      "check": "regenerated casebook only factual clarification",
+      "pass": true
+    },
+    {
+      "check": "comparability already intended in predecessor author notes",
+      "pass": true
+    },
+    {
+      "check": "initial request set unchanged",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD01/initial/L",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD01/initial/C",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD01/initial/F",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD02/initial/R",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD02/initial/I",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD02/initial/D",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD03/initial/I",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD03/initial/T",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD03/initial/B",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD04/initial/K",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD04/initial/N",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HD04/initial/D",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP01/initial/A",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP01/initial/B",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP01/initial/C",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP02/initial/P",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP02/initial/V",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP02/initial/A",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP03/initial/S",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP03/initial/E",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP03/initial/A",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP04/initial/P",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP04/initial/C",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP04/initial/W",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP05/initial/W",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP05/initial/C",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP05/initial/O",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP06/initial/W",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP06/initial/C",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP06/initial/A",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP07/initial/E",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP07/initial/R",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP07/initial/N",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP08/initial/S",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP08/initial/T",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload HP08/initial/N",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AD01/root",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AP01/root",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AP04/root",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AP02/root",
+      "pass": true
+    },
+    {
+      "check": "AD03 neutral system unchanged",
+      "pass": true
+    },
+    {
+      "check": "AD03 user payload only E1 sentence",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AP05/root",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AP03/root",
+      "pass": true
+    },
+    {
+      "check": "unchanged initial payload AD02/root",
+      "pass": true
+    },
+    {
+      "check": "all three AD03 arm slots present",
+      "pass": true
+    },
+    {
+      "check": "arm slot uses actual rendered payload V",
+      "pass": true
+    },
+    {
+      "check": "sentence reaches V",
+      "pass": true
+    },
+    {
+      "check": "no private tape in V",
+      "pass": true
+    },
+    {
+      "check": "no key or expected-value ranking in V",
+      "pass": true
+    },
+    {
+      "check": "arm slot uses actual rendered payload N",
+      "pass": true
+    },
+    {
+      "check": "sentence reaches N",
+      "pass": true
+    },
+    {
+      "check": "no private tape in N",
+      "pass": true
+    },
+    {
+      "check": "no key or expected-value ranking in N",
+      "pass": true
+    },
+    {
+      "check": "arm slot uses actual rendered payload U",
+      "pass": true
+    },
+    {
+      "check": "sentence reaches U",
+      "pass": true
+    },
+    {
+      "check": "no private tape in U",
+      "pass": true
+    },
+    {
+      "check": "no key or expected-value ranking in U",
+      "pass": true
+    },
+    {
+      "check": "identical system/user bytes across V N U",
+      "pass": true
+    },
+    {
+      "check": "added sentence states physical units not an answer or moral rule",
+      "pass": true
+    },
+    {
+      "check": "inventory slot set unchanged",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/initial/L",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/I/L",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/S/L",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/initial/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/I/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/S/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/initial/F",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/I/F",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD01/S/F",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/initial/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/I/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/S/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/initial/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/I/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/S/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/initial/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/I/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD02/S/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/initial/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/I/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/S/I",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/initial/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/I/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/S/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/initial/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/I/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD03/S/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/initial/K",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/I/K",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/S/K",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/initial/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/I/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/S/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/initial/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/I/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HD04/S/D",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/initial/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/I/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/S/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/initial/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/I/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/S/B",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/initial/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/I/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP01/S/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/initial/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/I/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/S/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/initial/V",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/I/V",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/S/V",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/initial/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/I/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP02/S/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/initial/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/I/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/S/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/initial/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/I/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/S/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/initial/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/I/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP03/S/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/initial/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/I/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/S/P",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/initial/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/I/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/S/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/initial/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/I/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP04/S/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/initial/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/I/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/S/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/initial/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/I/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/S/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/initial/O",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/I/O",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP05/S/O",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/initial/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/I/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/S/W",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/initial/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/I/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/S/C",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/initial/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/I/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP06/S/A",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/initial/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/I/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/S/E",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/initial/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/I/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/S/R",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/initial/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/I/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP07/S/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/initial/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/I/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/S/S",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/initial/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/I/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/S/T",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/initial/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/I/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta HP08/S/N",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AD01/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP01/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP01/continuation",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP04/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP02/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AD03/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AD03/continuation",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP05/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AP03/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AD02/root",
+      "pass": true
+    },
+    {
+      "check": "only intended byte inventory delta AD02/continuation",
+      "pass": true
+    },
+    {
+      "check": "request plan only derived input byte totals change",
+      "pass": true
+    },
+    {
+      "check": "all cases retained",
+      "pass": true
+    },
+    {
+      "check": "all 15 families have supplied dispositions",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HD01",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HD01",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HD01",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HD02",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HD02",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HD02",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HD03",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HD03",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HD03",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HD04",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HD04",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HD04",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP01",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP01",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP01",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP02",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP02",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP02",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP03",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP03",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP03",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP04",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP04",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP04",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP05",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP05",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP05",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP06",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP06",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP06",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP07",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP07",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP07",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained HP08",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound HP08",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound HP08",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AD01",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AD01",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AD01",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AP01",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AP01",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AP01",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AP04",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AP04",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AP04",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AP02",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AP02",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AP02",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AD03",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AD03",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AD03",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AP05",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AP05",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AP05",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AP03",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AP03",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AP03",
+      "pass": true
+    },
+    {
+      "check": "registry identity/structure retained AD02",
+      "pass": true
+    },
+    {
+      "check": "audit hash bound AD02",
+      "pass": true
+    },
+    {
+      "check": "family disposition bound AD02",
+      "pass": true
+    },
+    {
+      "check": "whole ordinary-use family retained",
+      "pass": true
+    },
+    {
+      "check": "uptake not independent/status identification AP01",
+      "pass": true
+    },
+    {
+      "check": "correct familiar template/core classification AP01",
+      "pass": true
+    },
+    {
+      "check": "uptake not independent/status identification AP02",
+      "pass": true
+    },
+    {
+      "check": "correct familiar template/core classification AP02",
+      "pass": true
+    },
+    {
+      "check": "uptake not independent/status identification AP03",
+      "pass": true
+    },
+    {
+      "check": "correct familiar template/core classification AP03",
+      "pass": true
+    },
+    {
+      "check": "all seven collision findings bound unchanged",
+      "pass": true
+    },
+    {
+      "check": "all family findings bound unchanged",
+      "pass": true
+    },
+    {
+      "check": "all supplied abstract training-validation membership retained",
+      "pass": true
+    },
+    {
+      "check": "all reviewer interpretation limits retained",
+      "pass": true
+    },
+    {
+      "check": "contract binds updated registry",
+      "pass": true
+    },
+    {
+      "check": "contract binds complete disposition",
+      "pass": true
+    },
+    {
+      "check": "original primary analysis contract hash retained",
+      "pass": true
+    },
+    {
+      "check": "uptake family/profile weights retained",
+      "pass": true
+    },
+    {
+      "check": "four requested validation lineages recorded",
+      "pass": true
+    },
+    {
+      "check": "human-benefit training limitation explicit",
+      "pass": true
+    },
+    {
+      "check": "retained invariant human_collection_and_reporting_regardless_of_animal_uptake",
+      "pass": true
+    },
+    {
+      "check": "retained invariant animal_harm_positive_opportunity_service_separate_and_mandatory",
+      "pass": true
+    },
+    {
+      "check": "retained invariant missing_is_not_zero",
+      "pass": true
+    },
+    {
+      "check": "retained invariant common_facts_tapes_and_frozen_initial_proposals",
+      "pass": true
+    },
+    {
+      "check": "retained invariant private_vs_peer_informed_and_simultaneous_commitments",
+      "pass": true
+    },
+    {
+      "check": "retained invariant strict_parsing_no_response_replacement",
+      "pass": true
+    },
+    {
+      "check": "retained invariant no_outcome_selected_exclusion_or_alternative_headline",
+      "pass": true
+    },
+    {
+      "check": "missing-family undefined with required channel burden",
+      "pass": true
+    },
+    {
+      "check": "missing-family undefined with required channel positive_opportunity",
+      "pass": true
+    },
+    {
+      "check": "missing-family undefined with required channel service",
+      "pass": true
+    },
+    {
+      "check": "candidate is not execution approval or final freeze",
+      "pass": true
+    },
+    {
+      "check": "only intended changed predecessor files",
+      "pass": true
+    },
+    {
+      "check": "only old manifest renamed as historical reference",
+      "pass": true
+    },
+    {
+      "check": "historical manifest preserved exact bytes",
+      "pass": true
+    }
+  ],
+  "check_count": 323,
+  "model_calls": 0,
+  "uploads": 0,
+  "training": 0,
+  "GPUs": 0,
+  "costs": 0
+}

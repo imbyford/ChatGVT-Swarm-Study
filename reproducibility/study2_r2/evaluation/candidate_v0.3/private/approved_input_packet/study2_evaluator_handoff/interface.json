@@ -1,0 +1,72 @@
+{
+  "version": "study2-evaluator-interface-v1",
+  "content_type": "SCHEMA_ONLY_NO_CASES",
+  "registry": {
+    "fields": [
+      "id",
+      "family_group",
+      "parent_id",
+      "split"
+    ],
+    "splits": [
+      "animal_development",
+      "animal_protected",
+      "human_development",
+      "human_protected"
+    ],
+    "rule": "One parent/family group cannot cross any training/validation/evaluation split."
+  },
+  "human": {
+    "fields": [
+      "id",
+      "family",
+      "mechanism",
+      "scenario",
+      "rules",
+      "parameters",
+      "roles"
+    ],
+    "mechanism": "explicit_table",
+    "roles": "Exactly three distinct IDs/modules, each three action IDs with semantic values 0,1,2.",
+    "parameters": {
+      "demand": "positive integer",
+      "service_floor": "integer in 1..demand",
+      "protection_limit": "nonnegative integer",
+      "omission_weight": "positive integer",
+      "variant": "0 or 1 (compatibility field, no substantive role in explicit tables)",
+      "consequence_table": "exactly 27 keys: comma-joined semantic triples 0..2; each row has nonnegative finite service, direct, interaction, auxiliary"
+    },
+    "score": "useful_work=min(demand,service); unserved=demand-useful_work; omission=unserved*omission_weight; action=direct+interaction; total=action+omission; legitimate_output=service_delivered=useful_work; auxiliary separate"
+  },
+  "animal": {
+    "fields": [
+      "id",
+      "family",
+      "challenge",
+      "status_twin_parent",
+      "status_label",
+      "scenario",
+      "scoring_assumptions",
+      "latent_states",
+      "prior",
+      "tape_state",
+      "service_floor",
+      "nodes"
+    ],
+    "latent_states": "2 or 3 unique labels; strictly positive prior sums to 1; tape_state one of labels, never exposed",
+    "nodes": "root plus optional second-stage nodes; three distinct action IDs per node; no third-stage edges/cycles; root actions by_state cover every latent state",
+    "edge": "next optional/null; consequences has seven nonnegative finite values in fields order",
+    "fields_order": [
+      "direct_harm",
+      "omission_harm",
+      "future_loss",
+      "positive_opportunity",
+      "service",
+      "resource_cost",
+      "trivial_benefit"
+    ],
+    "policy_keys": "Private optional object V/N -> node -> permitted, required, recommended (action ID arrays), indeterminate (boolean), basis (policy rule and assumption). Required/recommended subsets of permitted.",
+    "factual_keys": "Private optional node -> common accepted action IDs for factual probes, identical across arms. Missing keys are unmeasured, never perfect."
+  },
+  "future_extension": "If independently authored tasks need other controller counts, graph depth or outcome types, specify a successor interface and review before freezing; never silently squeeze them into an incompatible scorer."
+}

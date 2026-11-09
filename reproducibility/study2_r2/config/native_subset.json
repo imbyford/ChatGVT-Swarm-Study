@@ -1,0 +1,175 @@
+{
+  "selection_rule": "smallest SHA256(UTF-8 pair_id), ties pair_id, within each template_id x authored state; before new outputs",
+  "pair_ids": [
+    "S2-V01-08",
+    "S2-V01-05",
+    "S2-V02-08",
+    "S2-V02-01",
+    "S2-V03-00",
+    "S2-V03-01",
+    "S2-V04-00",
+    "S2-V04-07",
+    "S2-V05-06",
+    "S2-V05-05",
+    "S2-V06-02",
+    "S2-V06-05",
+    "S2-V07-06",
+    "S2-V07-09",
+    "S2-V08-04",
+    "S2-V08-01",
+    "S2-V09-06",
+    "S2-V09-01",
+    "S2-V10-08",
+    "S2-V10-07",
+    "S2-V11-08",
+    "S2-V11-01",
+    "S2-V12-04",
+    "S2-V12-01"
+  ],
+  "strata": [
+    {
+      "template": "V01",
+      "state": 0,
+      "pair_id": "S2-V01-08",
+      "row_id_sha256": "264e0b35b8e48bf4ff3c3cd09b15e73b9948dd711e24199c3216080da31d7862"
+    },
+    {
+      "template": "V01",
+      "state": 1,
+      "pair_id": "S2-V01-05",
+      "row_id_sha256": "17de9a5b8c7661d6cc39892e9ef7b7a441e33354607fa53545413af99d0af3d6"
+    },
+    {
+      "template": "V02",
+      "state": 0,
+      "pair_id": "S2-V02-08",
+      "row_id_sha256": "119f62cd16720a29c52eb904de989c8f47b8f6d4eafd2da010293ffe756da597"
+    },
+    {
+      "template": "V02",
+      "state": 1,
+      "pair_id": "S2-V02-01",
+      "row_id_sha256": "23531251cac46ccb5ab3c14a1fdaae127be10b230d09e0460615bb4910a8b0ef"
+    },
+    {
+      "template": "V03",
+      "state": 0,
+      "pair_id": "S2-V03-00",
+      "row_id_sha256": "0bf5cd46d3536745039598ec8d706e68b8e991d55089b8a1fd536838b78a60e8"
+    },
+    {
+      "template": "V03",
+      "state": 1,
+      "pair_id": "S2-V03-01",
+      "row_id_sha256": "0088cb0c19aedee1163c0e25a6a1f25091e4de26c846cf5c9e1ca346a885afd7"
+    },
+    {
+      "template": "V04",
+      "state": 0,
+      "pair_id": "S2-V04-00",
+      "row_id_sha256": "0b35680e744b618c53e0582e7e733551453d38800b31ffd18dc5e31b17691846"
+    },
+    {
+      "template": "V04",
+      "state": 1,
+      "pair_id": "S2-V04-07",
+      "row_id_sha256": "017f883f302beee5ea06258bef4b090c7012cfa2f2eaffe8c01ab3535f725e0c"
+    },
+    {
+      "template": "V05",
+      "state": 0,
+      "pair_id": "S2-V05-06",
+      "row_id_sha256": "2e16acd4e19c2b756913a73d97d98287355a5da195bb386140ff3d7fb6cb2d7f"
+    },
+    {
+      "template": "V05",
+      "state": 1,
+      "pair_id": "S2-V05-05",
+      "row_id_sha256": "179a2940eec0858eb7a562c2f8bf0f18c640c0b2730f1593c6e974a96caeff34"
+    },
+    {
+      "template": "V06",
+      "state": 0,
+      "pair_id": "S2-V06-02",
+      "row_id_sha256": "335afc8a392f8a1b9e6c40a6decbce31abe531c4a0aeefa0ded5e239e8b641f7"
+    },
+    {
+      "template": "V06",
+      "state": 1,
+      "pair_id": "S2-V06-05",
+      "row_id_sha256": "3d7d7c8ea4901f89cfd046631682005f79b3c9e7d753396b8c872195b31cd53e"
+    },
+    {
+      "template": "V07",
+      "state": 0,
+      "pair_id": "S2-V07-06",
+      "row_id_sha256": "5b904ad8e2837362aec1021bb0067ee2a215d38eafc44fd1418b47bec27d6f7a"
+    },
+    {
+      "template": "V07",
+      "state": 1,
+      "pair_id": "S2-V07-09",
+      "row_id_sha256": "16a083dc975ce1a7f48a205da8ec8f9dee2aec8037505307f0bee2944503395a"
+    },
+    {
+      "template": "V08",
+      "state": 0,
+      "pair_id": "S2-V08-04",
+      "row_id_sha256": "05f9192baae1dd002e35fe2da06724f83ed2e8c19576034b91eef940d5b7d122"
+    },
+    {
+      "template": "V08",
+      "state": 1,
+      "pair_id": "S2-V08-01",
+      "row_id_sha256": "4af431876909d8f9d748ae8b99caebeda52dd2beec2f6a401071a6280b7d4eaa"
+    },
+    {
+      "template": "V09",
+      "state": 0,
+      "pair_id": "S2-V09-06",
+      "row_id_sha256": "7fdadae8c6fb37175400694a6b05ffa53ba779dff3a7ee2d3b105583a87d72cf"
+    },
+    {
+      "template": "V09",
+      "state": 1,
+      "pair_id": "S2-V09-01",
+      "row_id_sha256": "20159377c48fb48e61aa32d5fe26ae94aee65c8ddf1d6089240bd76552badeaa"
+    },
+    {
+      "template": "V10",
+      "state": 0,
+      "pair_id": "S2-V10-08",
+      "row_id_sha256": "0a4dee3cf0199468f56b41ef18d4e9c375babf10a3a0629fd31604bdf78b18cb"
+    },
+    {
+      "template": "V10",
+      "state": 1,
+      "pair_id": "S2-V10-07",
+      "row_id_sha256": "028014e51c281c6db9caae31fd2de6ef85c6411094c8056c279a6bd1d7bc17d4"
+    },
+    {
+      "template": "V11",
+      "state": 0,
+      "pair_id": "S2-V11-08",
+      "row_id_sha256": "04be1d999b888f5c61b834a1ab278fd8c5206434c807f7dd146921129f65ba4a"
+    },
+    {
+      "template": "V11",
+      "state": 1,
+      "pair_id": "S2-V11-01",
+      "row_id_sha256": "07ccc71527d6828132f747051b425c2dc128e34ab97540b93196f7dfe52ec398"
+    },
+    {
+      "template": "V12",
+      "state": 0,
+      "pair_id": "S2-V12-04",
+      "row_id_sha256": "271982159b8d7a6fec70709eec1648a1156ae6794582adf0fc11e63fef682512"
+    },
+    {
+      "template": "V12",
+      "state": 1,
+      "pair_id": "S2-V12-01",
+      "row_id_sha256": "23ab3281c0ada05058293fb0960a38a982722d5765466a42991a8d13adfe592c"
+    }
+  ]
+}

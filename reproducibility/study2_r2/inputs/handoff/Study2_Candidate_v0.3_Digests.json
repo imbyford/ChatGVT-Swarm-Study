@@ -1,0 +1,36 @@
+{
+  "version": "v0.3",
+  "status": "CORRECTED_CANDIDATE_PENDING_FOCUSED_CLOSURE_AND_FINAL_DEPLOYMENT_INTEGRATION",
+  "package_integrity": "PASS",
+  "manifest_file": "Study2_Evaluation_Candidate_v0.3/private/CANDIDATE_INTEGRITY_MANIFEST_v0.3.json",
+  "manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+  "archives": [
+    {
+      "file": "Study2_Model_Facing_Candidate_v0.3.zip",
+      "sha256": "52cf63df24b86976166d0404d2c83b62d4b6efc06f0fb38fe8f90e49b50482b4",
+      "bytes": 30574,
+      "members": 6
+    },
+    {
+      "file": "Study2_Private_Authoring_Review_Candidate_v0.3.zip",
+      "sha256": "a3ac8bfc99fc2922dec947f00624c99767029ade17085fde67d85ec4ea1b7496",
+      "bytes": 215091,
+      "members": 54
+    }
+  ],
+  "bound_payload_files": 59,
+  "original_offline_assertions": 141946,
+  "focused_checks": 323,
+  "predecessor_v0.2_preserved": true,
+  "archive_extraction_integrity_verified": true,
+  "public_private_separation_verified": true,
+  "unqualified_template_independence_claim": false,
+  "focused_closure_pending": true,
+  "deployment_integration_pending": true,
+  "live_execution_authorized": false,
+  "model_calls": 0,
+  "uploads": 0,
+  "training_runs": 0,
+  "GPUs": 0,
+  "costs": 0
+}

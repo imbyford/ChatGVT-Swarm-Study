@@ -1,0 +1,14 @@
+{
+  "status": "DRAFT_NOT_FINAL_FREEZE",
+  "rule": "first 64 SHA256 bits of UTF-8 study2-draft-state-v1|2026110802|CASE_ID divided by 2^64; inverse CDF in listed state order; no reroll",
+  "states": {
+    "AD01": "sparse",
+    "AP01": "silt",
+    "AP04": "quiet",
+    "AP02": "west",
+    "AD03": "bridge_open",
+    "AP05": "high_tide",
+    "AP03": "stable",
+    "AD02": "dispersed"
+  }
+}

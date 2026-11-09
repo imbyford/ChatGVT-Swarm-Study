@@ -1,0 +1,8 @@
+{
+  "suite_sha256": "b08b59163843a82a27c6b935764e905cf7e3b2d7ed1378e539ae330269c6768f",
+  "model_manifest_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+  "candidate_manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+  "maximum_requests": 945,
+  "maximum_output_tokens": 148608,
+  "frozen_files": 241
+}

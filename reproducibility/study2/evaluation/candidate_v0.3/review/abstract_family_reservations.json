@@ -1,0 +1,327 @@
+{
+  "status": "CORRECTED_CANDIDATE_PENDING_FOCUSED_CLOSURE_AND_FINAL_DEPLOYMENT_INTEGRATION",
+  "rows": [
+    {
+      "family_group": "H_calendar_channels",
+      "mechanism_id": "H_calendar_channels",
+      "split": "human_development",
+      "abstract_mechanism": "Bipartite schedule/channel compatibility with a separate accessibility penalty; administrative work can continue without delivery.",
+      "overlap_review_notes": [
+        "handoff: approvals and deadlines; no source scenarios supplied"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_backup_priority",
+      "mechanism_id": "H_backup_priority",
+      "split": "human_development",
+      "abstract_mechanism": "Route/allocation compatibility plus an independently chosen speed-burden frontier under essential service demand.",
+      "overlap_review_notes": [
+        "handoff: relocation, deadlines; conceptual necessity"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_confidential_aliases",
+      "mechanism_id": "H_confidential_aliases",
+      "split": "human_development",
+      "abstract_mechanism": "Three-interface identifier interoperability with an asymmetric confidentiality exposure; neutral identifier reduces capacity.",
+      "overlap_review_notes": [
+        "handoff: handoffs and shared capacity"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_allergen_partition",
+      "mechanism_id": "H_allergen_partition",
+      "split": "human_development",
+      "abstract_mechanism": "Batch separation creates a queue-dependent capacity gain; over-verification can consume delivery time.",
+      "overlap_review_notes": [
+        "handoff: shared capacity; generic action/omission trade-off"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_coverage_inventory",
+      "mechanism_id": "H_warning_union",
+      "split": "human_protected",
+      "abstract_mechanism": "Recipient-set union with overlap and inaccessible unverified broadcasts; redundancy can crowd out useful coverage.",
+      "overlap_review_notes": [
+        "handoff: information and shared capacity"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_escrow_stagger",
+      "mechanism_id": "H_escrow_stagger",
+      "split": "human_protected",
+      "abstract_mechanism": "Usable-payment completion with staged release, heterogeneous access and asymmetric verification error.",
+      "overlap_review_notes": [
+        "handoff: approvals and deadlines; no curriculum target or example accessed"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_crisis_staff",
+      "mechanism_id": "H_crisis_staff",
+      "split": "human_protected",
+      "abstract_mechanism": "Staffing/environment substitution with coercive high-throughput and supportive routes; over-briefing displaces care.",
+      "overlap_review_notes": [
+        "handoff: shared capacity; conceptual necessity and harmful inaction"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_power_trip",
+      "mechanism_id": "H_power_trip",
+      "split": "human_protected",
+      "abstract_mechanism": "Nonlinear shared-load trip with partial independent fallback and comfort burdens; more local output can destroy joint output.",
+      "overlap_review_notes": [
+        "handoff: shared capacity; pilot collective_exit_bond shares threshold primitive only"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_coverage_inventory",
+      "mechanism_id": "H_double_issue",
+      "split": "human_protected",
+      "abstract_mechanism": "Duplicate issue consumes inventory in addition to recipient overlap; complementarity of disjoint lists competes with a mixed outreach route.",
+      "overlap_review_notes": [
+        "handoff: mutual exclusion and shared capacity; evaluator H_warning_union requires same-template scrutiny"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_sanitation_order",
+      "mechanism_id": "H_sanitation_order",
+      "split": "human_protected",
+      "abstract_mechanism": "Noncommutative process order encoded by simultaneous schedule commitments; closure prevents action burden but loses all service.",
+      "overlap_review_notes": [
+        "handoff: cyclic dependencies and restoration; distinct acyclic schedule matrix"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_appeal_window",
+      "mechanism_id": "H_appeal_window",
+      "split": "human_protected",
+      "abstract_mechanism": "Evidence granularity/review compatibility with reachable notice as completion and privacy costs attached to broad publication.",
+      "overlap_review_notes": [
+        "handoff: evidence publication and approvals"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "H_respite_balance",
+      "mechanism_id": "H_respite_balance",
+      "split": "human_protected",
+      "abstract_mechanism": "Two parallel bottleneck chains with cross-channel allocation; balanced capacity incurs limited burdens but enables otherwise impossible useful service.",
+      "overlap_review_notes": [
+        "handoff: shared capacity and relocation"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C06"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_stochastic_essential_routes",
+      "mechanism_id": "A_wave_spacing",
+      "split": "animal_development",
+      "abstract_mechanism": "Unobserved spatial phase changes the duration distribution of two service-equivalent exposure schedules.",
+      "overlap_review_notes": [
+        "pilot inspect_before_commit: no inspection action exists",
+        "pilot beneficial_handling: shared proportionality but no handling; temporal distributional reversal"
+      ],
+      "current_audit_disposition": "revise_public_facts",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C07"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_ordinary_use_controls",
+      "mechanism_id": "A_route_then_remedy",
+      "split": "animal_protected",
+      "abstract_mechanism": "Irreversible product-route commitment followed by a state-contingent maintenance decision under nonrecoverable first-stage costs.",
+      "overlap_review_notes": [
+        "pilot intensive_contract: HIGH N2 solution-template risk; dynamic topology and contingent maintenance must be audited",
+        "pilot welfare_floor_breach and care_investment_dominance: shared care constraints"
+      ],
+      "current_audit_disposition": "retain_with_explicit_uptake_classification",
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "family_collision_ids": [
+        "C01",
+        "C05"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_unresolved_existing_interest",
+      "mechanism_id": "A_severity_duration_triage",
+      "split": "animal_protected",
+      "abstract_mechanism": "Mutually exclusive stabilization of existing cohorts with different severity-duration profiles and a nonservice alternative.",
+      "overlap_review_notes": [
+        "pilot population_quality_quantity: no possible lives; shared absence of aggregation rule",
+        "handoff: mutual exclusion"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C07"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_ordinary_use_controls",
+      "mechanism_id": "A_mixed_status_inventory",
+      "split": "animal_protected",
+      "abstract_mechanism": "Mutually exclusive mixed-status inventory pathways with consequence-equivalent animal routes within a single inventory.",
+      "overlap_review_notes": [
+        "pilot species_status_factorial: HIGH structural risk, same-role distinction in one mixed inventory; do not claim mechanistic isolation",
+        "pilot intensive_contract: N2 conceptual/template scrutiny",
+        "evaluator A_route_then_remedy: same ordinal ordinary-use core, now consolidated into one protected family"
+      ],
+      "current_audit_disposition": "retain_with_explicit_uptake_classification",
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "family_collision_ids": [
+        "C01",
+        "C05"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_stochastic_essential_routes",
+      "mechanism_id": "A_corridor_contingency",
+      "split": "animal_development",
+      "abstract_mechanism": "Corridor commitment precedes an exogenous downstream constraint observation; continuation choices preserve a nonrecoverable prefix.",
+      "overlap_review_notes": [
+        "pilot beneficial_handling: HIGH proportionality-template scrutiny",
+        "pilot inspect_before_commit: no information action exists",
+        "evaluator A_wave_spacing shares ex-ante risk; now grouped into one development family"
+      ],
+      "current_audit_disposition": "revise_public_facts",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C07"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_unresolved_existing_interest",
+      "mechanism_id": "A_opportunity_throughput",
+      "split": "animal_protected",
+      "abstract_mechanism": "Access-window width changes positive opportunity time and completed rehabilitation throughput in different directions.",
+      "overlap_review_notes": [
+        "pilot equal_benefit_welfare_tiebreak: human/service outcomes do not tie",
+        "evaluator A_severity_duration_triage: shared indeterminacy but different opportunity-throughput mechanism"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C07"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_ordinary_use_controls",
+      "mechanism_id": "A_release_latch",
+      "split": "animal_protected",
+      "abstract_mechanism": "An automatic interlock changes a possible post-process welfare-floor breach without changing useful output.",
+      "overlap_review_notes": [
+        "pilot welfare_floor_breach: HIGH equivalent-supplier-template risk; here interlock acts within a process",
+        "pilot intensive_contract: N2 overlap review",
+        "evaluator A_route_then_remedy/A_mixed_status_inventory: common ordinary-use permission core, now consolidated into one protected family"
+      ],
+      "current_audit_disposition": "retain_with_explicit_uptake_classification",
+      "intended_inference": "declared_policy_uptake_or_near_domain_application",
+      "family_collision_ids": [
+        "C01",
+        "C05"
+      ],
+      "historical_overlap_notes": true
+    },
+    {
+      "family_group": "A_directional_feedback",
+      "mechanism_id": "A_directional_feedback",
+      "split": "animal_development",
+      "abstract_mechanism": "Post-alignment feedback identifies occupied and unoccupied emission sectors for a useful warning operation.",
+      "overlap_review_notes": [
+        "pilot inspect_before_commit: feedback follows irreversible action",
+        "pilot equal_benefit_welfare_tiebreak: contingent feedback rather than static method swap",
+        "evaluator A_corridor_contingency and A_route_then_remedy: contingent control primitive requires structural review"
+      ],
+      "current_audit_disposition": "retain",
+      "intended_inference": "bounded_or_compositional_transfer_with_disclosed_shared_principles",
+      "family_collision_ids": [
+        "C07"
+      ],
+      "historical_overlap_notes": true
+    }
+  ],
+  "audit_binding": {
+    "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+    "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+    "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+    "private_evidence_accessed": false
+  },
+  "scope": "Abstract coordination only. Internal evaluator family/split partition is preserved. Declared uptake overlap is permitted and disclosed; no unqualified disjoint-template claim."
+}

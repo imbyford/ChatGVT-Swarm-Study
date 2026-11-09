@@ -1,0 +1,19 @@
+mode,arm,physical_status,extraction_error,count
+S1,V,commit,,114
+S1,V,invalid,auxiliary judgment IDs,1
+S1,V,invalid,not strict complete JSON,2
+S1,N,commit,,94
+S1,N,invalid,invalid status/action or out of menu,1
+S1,N,invalid,not strict complete JSON,15
+S1,N,invalid,truncated/incomplete/transport,1
+S1,U,commit,,72
+S1,U,invalid,truncated/incomplete/transport,1
+S1,U,invalid,invalid status/action or out of menu,1
+S2,V,commit,,116
+S2,V,unresolved,,1
+S2,N,commit,,109
+S2,N,invalid,invalid status/action or out of menu,1
+S2,N,invalid,truncated/incomplete/transport,1
+S2,U,commit,,72
+S2,U,invalid,truncated/incomplete/transport,1
+S2,U,invalid,invalid status/action or out of menu,1

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "text_files_scanned": 441,
+  "findings": [],
+  "README_local_links_valid": true,
+  "no_weights_or_credentials_selected": true,
+  "rights_scope": "Original project code/data/figures; no third-party model/tokenizer/package/template/full-text distribution",
+  "author_publication_approval_pending": true
+}

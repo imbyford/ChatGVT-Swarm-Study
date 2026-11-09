@@ -1,0 +1,229 @@
+{
+  "checks_passed": 45,
+  "checks": [
+    {
+      "check": "R2 VI total",
+      "actual": 8.357142857142858,
+      "display": 8.357
+    },
+    {
+      "check": "R2 VS total",
+      "actual": 4.785714285714286,
+      "display": 4.786
+    },
+    {
+      "check": "R2 NI total",
+      "actual": 11.5,
+      "display": 11.5
+    },
+    {
+      "check": "R2 NS total",
+      "actual": 7.785714285714286,
+      "display": 7.786
+    },
+    {
+      "check": "R2 UI total",
+      "actual": 10.5,
+      "display": 10.5
+    },
+    {
+      "check": "R2 US total",
+      "actual": 5.214285714285714,
+      "display": 5.214
+    },
+    {
+      "check": "R2 VI useful_work",
+      "actual": 7.357142857142857,
+      "display": 7.357
+    },
+    {
+      "check": "R2 VS useful_work",
+      "actual": 8.642857142857142,
+      "display": 8.643
+    },
+    {
+      "check": "R2 NI useful_work",
+      "actual": 6.428571428571429,
+      "display": 6.429
+    },
+    {
+      "check": "R2 NS useful_work",
+      "actual": 7.571428571428571,
+      "display": 7.571
+    },
+    {
+      "check": "R2 UI useful_work",
+      "actual": 6.642857142857143,
+      "display": 6.643
+    },
+    {
+      "check": "R2 US useful_work",
+      "actual": 8.5,
+      "display": 8.5
+    },
+    {
+      "check": "R2 weight0.5R_I",
+      "actual": 1.9285714285714286,
+      "display": 1.929
+    },
+    {
+      "check": "R2 weight0.5R_S",
+      "actual": 1.7142857142857142,
+      "display": 1.714
+    },
+    {
+      "check": "R2 weight0.5theta",
+      "actual": -0.21428571428571427,
+      "display": -0.214
+    },
+    {
+      "check": "R2 weight1R_I",
+      "actual": 3.142857142857143,
+      "display": 3.143
+    },
+    {
+      "check": "R2 weight1R_S",
+      "actual": 3,
+      "display": 3
+    },
+    {
+      "check": "R2 weight1theta",
+      "actual": -0.14285714285714285,
+      "display": -0.143
+    },
+    {
+      "check": "R2 weight2R_I",
+      "actual": 5.571428571428571,
+      "display": 5.571
+    },
+    {
+      "check": "R2 weight2R_S",
+      "actual": 5.571428571428571,
+      "display": 5.571
+    },
+    {
+      "check": "R2 weight2theta",
+      "actual": 0,
+      "display": 0
+    },
+    {
+      "check": "R2 development available R_I",
+      "actual": 0,
+      "display": 0
+    },
+    {
+      "check": "R2 development available R_S",
+      "actual": -5,
+      "display": -5
+    },
+    {
+      "check": "R2 development available theta",
+      "actual": -5,
+      "display": -5
+    },
+    {
+      "check": "R2 animal burdenV",
+      "actual": 2.5,
+      "display": 2.5
+    },
+    {
+      "check": "R2 animal burdenN",
+      "actual": 4.333333333333334,
+      "display": 4.333
+    },
+    {
+      "check": "R2 animal burdenU",
+      "actual": 2.5,
+      "display": 2.5
+    },
+    {
+      "check": "R2 animal positive_opportunityV",
+      "actual": 5.75,
+      "display": 5.75
+    },
+    {
+      "check": "R2 animal positive_opportunityN",
+      "actual": 4.583333333333334,
+      "display": 4.583
+    },
+    {
+      "check": "R2 animal positive_opportunityU",
+      "actual": 7.25,
+      "display": 7.25
+    },
+    {
+      "check": "R2 animal serviceV",
+      "actual": 5.416666666666666,
+      "display": 5.417
+    },
+    {
+      "check": "R2 animal serviceN",
+      "actual": 5.416666666666666,
+      "display": 5.417
+    },
+    {
+      "check": "R2 animal serviceU",
+      "actual": 4.666666666666666,
+      "display": 4.667
+    },
+    {
+      "check": "saved field readability V",
+      "actual": 24,
+      "display": 24
+    },
+    {
+      "check": "saved field readability N",
+      "actual": 24,
+      "display": 24
+    },
+    {
+      "check": "saved field readability U",
+      "actual": 14,
+      "display": 14
+    },
+    {
+      "check": "R2 validation coverage V",
+      "actual": 120,
+      "display": 120
+    },
+    {
+      "check": "R2 validation coverage N",
+      "actual": 120,
+      "display": 120
+    },
+    {
+      "check": "R2 validation coverage U",
+      "actual": 80,
+      "display": 80
+    },
+    {
+      "check": "R2 disagreement VV",
+      "actual": 25,
+      "display": 25
+    },
+    {
+      "check": "R2 disagreement NN",
+      "actual": 17,
+      "display": 17
+    },
+    {
+      "check": "R2 disagreement NV",
+      "actual": 8,
+      "display": 8
+    },
+    {
+      "check": "R2 disagreement UV",
+      "actual": 11,
+      "display": 11
+    },
+    {
+      "check": "R2 disagreement UN",
+      "actual": 6,
+      "display": 6
+    },
+    {
+      "check": "R2 work aliases, scope, counts and protected support",
+      "passed": true
+    }
+  ]
+}

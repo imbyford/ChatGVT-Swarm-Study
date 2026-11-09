@@ -1,0 +1,73 @@
+{
+  "case_and_family_counts": {
+    "human_development": 4,
+    "human_protected": 8,
+    "animal_development": 3,
+    "animal_protected": 5
+  },
+  "human_topics": {
+    "HD01": "Bipartite schedule/channel compatibility with a separate accessibility penalty; administrative work can continue without delivery.",
+    "HD02": "Route/allocation compatibility plus an independently chosen speed-burden frontier under essential service demand.",
+    "HD03": "Three-interface identifier interoperability with an asymmetric confidentiality exposure; neutral identifier reduces capacity.",
+    "HD04": "Batch separation creates a queue-dependent capacity gain; over-verification can consume delivery time.",
+    "HP01": "Recipient-set union with overlap and inaccessible unverified broadcasts; redundancy can crowd out useful coverage.",
+    "HP02": "Usable-payment completion with staged release, heterogeneous access and asymmetric verification error.",
+    "HP03": "Staffing/environment substitution with coercive high-throughput and supportive routes; over-briefing displaces care.",
+    "HP04": "Nonlinear shared-load trip with partial independent fallback and comfort burdens; more local output can destroy joint output.",
+    "HP05": "Duplicate issue consumes inventory in addition to recipient overlap; complementarity of disjoint lists competes with a mixed outreach route.",
+    "HP06": "Noncommutative process order encoded by simultaneous schedule commitments; closure prevents action burden but loses all service.",
+    "HP07": "Evidence granularity/review compatibility with reachable notice as completion and privacy costs attached to broad publication.",
+    "HP08": "Two parallel bottleneck chains with cross-channel allocation; balanced capacity incurs limited burdens but enables otherwise impossible useful service."
+  },
+  "animal_features": {
+    "ordinary_permission_recommendation_not_obligation": [
+      "AP01",
+      "AP02",
+      "AP03"
+    ],
+    "customary_companion_food_protection": [
+      "AP02"
+    ],
+    "care_limit_or_costless_remedy": [
+      "AP01",
+      "AP03"
+    ],
+    "required_active_service_and_proportionate_exception": [
+      "AD01",
+      "AD02",
+      "AD03"
+    ],
+    "ethical_indeterminacy_among_existing_interests": [
+      "AP04",
+      "AP05"
+    ],
+    "positive_opportunity_service_tension": [
+      "AP05"
+    ],
+    "state_contingent_second_decision": [
+      "AD02",
+      "AD03",
+      "AP01"
+    ],
+    "ex_ante_realized_reversal_validation": [
+      "AD01",
+      "AD03"
+    ],
+    "common_factual_probes": "all 14 nodes; private accepted sets, identical questions for V/N/U",
+    "existing_future_loss": "separate component; never offset by replacement beings"
+  },
+  "selection_rule": "Mechanism coverage and consequence coherence before any trained outcomes; no hypothesis sign selection or disagreement quota.",
+  "limitations": [
+    "No claim to sample all vulnerable populations, moral conflicts or animal uses.",
+    "Only two animal families per split; finite profile diversity is larger than independent family count.",
+    "AP02 has reviewed familiar solution-template reuse; retain the full family for declared uptake, not isolated status identification.",
+    "No population aggregation/replaceability case copied from the pilot; unresolved cases concern existing interests.",
+    "Reviewed shared templates are retained under their declared uptake/diagnostic purposes; no family replacement or exclusion is requested."
+  ],
+  "current_review_binding": "review/audit_disposition_registry.json",
+  "inference_classification": {
+    "A_ordinary_use_controls": "Policy-uptake/near-domain application; AP02 C01 solution reuse and AP01/AP03 C05 familiar policy cores.",
+    "human_evaluation": "New joint/compositional mechanisms after direct-human-benefit training.",
+    "training_validation": "Diagnostic with semantic template reuse."
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "version": "family-stratified-schedule-v1",
+  "seed": 2026110801,
+  "include_base": true,
+  "human": [
+    {
+      "id": "HM-08-02",
+      "family": "HM-two-period-transactional-restoration",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "item_sha256": "70ed5e3057f6a8cf4f941b15209fc9210eb7e153f663db5fa569585166a1f034"
+    },
+    {
+      "id": "HM-08-01",
+      "family": "HM-two-period-transactional-restoration",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "731655c7a97367dd4f4b414751087060d4cf9f51375d1ad63899923351b47ec3"
+    },
+    {
+      "id": "HM-04-01",
+      "family": "HM-shared-capacity-with-three-distinct-role-menus",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "9d59876d81a2ae20efb80715272a0514b8ca336958543355aff6e4ba4d6cc01c"
+    },
+    {
+      "id": "HM-04-02",
+      "family": "HM-shared-capacity-with-three-distinct-role-menus",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "B",
+        "A",
+        "C"
+      ],
+      "item_sha256": "2d9cf2f5b568eb5079a0a6d9e2c57f7d09d62b8b8709a37bf30f991ca12b6178"
+    },
+    {
+      "id": "HM-05-02",
+      "family": "HM-time-critical-isolation-and-repair",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "B",
+        "C",
+        "A"
+      ],
+      "item_sha256": "e47de204cce1c298345abef5e384b5a3f3d2c7172729d7b81477ce8ad0746709"
+    },
+    {
+      "id": "HM-05-01",
+      "family": "HM-time-critical-isolation-and-repair",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "060435cf4c8c3d023d6721ad0d33ebdbd7b98400a05341efa9ff373b95737bf2"
+    },
+    {
+      "id": "HM-06-01",
+      "family": "HM-correction-publication-implementation-chain",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "0f948d768f68c8a84235684c51731a623bdac4772072d3557253c379eb4cb4b7"
+    },
+    {
+      "id": "HM-06-02",
+      "family": "HM-correction-publication-implementation-chain",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "item_sha256": "29452c9143aee31d785336bf310b66e94aee5354d61b7a8fc8996b49834e798f"
+    },
+    {
+      "id": "HM-02-01",
+      "family": "HM-complementary-approvals-and-omission",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "98f7221bd4794cefeb0939ad74cbfbb2806cffc32c85a3571471ac783afa8d3f"
+    },
+    {
+      "id": "HM-02-02",
+      "family": "HM-complementary-approvals-and-omission",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "5d5df056b63dd61b99f8697ec90578696de13a56d00e51cda38ee6849d4530eb"
+    },
+    {
+      "id": "HM-07-01",
+      "family": "HM-directed-cycle-resource-deadlock",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "88c51b83f808c23eb83699f9da8b2be57ebe7b09319d983cb7a099c020b9eb42"
+    },
+    {
+      "id": "HM-07-02",
+      "family": "HM-directed-cycle-resource-deadlock",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "e4a320bb3d62e5633adc89a3544dc82f0fdb8b90ef9bd3a5380067fd2b1b0542"
+    },
+    {
+      "id": "HM-03-01",
+      "family": "HM-private-capacity-interdependent-handoff",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "1ed5d6af45e16e344902302adf02980c216e70ffbe05415983966b73b97252fb"
+    },
+    {
+      "id": "HM-03-02",
+      "family": "HM-private-capacity-interdependent-handoff",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "865501acaac2a84b65739b4238e7c023294675c4573b43892b4956b1d4858a19"
+    },
+    {
+      "id": "HM-01-02",
+      "family": "HM-asymmetric-mutual-exclusion-under-local-control",
+      "branch_order": [
+        "I",
+        "S"
+      ],
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "a5308eb123414b44ed370ad259a5616bd3448360ff550ffb5a69e1844508ecde"
+    },
+    {
+      "id": "HM-01-01",
+      "family": "HM-asymmetric-mutual-exclusion-under-local-control",
+      "branch_order": [
+        "S",
+        "I"
+      ],
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "46611eea0e446d040216454e3422fab1f78a8e833dde992fd4e441665f176fbd"
+    }
+  ],
+  "animal": [
+    {
+      "id": "AU-01-01",
+      "family": "AU-closed-loop-multistep-care-feedback",
+      "arm_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "item_sha256": "0dcfec2ac238bbc1b9df1ec0ab58dd427605168f7e3e215b82db68153da1bb33"
+    },
+    {
+      "id": "AU-01-01-status",
+      "family": "AU-closed-loop-multistep-care-feedback",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "78989b25a51af56fd05e3060f1075e55b573c0faa672a80403a81f9bc345a01c"
+    },
+    {
+      "id": "AU-01-03",
+      "family": "AU-closed-loop-multistep-care-feedback",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "359b17f1603fbd6584cf9852b1aac639f51114fae392f02edb175b7c0c32f3a2"
+    },
+    {
+      "id": "AU-01-02",
+      "family": "AU-closed-loop-multistep-care-feedback",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "6b4b7d14d8484759124af9d5ca1b3ad5a794ec71d70e45a306ced8797619639c"
+    },
+    {
+      "id": "AU-03-01-status",
+      "family": "AU-relocation-choice-with-dependent-follow-on",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "17b905ba06f884770e6a086d2247103bc38c28cf2afc510c3ede796ac67b8a97"
+    },
+    {
+      "id": "AU-03-01",
+      "family": "AU-relocation-choice-with-dependent-follow-on",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "d475081600a7220812a11b172c7e889421a7167dbbe99f416349cadcae093001"
+    },
+    {
+      "id": "AU-03-02",
+      "family": "AU-relocation-choice-with-dependent-follow-on",
+      "arm_order": [
+        "C",
+        "A",
+        "B"
+      ],
+      "item_sha256": "5318c321d6db17dbd3b26e761ec4b02c56abb8e1fd5b58aed0673539164c3fe7"
+    },
+    {
+      "id": "AU-03-03",
+      "family": "AU-relocation-choice-with-dependent-follow-on",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "d700a42b5735cbfdb657497bcc55d07b6efbb23ca1ad2d066fb78511bbdae25a"
+    },
+    {
+      "id": "AU-02-01-status",
+      "family": "AU-inconsistent-witness-and-recourse",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "7dd95f901ffe011a18efee2d37d3613e923d6c2acb65e35836acce9403b09f34"
+    },
+    {
+      "id": "AU-02-03",
+      "family": "AU-inconsistent-witness-and-recourse",
+      "arm_order": [
+        "C",
+        "B",
+        "A"
+      ],
+      "item_sha256": "06116025382ddc6acf27e3ba7c3e330dc1a7a7647dcd64085aa7bfb3288315b6"
+    },
+    {
+      "id": "AU-02-01",
+      "family": "AU-inconsistent-witness-and-recourse",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "b5dd61bd79dbab7c1644418ddb56e0281f6e8ca0ed8d26a962c2030b1acbcb3b"
+    },
+    {
+      "id": "AU-02-02",
+      "family": "AU-inconsistent-witness-and-recourse",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "ac62de17289ca803f9de4502d66ae0ef7783bfe1f983b1d891571342e8684e4c"
+    },
+    {
+      "id": "AU-04-01-status",
+      "family": "AU-structured-animal-preference-elicitation",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "daebfc22590a5af77594e36fe8a23ba0e7cbc760d6d868bf948498cd019c422d"
+    },
+    {
+      "id": "AU-04-03",
+      "family": "AU-structured-animal-preference-elicitation",
+      "arm_order": [
+        "B",
+        "C"
+      ],
+      "item_sha256": "2d2703dbe9a7924e3396bf5ecf4bdab606dd00e9afb157faa7d5efe5dcade4a9"
+    },
+    {
+      "id": "AU-04-02",
+      "family": "AU-structured-animal-preference-elicitation",
+      "arm_order": [
+        "C",
+        "B"
+      ],
+      "item_sha256": "41a1feb74bd7e167ab93618c224d31ce8983610413cc647bea024c549fc32a5b"
+    },
+    {
+      "id": "AU-04-01",
+      "family": "AU-structured-animal-preference-elicitation",
+      "arm_order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "item_sha256": "a89fe3fbcf101a61e77d5bfd521d74737a638a4f4309df9929912e7da638c903"
+    }
+  ],
+  "repeats": 1,
+  "animal_before_human": true,
+  "no_uptake_gate_for_human": true,
+  "max_requests": 396,
+  "max_completion_tokens_per_request": 128,
+  "max_context_tokens": 4096,
+  "decoding": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 20261107,
+    "enable_thinking": false
+  },
+  "uncertainty_unit_human": "authored mechanism family (8); variants are dependent",
+  "uncertainty_unit_animal": "authored decision-graph family (4); profiles and status twins are dependent",
+  "sha256": "223b2ae3d23a2371fd9239e919a7946d5c69ab3467f24c9f5ce1cca00d0af4fe"
+}

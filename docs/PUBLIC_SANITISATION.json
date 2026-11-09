@@ -1,0 +1,452 @@
+{
+  "provider_identifiers_pseudonymised": 6,
+  "changed_files": [
+    {
+      "file": "evidence/models.manifest.json",
+      "original_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+      "public_sha256": "eb79f1c80a2480caa89c2a0d99da146dd3ec1f1aab12dfb9bda3a138b9fbc31b",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2_r2/config/models.manifest.json",
+      "original_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+      "public_sha256": "eb79f1c80a2480caa89c2a0d99da146dd3ec1f1aab12dfb9bda3a138b9fbc31b",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2_r2/raw/reference_runtime.json",
+      "original_sha256": "cc15b564060b646ed63232f5c3ca3bf7410f7f94160967689f3c24f6de8b2c3b",
+      "public_sha256": "039ddd35ce65f37c9d3c3271d5f3356779256f32379132f78ccab6803d8d1ebe",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2/config/models.manifest.json",
+      "original_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+      "public_sha256": "eb79f1c80a2480caa89c2a0d99da146dd3ec1f1aab12dfb9bda3a138b9fbc31b",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2/original_runtime/reference_runtime.json",
+      "original_sha256": "cc15b564060b646ed63232f5c3ca3bf7410f7f94160967689f3c24f6de8b2c3b",
+      "public_sha256": "039ddd35ce65f37c9d3c3271d5f3356779256f32379132f78ccab6803d8d1ebe",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2/raw/reference_runtime.json",
+      "original_sha256": "cc15b564060b646ed63232f5c3ca3bf7410f7f94160967689f3c24f6de8b2c3b",
+      "public_sha256": "039ddd35ce65f37c9d3c3271d5f3356779256f32379132f78ccab6803d8d1ebe",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study2/inputs/original_ledger.jsonl",
+      "original_sha256": "c3e98efaf078cdf01900baf1721ee99817861090e3f1138024ad790d4a72de84",
+      "public_sha256": "e0bfd6ad054966e37e14debd5dca031352c7c4828f1f7890e5afa4b3b6bc3546",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-02_B.jsonl",
+      "original_sha256": "09db9723e39723aecc10d7e36bf05da28ebf4c2425579eb099ebc3cadd224166",
+      "public_sha256": "afbd9e9f6b26b267f4b06a91184d42bafd174574cc13f9036fca8cf45459334b",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-01_C.jsonl",
+      "original_sha256": "8cfa0ab977646c26f7213d839b360982a4383730897d5a99b4a170d7f291f628",
+      "public_sha256": "5e7a19d665386712824516804e888c958736343607f20e26b837b6d5e14f3ab8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-08-01_C.jsonl",
+      "original_sha256": "04b6e9be28a8a802097489c6495d1acc153915998ef68f4287844bc0dc727ffe",
+      "public_sha256": "a62680a796043698c743a2616c3652717f6a2198fce37bb51abcb0f1cdcca683",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-08-02_B.jsonl",
+      "original_sha256": "c566117e72f980b2aaf989058e1cbf7825cbfee4b7b0fc1e9ce7b655318ea6fd",
+      "public_sha256": "2ae75faa8137bea567edbecf6ecaca6c420aeb285d827d401d4a1f41e7fb6fb7",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-01-status_C.jsonl",
+      "original_sha256": "831c8c5124017f653c5e7ea6ecca9280b29a26d3b12255678e422e2c0159eb97",
+      "public_sha256": "a0f6faba6f16f421c0203c1fa5929cfcd02a6fc15a559af0744219829b64bd5a",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-01-status_B.jsonl",
+      "original_sha256": "6b35ed34393dbbdb55f67d004f1ebe16849ffe006cf82e7ccf3c23482f70c408",
+      "public_sha256": "26c3e4c3042d122c2de48f1ca8d1aee0d8b50208d11478c44497062f38ee1942",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-07-01_B.jsonl",
+      "original_sha256": "56719a5c58848ee48bbe86dd8b51dd3f9297192a36e1e53fc32f00585d2c4d17",
+      "public_sha256": "7bffc2c6caa522d040ac7157e61a417154fedd6abeaa2dfc4d1ab73d14693135",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-07-02_C.jsonl",
+      "original_sha256": "b58e9be51f8a2d2d19cceba1e2bfa9778c6208bcb2ce5a478be2af9b8a4ff4a7",
+      "public_sha256": "7bb7f57f557d66c6ab7ac4c966b52aae3a3c0bb8fa42a0ecd194373be05a2e91",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-05-01_C.jsonl",
+      "original_sha256": "58e7a969091f626d33745b76d8300700ba3c0e40066469a8578de2e6dc9b2ebf",
+      "public_sha256": "f372cd1a92a2450fbfd504b4f03587f952d467317ae7d2a18d2282ce19ae53fd",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-05-02_B.jsonl",
+      "original_sha256": "e3c576360609b01e13a1868bfcb2db579cb09e8a7cf0c8aabbe2b7355a284280",
+      "public_sha256": "2c03202b2155381e4bb56402e07a53310d6b0d07d2a5054fdf8add8c34f6670c",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-01-status_B.jsonl",
+      "original_sha256": "e63a0c288bbfe7303ca65b09c421f37a4833354c5858e468cba3f8aa23a360a5",
+      "public_sha256": "f520cec2790f5e90b52eb50bdd2d36f6d187d66b923e2930044c3409881f4026",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-01-status_C.jsonl",
+      "original_sha256": "f37c1cdff8ef7297925153ad78a8853e5de6371c3fb1537ae28290ffaaaff809",
+      "public_sha256": "044fb6f5419398fecec88f186018ae9b63a8acf6e4ef4444158e508a7d8a3cf8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-03_B.jsonl",
+      "original_sha256": "e64ac43d0b61340b366988e84f446e765e5c5e37b3f55a528ea1a1a211eba008",
+      "public_sha256": "ea98354d5f01f306a04b22588cd2a210f9e0ddf002d2d54e490e5eb349625bfa",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-02-02_C.jsonl",
+      "original_sha256": "5b5c67c5620518e176e2ddc401e1892a7f7ad109db86b680766a3d79ef0beeae",
+      "public_sha256": "1f8210db2c6a96c7ef4e19dd13f86e2dafe11ddb254f473322fe8afac197b666",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-02-01_B.jsonl",
+      "original_sha256": "132cef02c5a94d403ab1fd90846f7914554274b63f75dd9307c278dfe48ef223",
+      "public_sha256": "f61d79d6543bc1b62815237a148ef3a29584e9c1a3aa0b66f532f5cb2e1f9d4c",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-05-01_B.jsonl",
+      "original_sha256": "54e6e38ea84ec1bfacbe7a697d125a1d5326831d9dcb65d18cac058e72c06e11",
+      "public_sha256": "cd1f3e91f149d0cbf5a36515cdb7d5d9a5970ebc7224ba57ec17ae714c672ef8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-05-02_C.jsonl",
+      "original_sha256": "ae2c368c6940e6ede9acb8fc1d35a423aa2363584febdb15369d3f149d4e200d",
+      "public_sha256": "9ac341ac3ec35fe98c5787480db1d1d72f64dce0602ba1578a7a894f40e4fd6f",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-01-status_C.jsonl",
+      "original_sha256": "45f3890907298ecc299c15729698d9eb6350f3ebe0ce90f174bfc660427a47eb",
+      "public_sha256": "de5cad55be5e79ad74e7483a6801db7d118d078ffee27552808c462c9e0ee76d",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-08-01_B.jsonl",
+      "original_sha256": "6ec440593d8df50cb0dd6f915fd0db11f9ccaae26c1983b2f06717b82ba4044a",
+      "public_sha256": "0e5e33c7bb643e272460c9e7a1bcfea9526ea4ed5a7bcfd01ad7f0991d601743",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-08-02_C.jsonl",
+      "original_sha256": "00bb443ccecae3fe7d2a1c781268c7a11fd5d29db18e0b21064972ead3e24bec",
+      "public_sha256": "6689d18ce60602d6bd04c1e313d6248e4df208133ac08e6c4f4530ae7593c265",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-02_C.jsonl",
+      "original_sha256": "14373c4dee05858437822ab5051b040530c849543b4da184ef76879cd3b99e16",
+      "public_sha256": "aaff921631cf735fe11f3d93d19ad74f65248da16e810ec903f950a0263008c7",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-01_B.jsonl",
+      "original_sha256": "d88b8c8433e29e6e9be08298aa1700323faeefd227255fc21ce1d3c4b04656b2",
+      "public_sha256": "603fdaa4b4308e56f0964e9865b30c7c87771f44ae6ffc3bc56867347c9da485",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-07-01_C.jsonl",
+      "original_sha256": "56163dc667a63432efcf1805e267a28c9d128fa6400f828feba6e7724b270d77",
+      "public_sha256": "22fa1c91957a1458ddf2a3a83810644788a1dbaf50b6f7c70da5acb772fc6aa8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-07-02_B.jsonl",
+      "original_sha256": "0c54d96c23e407526b54309ceca4fdaf03e87eaee69012cfe5f61875c95c7d45",
+      "public_sha256": "7e7d4522e9eec991c224e5a98d62685f85f9bfb895699a5fd3bb3d2182d368f0",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-01-status_C.jsonl",
+      "original_sha256": "3b230f7e18ce39e31b62b6c42decf627ab624b65b065d0a148546e2ab390c374",
+      "public_sha256": "db41a8e3653c254468b0b9c9de2786f1c580eb6077110f50847d823b6c90abd4",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-01-status_B.jsonl",
+      "original_sha256": "a597aa917f07fac000dbdf0a372fc6b8e4f5162def698a44e824ce8d59f3c11d",
+      "public_sha256": "7b302a10e0fbac50faef5610004c68a3ec32a5b34c399a7a0891edfef832bc47",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-03_C.jsonl",
+      "original_sha256": "798ea3d96c3e476d46dd952573a45bdc43357669c4bcd5f39345317f432c7f07",
+      "public_sha256": "832152977ba045080f6fc24b3c1d58144dbd778eea02949749aa81eddf52a0f1",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-02-02_B.jsonl",
+      "original_sha256": "497fd1209df269ee3c2d93adb600fa7e2864de7d87c4d369cf40a69aae9306bf",
+      "public_sha256": "de880ccd1ade3e9733fbc10521ba8c3545133f47b4787f6d8b0490d743f791c1",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-02-01_C.jsonl",
+      "original_sha256": "bcb346eb3bb54e7235667c0bc9d5bf71dc0f606c9e343d51e0d16c9522eca138",
+      "public_sha256": "74fca960f48f16e728a3622f60ae49d0fb3e0b2cac3d624b5b5c1a2addca7885",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-02-01-status_B.jsonl",
+      "original_sha256": "b5ac845047958d3ec45576c58d16ca96fc7123d9d330e2847f1eef1d54ac30ce",
+      "public_sha256": "53241960fbc987a2d6226d5cf46cb86f52f8d8d1374a88cc37e9c543f83ba8a7",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-01-02_B.jsonl",
+      "original_sha256": "c48e036983484cc317f4646741c384d4084578219c25f6eaf46732323eefe367",
+      "public_sha256": "6ab2ba62a265bcc45dc5237d4ccd0191eeddf63f7b7648d5ebaf26db8a429b2f",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-01-01_C.jsonl",
+      "original_sha256": "fef8db61ef326892436f8f7c7439d72222ea0395d908e023b3a5efc7b3617c49",
+      "public_sha256": "2bd77a0f233dbfd7b192900faf1bd12922f4b59d8e59e501d147726e9fff358a",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-03_C.jsonl",
+      "original_sha256": "ad373fe750a2e6241897db81f37d258ba233d2feb0b63ff93a717aefc80803a3",
+      "public_sha256": "88a7c56bc8b08acacf564b9b1aca0053efa5214120749e900767b3817513cd8f",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-01_B.jsonl",
+      "original_sha256": "1430f4895ae06ea257a62a22d7cb29737a2e0bd548d90bef2e451b0fea4cf913",
+      "public_sha256": "020a40357c9b02c3ae143f745d50d1ed78606a485c3db10b1a1f2650a9fd9683",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-02_C.jsonl",
+      "original_sha256": "dedf13e2316a7823dbd07a77886708ab78049bb9acce9268bc7e396ed8b5c9cc",
+      "public_sha256": "48b7c979cbf415ea939f1f2035f942095c3972f3316cb22c2b6615e24f234a69",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-03_B.jsonl",
+      "original_sha256": "0ce5b679edd3e8877f841e54e69a98c0314a67bcc8f1ffffd13ac34305c598ee",
+      "public_sha256": "df997608bf2e4387e76eacc49a0f180e408b16f9a246858946c4f96aece6e6b8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-03-02_C.jsonl",
+      "original_sha256": "2a1c343c684e1c900dc415593ca28941f261b90562138d64e20b00c29d16817a",
+      "public_sha256": "8cdcdda4ab8c98bc27edaa0264ea0de49038e0b2fcfad7cfe8f2aebd1113e661",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-03-01_B.jsonl",
+      "original_sha256": "aa1d80154f5c28faadc12ff1073ad41e1e29e409b78b080b04cc84274c536081",
+      "public_sha256": "1d6b29040d61b5f9ab55b681b4feb20beedc3c16b1f55178373847afeca1d20a",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-02_B.jsonl",
+      "original_sha256": "bf269df8bace9bbaf81a256b36ff32bb3d8e20212557016f63f9c47492a9d651",
+      "public_sha256": "d4d9a179f390be0c20aad848b045b14b3b1477ab51415992ca2d912aa3d3d692",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-01_C.jsonl",
+      "original_sha256": "246ce89a727f1ba0277785d28e37974859af87110c057aee7279a8d61811a9f5",
+      "public_sha256": "02b72a826ed9e842a1d06c0b1e27ce95306a9e379a16f5aebcc271a595b17bc3",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-06-01_B.jsonl",
+      "original_sha256": "862f7dd0edc4ead7e7a863a0e9cccc227e12a9bf3a5377610d50c115d0da7a45",
+      "public_sha256": "2fc9e0abb69cbfd67b0ae9118b78c852605a93c9000ebaede0a2b8d7360ffc25",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-06-02_C.jsonl",
+      "original_sha256": "7d972d6c535227f79b6c1970385c8df62abda4978cf5392f32f92b1ae0099284",
+      "public_sha256": "797c0229e843b22ac1864dfabc45f10060586ef69a9db88f69ca6e377950f4e3",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-04-01_C.jsonl",
+      "original_sha256": "f40480273125097bfd4a988c4c6dabce5885be3f9fcda24934c93182ac2f8042",
+      "public_sha256": "16f33dd6309f8768431ad6b0bd0f43dd365662d3c9c5022c3859174277666686",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-04-02_B.jsonl",
+      "original_sha256": "607b1332ff3cdc6e0aae8ea2d301570162e513ca00786143db58347bb81718d4",
+      "public_sha256": "727e437e1873911649700e02034df73d0e9461595427c4be23ec99bd8670f1c9",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-02_C.jsonl",
+      "original_sha256": "2379f4ab199b76c3a9ccd938b183a259d407eb3b07fa0c8bd99fe1467037d20d",
+      "public_sha256": "1985abb970e572d277fd2516f8f21541309210c5d7dd2a8641e391d2d2702359",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-01_B.jsonl",
+      "original_sha256": "ba391a70c14da5ad8d79197700cd8305e9f8e768570cf7f376b2bdc4816a00af",
+      "public_sha256": "c05eb273bb6aed8b85b1aa24538d905423a5933142cad1eca0341257b94d9af0",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-03_C.jsonl",
+      "original_sha256": "58b675851f919b2d500b12340086c33df2a830a6a43f7fe47555bd4c0b894a3b",
+      "public_sha256": "91aaa0f06944d676116b34e424072381e2f035451a63d73f23fe835318961cb3",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-03_C.jsonl",
+      "original_sha256": "c3024ce3c3fa63b513f86fd10a4571fd5f3667245254b9e6fa64a44b2938d70d",
+      "public_sha256": "323d71c53d5a42276024792db8c8f33fd7f1de3f584c6f12680b96216df4b086",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-03-02_B.jsonl",
+      "original_sha256": "45ef10a35d5d4d2012e6724fe67021676f97f74eec11eeed527da020740e565c",
+      "public_sha256": "044e540e2b3d297c73e266902f68f26e7e9fae9b4b7b258e6e2a6ea0a77e51f9",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-03-01_C.jsonl",
+      "original_sha256": "98886992566f21e929a3794c546c9e895b719353142a5a5e062fe6e56283de4a",
+      "public_sha256": "69ba9c0755d231cc4b37c962373a5f1a5a4c75fff2c82ab472f1c660f47e7a27",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-01-02_C.jsonl",
+      "original_sha256": "42e16e51a812a4413129ab6771b13d041e16ee3e487ecace324270a481bc661f",
+      "public_sha256": "4e9569d1e675dc34bbff0e5cce6cace31b275fb021bab3deda664b7253d4d4fe",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-01-01_B.jsonl",
+      "original_sha256": "100af38f50265a8a09b4a758b9fc38512052b37bbdcc485608520f970be87b60",
+      "public_sha256": "6316feb64d817b12219aba9419bebcdfce546d11085dbdd2541d5cfb2bf797f0",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-01_C.jsonl",
+      "original_sha256": "1eab3b8053576ea3df43390a1ccb55103cf41300b7fe8fb3e558ec173ca73be0",
+      "public_sha256": "dc462e7c15c6ab7f71ab6e9c0e4356b72af7aa78652dca95be1810fe6ca5fc52",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-02_B.jsonl",
+      "original_sha256": "8c6569059c739a857395bdf391e9d842887272f626f7a145d18819a662ff918d",
+      "public_sha256": "842ced4420f9ce5cded2038c11bac3a1bbb9ed2780bc70f6b5f4f8738f6bc3a8",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-03_B.jsonl",
+      "original_sha256": "7fbfe4b0281cd1f91ed3efebee678f52d5cf07652b8aafc5921ad10b367ee4ae",
+      "public_sha256": "911e45e4e325ca321eda56dab1ca3106d1a0e5f5b1aa526b07f5fcabdea746ac",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-04-01_B.jsonl",
+      "original_sha256": "76e28d9be7096fa6ce19c160f1d19311267c710082e4ce7b27be0a27637065cc",
+      "public_sha256": "261df093a615359c3d328da6a39850cee878cb852acae760a0694d0cdeb58212",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-04-02_C.jsonl",
+      "original_sha256": "ac173f8b2f44027bf7716b80cae9f3f8e33cb1e022cc2d1504f66cb36da62f8e",
+      "public_sha256": "929cf39e4d2101436453da9b849f61beff83c81462a325e2a1db19175d07651c",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-04-03_B.jsonl",
+      "original_sha256": "25be8f0868fa3c87d144b09d414dd52cc0fa9aed71fa029aa15a635804c4a2ff",
+      "public_sha256": "fd7274dc44000ab460dcd9666b60d2df4aa8cdeadbc1c69377797c5ea608f3f0",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-02_B.jsonl",
+      "original_sha256": "8755b8ee421ece32506eef1b5394a546b881df53b54aaa78cfa45a8896a2df95",
+      "public_sha256": "eedb8850b51f714f9c34c139d2b4106aebed29cc4537c8cb3bbc29ae7fa00154",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-01-01_C.jsonl",
+      "original_sha256": "a4344b1b81db19bd9abc5554a274110173d392c6563c8061a21eafc81929e763",
+      "public_sha256": "6f193f7f0b2c2097d36f6d195e9ed8723f55095564d0c8a3c579f8f58c8ed190",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-02_C.jsonl",
+      "original_sha256": "a2d795fdb374d6416a07f9b756302572e46cff49af96633e33f8719dba9cb7d0",
+      "public_sha256": "12044809b09c335009a5294ab5038dc64dc1d402115bda74204bf4904765eaf6",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/AU-03-01_B.jsonl",
+      "original_sha256": "28b076c18347f11a8aa94ee52301c09ae320d2ed020bf32fe7da9e19981daaae",
+      "public_sha256": "6e69de3452acc490d670218ae56558d0ab53ec67801f9bcd857b019edf1eed32",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-06-01_C.jsonl",
+      "original_sha256": "3d3ad5ad304b28a53e6d9a6db66c8747938ffd6809a25d057b13b287577a1b03",
+      "public_sha256": "0348acce2c3b4bce5a16d9c626aca0187a07a409e3c32c69afb5b7464eeba185",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/ledgers/HM-06-02_B.jsonl",
+      "original_sha256": "c1e3be8918ffc0b9176aba1bb9845673eb737aa37417a8d10c8035a35af2a1d8",
+      "public_sha256": "a278f0e9992d8421a581ea07b8090939e45f326ee7ba1601e7f4cfc6afe2a3ba",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    },
+    {
+      "file": "reproducibility/study1/raw/runtime/reference_runtime.json",
+      "original_sha256": "62025beb6d6f4e9eda9d4009a05cb86c13046d5d0bbbe0c58862ee50a7fd612e",
+      "public_sha256": "27ac8d6217a7eb0f22e9d05ac3757e53c65c167fdebd8e691dbb7f311f5171d4",
+      "reason": "Opaque provider dataset/run identifiers replaced with deterministic public aliases; no request payload, raw response, action or score changed."
+    }
+  ],
+  "excluded_assets": [
+    "model weights",
+    "tokenizer distribution",
+    "training source/export datasets",
+    "provider credentials and billing automation",
+    "browser/session material",
+    "official DOCX template",
+    "prior draft/fallback documents"
+  ],
+  "preserved": "All scientific request bodies, response text, choices and consequences.",
+  "offline_wrapper_changes": [
+    "Compare every original-Study-2 analysis field exactly except its pseudonymisation-sensitive ledger digest, which is checked against the public ledger instead.",
+    "Compare every S1/S2 scientific field exactly except original_ledger_sha256, checked against the public file instead.",
+    "Study 1 snapshot metadata uses a public-snapshot-digest to recorded-historical-label lookup; no prompt or action changes."
+  ]
+}

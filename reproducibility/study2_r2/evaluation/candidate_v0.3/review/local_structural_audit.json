@@ -1,0 +1,86 @@
+{
+  "status": "HISTORICAL_V0_2_LOCAL_SELF_CHECK_WITH_SUCCESSOR_REVIEW_BINDING",
+  "data_accessed": "Only newly authored evaluator cases. No curriculum corpus, prompts, completions or target keys accessed.",
+  "human_method": "Canonical service/action-harm matrices under all 6 role permutations and 6^3 within-role action permutations; exact and per-column rank-normalized signatures. Auxiliary excluded because it is not verified service.",
+  "human_comparisons": 66,
+  "human_permutation_maps_per_signature": 1296,
+  "human_detected_matches": [],
+  "human_signatures": {
+    "HD01": {
+      "exact_service_action": "a81b75466928d86cfc324d696f00dd44e3650a3944cecc46fae00a031761ae9a",
+      "rank_service_action": "281bd7e58e6bb865232382a81ec2d96d0b221b993c1d6e2f8675b935ffa408d4"
+    },
+    "HD02": {
+      "exact_service_action": "783f5f50f4578f9d8afddd8b93e9b417d418abd01b68a82c395cdb96a8ce4ae1",
+      "rank_service_action": "353b59b8bd38f51618931df6dd3fdd7ce0234031ca149d09b17959189330f6d0"
+    },
+    "HD03": {
+      "exact_service_action": "96486261bded169dac97a6178a25e6a314f9fd5e52f7c3577e62e5935fcbdb71",
+      "rank_service_action": "8bee03e1a207b0e1a74513d573330634d935a039161a65a806e147de9aa0c9b3"
+    },
+    "HD04": {
+      "exact_service_action": "348fd085ea10bbe80d027c3037451ef1501c1264b56cfcae9a4d8af5a4dd6605",
+      "rank_service_action": "d0ff06f8c8ce685ce7b3d64a90f5c12a45bb72dd092360b1b1d04123710e6fe5"
+    },
+    "HP01": {
+      "exact_service_action": "4a0776b898c8d168beedbad1564805a241aac81fc6e05f50e960c6e9cec94e6a",
+      "rank_service_action": "d9649e4815ceb32ddcd891f636808c766354c7579c8f6235628efd894f412769"
+    },
+    "HP02": {
+      "exact_service_action": "e252f95ba903a0ac45e9664f9286def4a63e22d4868be846a2611a7ac3ffab70",
+      "rank_service_action": "6e2fe02091716c44b0b412e195d36c81bdcfbbf0a3f6ec94adaf89078cfb634a"
+    },
+    "HP03": {
+      "exact_service_action": "563475015af1d1321fae62f5dbf99867cce069f193f481476769ab097425063f",
+      "rank_service_action": "e19500bc7c7f21218d4ffa002cb5e2e6014ff5b1087609f4439abc16f02a3280"
+    },
+    "HP04": {
+      "exact_service_action": "a3c7b764611a656f1effe92e84970faac5596ab049cc0f3e665070459d559634",
+      "rank_service_action": "793a7421564b13e1cef4dc057cb0557ed3af29897625da9d84a1d90fd8b6af13"
+    },
+    "HP05": {
+      "exact_service_action": "af0d1faa8d338274fae4e6d683094be38a7b4ed1c5f9b886f09ef0dbec34e24b",
+      "rank_service_action": "716e83fad5ebb75a5776044d6a6026fa6330a44478f0d812dcac64c5a74b828e"
+    },
+    "HP06": {
+      "exact_service_action": "e070c5be556615d11f1f452085f709e6e2b8983e47b314beb30f308335e6df55",
+      "rank_service_action": "75687aeea67b1604c48bbda01ed1ed4d37842ddaf597f18a8279a8b79c40505f"
+    },
+    "HP07": {
+      "exact_service_action": "065c3d46cd15dd7e191561fc954668dd6c61acd5cd308f6a2806bc4363c59787",
+      "rank_service_action": "aeb3fb6109c2dc7fc9cf18c5363f234ace4de98d831d2692f81f0d465c886671"
+    },
+    "HP08": {
+      "exact_service_action": "d34648fd9cf9000081408c2d10623f85d01413bb323a0c57584076737d837a71",
+      "rank_service_action": "7b80c58885b0b66fd9fca58f8cc7449ec29f28d6c2cdb78f939f4b7fd0deee58"
+    }
+  },
+  "animal_coarse_graph_groups": {
+    "[0, 0, 0]": [
+      "AD01",
+      "AP04",
+      "AP02",
+      "AP05",
+      "AP03"
+    ],
+    "[0, 0, 2]": [
+      "AP01",
+      "AD03",
+      "AD02"
+    ]
+  },
+  "animal_interpretation": "Shared depth/two-state branching is imposed by the interface and is not evidence of an independent solution template. No graph-only claim of separation. Ordinary-use, stochastic-route and unresolved-interest profiles were grouped by substantive solution structure.",
+  "cross_split_residuals": [
+    "Contingent feedback/maintenance is shared between development A_directional_feedback and protected A_ordinary_use_controls; no copied case or numeric path identified, but separate structural auditor must decide whether the shared decision skeleton requires grouping or replacement.",
+    "Human scheduling, compatibility, capacity, approvals, publication, deadlines and role-local authority recur across contexts and in the supplied abstract handoff. Similar primitives are not complete-template clearance.",
+    "Burden/benefit comparison, harmful inaction and proportionality recur intentionally across every split."
+  ],
+  "external_audit_status": "RECEIVED_EVALUATOR_SAFE_INDEPENDENT_AI_REVIEW_TARGETED_MODIFY_E1_E2",
+  "limitations": [
+    "Exact or rank matrix nonmatches do not rule out semantic paraphrase, threshold variation or reused solution templates.",
+    "No full train\u2013test separation conclusion can be drawn.",
+    "This was performed by the author, not an independent reviewer."
+  ],
+  "current_disposition_reference": "review/audit_disposition_registry.json; protocol/reporting_contract.v0.3.json",
+  "historical_results_unchanged": true
+}

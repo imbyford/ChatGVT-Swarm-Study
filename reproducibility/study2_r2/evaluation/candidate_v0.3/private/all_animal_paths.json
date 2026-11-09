@@ -1,0 +1,1280 @@
+[
+  {
+    "case": "AD01",
+    "state": "sparse",
+    "actions": {
+      "root": "pulsed"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD01",
+    "state": "sparse",
+    "actions": {
+      "root": "steady"
+    },
+    "metrics": {
+      "direct_harm": 4,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 4,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD01",
+    "state": "sparse",
+    "actions": {
+      "root": "cancel"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 18,
+      "future_loss": 0,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 18,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD01",
+    "state": "dense",
+    "actions": {
+      "root": "pulsed"
+    },
+    "metrics": {
+      "direct_harm": 9,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 9,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD01",
+    "state": "dense",
+    "actions": {
+      "root": "steady"
+    },
+    "metrics": {
+      "direct_harm": 4,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 4,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD01",
+    "state": "dense",
+    "actions": {
+      "root": "cancel"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 18,
+      "future_loss": 0,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 18,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "clear",
+    "actions": {
+      "root": "food_loop",
+      "clear_fix": "rinse"
+    },
+    "metrics": {
+      "direct_harm": 10,
+      "omission_harm": 0,
+      "future_loss": 2,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 12,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "clear",
+    "actions": {
+      "root": "food_loop",
+      "clear_fix": "vent"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 0,
+      "future_loss": 2,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 10,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "clear",
+    "actions": {
+      "root": "food_loop",
+      "clear_fix": "skip"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 3,
+      "future_loss": 2,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 13,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "clear",
+    "actions": {
+      "root": "plant_loop"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "clear",
+    "actions": {
+      "root": "halt"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 3,
+      "future_loss": 0,
+      "positive_opportunity": 3,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 3,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "silt",
+    "actions": {
+      "root": "food_loop",
+      "silt_fix": "rinse"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 0,
+      "future_loss": 2,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 10,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "silt",
+    "actions": {
+      "root": "food_loop",
+      "silt_fix": "vent"
+    },
+    "metrics": {
+      "direct_harm": 12,
+      "omission_harm": 0,
+      "future_loss": 2,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 14,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "silt",
+    "actions": {
+      "root": "food_loop",
+      "silt_fix": "skip"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 3,
+      "future_loss": 2,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 13,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "silt",
+    "actions": {
+      "root": "plant_loop"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 8,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP01",
+    "state": "silt",
+    "actions": {
+      "root": "halt"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 3,
+      "future_loss": 0,
+      "positive_opportunity": 3,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 3,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "quiet",
+    "actions": {
+      "root": "short_first"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 4,
+      "future_loss": 0,
+      "positive_opportunity": 5,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "quiet",
+    "actions": {
+      "root": "long_first"
+    },
+    "metrics": {
+      "direct_harm": 2,
+      "omission_harm": 2,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 5,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 4,
+      "legitimate_output": 5,
+      "service_delivered": 5,
+      "useful_work": 5,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "quiet",
+    "actions": {
+      "root": "abandon"
+    },
+    "metrics": {
+      "direct_harm": 3,
+      "omission_harm": 10,
+      "future_loss": 2,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 15,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "busy",
+    "actions": {
+      "root": "short_first"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 6,
+      "future_loss": 0,
+      "positive_opportunity": 5,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 7,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "busy",
+    "actions": {
+      "root": "long_first"
+    },
+    "metrics": {
+      "direct_harm": 2,
+      "omission_harm": 3,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 5,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 5,
+      "service_delivered": 5,
+      "useful_work": 5,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP04",
+    "state": "busy",
+    "actions": {
+      "root": "abandon"
+    },
+    "metrics": {
+      "direct_harm": 3,
+      "omission_harm": 12,
+      "future_loss": 2,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 17,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "east",
+    "actions": {
+      "root": "food_stock"
+    },
+    "metrics": {
+      "direct_harm": 6,
+      "omission_harm": 0,
+      "future_loss": 5,
+      "positive_opportunity": 2,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 11,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "east",
+    "actions": {
+      "root": "companion_stock"
+    },
+    "metrics": {
+      "direct_harm": 6,
+      "omission_harm": 0,
+      "future_loss": 5,
+      "positive_opportunity": 2,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 2,
+      "burden": 11,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "east",
+    "actions": {
+      "root": "plant_stock"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 9,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "west",
+    "actions": {
+      "root": "food_stock"
+    },
+    "metrics": {
+      "direct_harm": 6,
+      "omission_harm": 0,
+      "future_loss": 5,
+      "positive_opportunity": 2,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 2,
+      "burden": 11,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "west",
+    "actions": {
+      "root": "companion_stock"
+    },
+    "metrics": {
+      "direct_harm": 6,
+      "omission_harm": 0,
+      "future_loss": 5,
+      "positive_opportunity": 2,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 2,
+      "burden": 11,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP02",
+    "state": "west",
+    "actions": {
+      "root": "plant_stock"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 9,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_open",
+    "actions": {
+      "root": "north",
+      "finish_bridge_open": "finish"
+    },
+    "metrics": {
+      "direct_harm": 2,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 0,
+      "burden": 2,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_open",
+    "actions": {
+      "root": "north",
+      "finish_bridge_open": "extend"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 4,
+      "trivial_benefit": 0,
+      "burden": 8,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_open",
+    "actions": {
+      "root": "north",
+      "finish_bridge_open": "stop"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 16,
+      "future_loss": 2,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 19,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_open",
+    "actions": {
+      "root": "south"
+    },
+    "metrics": {
+      "direct_harm": 3,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 0,
+      "burden": 3,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_open",
+    "actions": {
+      "root": "closed"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 18,
+      "future_loss": 3,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 21,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_closed",
+    "actions": {
+      "root": "north",
+      "finish_bridge_closed": "finish"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_closed",
+    "actions": {
+      "root": "north",
+      "finish_bridge_closed": "extend"
+    },
+    "metrics": {
+      "direct_harm": 8,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 4,
+      "trivial_benefit": 0,
+      "burden": 8,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_closed",
+    "actions": {
+      "root": "north",
+      "finish_bridge_closed": "stop"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 16,
+      "future_loss": 2,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 19,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_closed",
+    "actions": {
+      "root": "south"
+    },
+    "metrics": {
+      "direct_harm": 3,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 6,
+      "resource_cost": 3,
+      "trivial_benefit": 0,
+      "burden": 3,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD03",
+    "state": "bridge_closed",
+    "actions": {
+      "root": "closed"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 18,
+      "future_loss": 3,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 21,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "low_tide",
+    "actions": {
+      "root": "wide"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 12,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "low_tide",
+    "actions": {
+      "root": "narrow"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 6,
+      "service": 7,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 7,
+      "service_delivered": 7,
+      "useful_work": 7,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "low_tide",
+    "actions": {
+      "root": "lock"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 8,
+      "future_loss": 0,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 8,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "high_tide",
+    "actions": {
+      "root": "wide"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 10,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "high_tide",
+    "actions": {
+      "root": "narrow"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 4,
+      "service": 7,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 7,
+      "service_delivered": 7,
+      "useful_work": 7,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP05",
+    "state": "high_tide",
+    "actions": {
+      "root": "lock"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 8,
+      "future_loss": 0,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 8,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "rebound",
+    "actions": {
+      "root": "armed"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 1,
+      "positive_opportunity": 4,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 1,
+      "burden": 6,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "rebound",
+    "actions": {
+      "root": "unarmed"
+    },
+    "metrics": {
+      "direct_harm": 18,
+      "omission_harm": 0,
+      "future_loss": 4,
+      "positive_opportunity": 0,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 1,
+      "burden": 22,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "rebound",
+    "actions": {
+      "root": "bypass"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 7,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "stable",
+    "actions": {
+      "root": "armed"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 1,
+      "positive_opportunity": 4,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 1,
+      "burden": 6,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "stable",
+    "actions": {
+      "root": "unarmed"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 1,
+      "positive_opportunity": 4,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 1,
+      "burden": 6,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AP03",
+    "state": "stable",
+    "actions": {
+      "root": "bypass"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 7,
+      "service": 4,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 0,
+      "legitimate_output": 4,
+      "service_delivered": 4,
+      "useful_work": 4,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "returning",
+    "actions": {
+      "root": "align",
+      "sector_returning": "sector_a"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 3,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "returning",
+    "actions": {
+      "root": "align",
+      "sector_returning": "sector_b"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 7,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "returning",
+    "actions": {
+      "root": "align",
+      "sector_returning": "stop"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 10,
+      "future_loss": 2,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 13,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "returning",
+    "actions": {
+      "root": "diffuse"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "returning",
+    "actions": {
+      "root": "off"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 12,
+      "future_loss": 2,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 14,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "dispersed",
+    "actions": {
+      "root": "align",
+      "sector_dispersed": "sector_a"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 7,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 1,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "dispersed",
+    "actions": {
+      "root": "align",
+      "sector_dispersed": "sector_b"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 3,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "dispersed",
+    "actions": {
+      "root": "align",
+      "sector_dispersed": "stop"
+    },
+    "metrics": {
+      "direct_harm": 1,
+      "omission_harm": 10,
+      "future_loss": 2,
+      "positive_opportunity": 2,
+      "service": 0,
+      "resource_cost": 1,
+      "trivial_benefit": 0,
+      "burden": 13,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "dispersed",
+    "actions": {
+      "root": "diffuse"
+    },
+    "metrics": {
+      "direct_harm": 5,
+      "omission_harm": 0,
+      "future_loss": 0,
+      "positive_opportunity": 4,
+      "service": 6,
+      "resource_cost": 2,
+      "trivial_benefit": 0,
+      "burden": 5,
+      "legitimate_output": 6,
+      "service_delivered": 6,
+      "useful_work": 6,
+      "service_floor_met": true
+    }
+  },
+  {
+    "case": "AD02",
+    "state": "dispersed",
+    "actions": {
+      "root": "off"
+    },
+    "metrics": {
+      "direct_harm": 0,
+      "omission_harm": 12,
+      "future_loss": 2,
+      "positive_opportunity": 0,
+      "service": 0,
+      "resource_cost": 0,
+      "trivial_benefit": 0,
+      "burden": 14,
+      "legitimate_output": 0,
+      "service_delivered": 0,
+      "useful_work": 0,
+      "service_floor_met": false
+    }
+  }
+]

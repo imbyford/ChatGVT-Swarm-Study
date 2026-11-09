@@ -1,0 +1,11 @@
+{
+  "checked_at": 1794178198.503788,
+  "deletion_verified_http": 404,
+  "active_billable_pods": 0,
+  "current_spend_per_hour_usd": 0,
+  "observed_credit_deduction_usd": 0.46558836760000055,
+  "rental_wall_seconds_including_setup_retrieval_deletion": 2785.8470599651337,
+  "new_payments_or_topups": 0,
+  "replacement_allocations": 0,
+  "billing_caveat": "Observed account deduction is measured at the stated timestamp; final itemized billing may lag. Elapsed-price figure is an estimate, not a separately charged amount."
+}

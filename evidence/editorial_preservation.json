@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "executed_R2_files_unchanged": 244,
+  "prior_complete_zip_sha256": "27162754a3118a4a3ef1b8f2d9d05c0069829dd3be5ff6276a7eff6ac98274ff",
+  "prior_complete_PDF_sha256": "ee66528ff533d3bc71f44be782e24c6141c8f43f0437a37ad3cda68419f32584",
+  "prior_fallback_preserved": true,
+  "new_model_calls": 0,
+  "new_spending": 0
+}

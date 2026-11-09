@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_numeric_assertions": 518,
+  "HP06_HP08_narrative_table_entries_verified": 54,
+  "matched_controller_prompt_pairs": 207,
+  "prompt_pair_difference_check": "Only other_frozen_proposals differs in every complete matched controller pair; all decoding parameters and own initial proposals match.",
+  "R1_GUIDE_observations_verified": true,
+  "R2_recomputed_separately": true,
+  "existing_primary_analysis_files_modified": false,
+  "review_scope": "Second numerical implementation by same implementation owner; not independent human review",
+  "model_calls": 0,
+  "analysis_sha256": "b9172d1112e43b507c4ef97c7bad69180d1c7aacb9d4338f1ded81b6fdefed1e"
+}

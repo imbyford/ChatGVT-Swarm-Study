@@ -1,0 +1,315 @@
+[
+  {
+    "split": "animal_development",
+    "family_group": "A_directional_feedback",
+    "case_ids": [
+      "AD02"
+    ],
+    "parent_ids": [
+      "AD02-parent"
+    ],
+    "family_weight_within_split": 0.5,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": null
+  },
+  {
+    "split": "animal_development",
+    "family_group": "A_stochastic_essential_routes",
+    "case_ids": [
+      "AD01",
+      "AD03"
+    ],
+    "parent_ids": [
+      "AD01-parent",
+      "AD03-parent"
+    ],
+    "family_weight_within_split": 0.5,
+    "parent_weight_within_family": 0.5,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": null
+  },
+  {
+    "split": "animal_protected",
+    "family_group": "A_ordinary_use_controls",
+    "case_ids": [
+      "AP01",
+      "AP02",
+      "AP03"
+    ],
+    "parent_ids": [
+      "AP01-parent",
+      "AP02-parent",
+      "AP03-parent"
+    ],
+    "family_weight_within_split": 0.5,
+    "parent_weight_within_family": 0.3333333333333333,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": null
+  },
+  {
+    "split": "animal_protected",
+    "family_group": "A_unresolved_existing_interest",
+    "case_ids": [
+      "AP04",
+      "AP05"
+    ],
+    "parent_ids": [
+      "AP04-parent",
+      "AP05-parent"
+    ],
+    "family_weight_within_split": 0.5,
+    "parent_weight_within_family": 0.5,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": null
+  },
+  {
+    "split": "human_development",
+    "family_group": "H_allergen_partition",
+    "case_ids": [
+      "HD04"
+    ],
+    "parent_ids": [
+      "HD04-parent"
+    ],
+    "family_weight_within_split": 0.25,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_development",
+    "family_group": "H_backup_priority",
+    "case_ids": [
+      "HD02"
+    ],
+    "parent_ids": [
+      "HD02-parent"
+    ],
+    "family_weight_within_split": 0.25,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_development",
+    "family_group": "H_calendar_channels",
+    "case_ids": [
+      "HD01"
+    ],
+    "parent_ids": [
+      "HD01-parent"
+    ],
+    "family_weight_within_split": 0.25,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_development",
+    "family_group": "H_confidential_aliases",
+    "case_ids": [
+      "HD03"
+    ],
+    "parent_ids": [
+      "HD03-parent"
+    ],
+    "family_weight_within_split": 0.25,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_appeal_window",
+    "case_ids": [
+      "HP07"
+    ],
+    "parent_ids": [
+      "HP07-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_coverage_inventory",
+    "case_ids": [
+      "HP01",
+      "HP05"
+    ],
+    "parent_ids": [
+      "HP01-parent",
+      "HP05-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 0.5,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_crisis_staff",
+    "case_ids": [
+      "HP03"
+    ],
+    "parent_ids": [
+      "HP03-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_escrow_stagger",
+    "case_ids": [
+      "HP02"
+    ],
+    "parent_ids": [
+      "HP02-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_power_trip",
+    "case_ids": [
+      "HP04"
+    ],
+    "parent_ids": [
+      "HP04-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_respite_balance",
+    "case_ids": [
+      "HP08"
+    ],
+    "parent_ids": [
+      "HP08-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  },
+  {
+    "split": "human_protected",
+    "family_group": "H_sanitation_order",
+    "case_ids": [
+      "HP06"
+    ],
+    "parent_ids": [
+      "HP06-parent"
+    ],
+    "family_weight_within_split": 0.14285714285714285,
+    "parent_weight_within_family": 1.0,
+    "arms": [
+      "V",
+      "N",
+      "U"
+    ],
+    "human_conditions": [
+      "I",
+      "S"
+    ]
+  }
+]

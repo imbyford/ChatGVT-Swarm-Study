@@ -1,0 +1,9 @@
+{
+  "mode": "real",
+  "suite_sha256": "35b737b52e396a23db712489afb193d5949e6f61250bfda490b0a6907aea51c5",
+  "completed": true,
+  "main_real_evaluation_run": true,
+  "started_at_utc": "2026-11-08T08:57:17.650123+00:00",
+  "error": null,
+  "finished_at_utc": "2026-11-08T09:01:17.117580+00:00"
+}

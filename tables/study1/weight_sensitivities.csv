@@ -1,0 +1,48 @@
+domain,weight,scope,contrast,estimate,range95,range_label
+human,0.5,all_observed_families,theta,0.0,"[0.0, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-asymmetric-mutual-exclusion-under-local-control,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-complementary-approvals-and-omission,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-correction-publication-implementation-chain,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-directed-cycle-resource-deadlock,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-private-capacity-interdependent-handoff,theta,,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-shared-capacity-with-three-distinct-role-menus,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-time-critical-isolation-and-repair,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,0.5,HM-two-period-transactional-restoration,theta,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,all_observed_families,theta,0,"[0.0, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-asymmetric-mutual-exclusion-under-local-control,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-complementary-approvals-and-omission,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-correction-publication-implementation-chain,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-directed-cycle-resource-deadlock,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-private-capacity-interdependent-handoff,theta,,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-shared-capacity-with-three-distinct-role-menus,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-time-critical-isolation-and-repair,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,1,HM-two-period-transactional-restoration,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,all_observed_families,theta,0,"[0.0, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-asymmetric-mutual-exclusion-under-local-control,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-complementary-approvals-and-omission,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-correction-publication-implementation-chain,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-directed-cycle-resource-deadlock,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-private-capacity-interdependent-handoff,theta,,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-shared-capacity-with-three-distinct-role-menus,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-time-critical-isolation-and-repair,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+human,2,HM-two-period-transactional-restoration,theta,0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0,all_observed_families,C_minus_B,-0.375,"[-1.125, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0,AU-closed-loop-multistep-care-feedback,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0,AU-inconsistent-witness-and-recourse,C_minus_B,-1.5,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0,AU-relocation-choice-with-dependent-follow-on,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0,AU-structured-animal-preference-elicitation,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0.5,all_observed_families,C_minus_B,-0.4583333333333333,"[-1.375, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0.5,AU-closed-loop-multistep-care-feedback,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0.5,AU-inconsistent-witness-and-recourse,C_minus_B,-1.8333333333333333,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0.5,AU-relocation-choice-with-dependent-follow-on,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,0.5,AU-structured-animal-preference-elicitation,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,1,all_observed_families,C_minus_B,-0.5416666666666666,"[-1.625, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,1,AU-closed-loop-multistep-care-feedback,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,1,AU-inconsistent-witness-and-recourse,C_minus_B,-2.1666666666666665,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,1,AU-relocation-choice-with-dependent-follow-on,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,1,AU-structured-animal-preference-elicitation,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,2,all_observed_families,C_minus_B,-0.7083333333333334,"[-2.125, 0.0]",95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,2,AU-closed-loop-multistep-care-feedback,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,2,AU-inconsistent-witness-and-recourse,C_minus_B,-2.8333333333333335,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,2,AU-relocation-choice-with-dependent-follow-on,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints
+animal,2,AU-structured-animal-preference-elicitation,C_minus_B,0.0,,95% family-resampling ranges conditional on this authored suite and these checkpoints

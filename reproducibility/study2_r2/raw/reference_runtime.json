@@ -1,0 +1,48 @@
+{
+  "engine": "transformers-peft-reference",
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.20.2",
+    "peft": "0.21.2"
+  },
+  "base": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "base_file_sha256": {
+    "model.safetensors-00001-of-00002.safetensors": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+    "model.safetensors-00002-of-00002.safetensors": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+    "config.json": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670"
+  },
+  "adaption_base_identity_verified": false,
+  "adapters": {
+    "V": {
+      "route": {
+        "model_id": "study2-V-a24c16006dd0c96f",
+        "checkpoint_id": "public-id-16981019d5b35385:sha256:a24c16006dd0c96feaca5b547e993b61fd264440a49b694d7fd4b7c247fec702",
+        "expected_response_model": "study2-V-a24c16006dd0c96f"
+      },
+      "exact_fp32_gpu_tensors": 256,
+      "target_modules": 128,
+      "weight_sha256": "a24c16006dd0c96feaca5b547e993b61fd264440a49b694d7fd4b7c247fec702"
+    },
+    "N": {
+      "route": {
+        "model_id": "study2-N-885d1262accbc60a",
+        "checkpoint_id": "public-id-1f7a86523c2b5a0e:sha256:885d1262accbc60afd76333bb2ff698ff5100b7f2139f72cc4ca037aaabc490f",
+        "expected_response_model": "study2-N-885d1262accbc60a"
+      },
+      "exact_fp32_gpu_tensors": 256,
+      "target_modules": 128,
+      "weight_sha256": "885d1262accbc60afd76333bb2ff698ff5100b7f2139f72cc4ca037aaabc490f"
+    }
+  },
+  "base_precision": "bfloat16",
+  "adapter_precision": "float32",
+  "attention": "eager",
+  "use_hub_kernels": false,
+  "deterministic_algorithms": true,
+  "tf32": false,
+  "gpu": "NVIDIA A40",
+  "study_id": "study2-vnu",
+  "study2_gpu_validated": false,
+  "code_sha256": "3295732622c22b4e9e8c716f871ec52441c72f6c8e7fee653941dc41812a3a77"
+}

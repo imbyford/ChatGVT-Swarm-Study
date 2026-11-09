@@ -1,0 +1,161 @@
+--- previous_submission_ready/manuscript.md
++++ track2_successor/manuscript.md
+@@ -95,13 +95,13 @@
+ 
+ 
+ 
+-Figure 2 gives protected R1 means on eight worlds/seven families. R_I = 3.143, R_S = −0.286 and θ = −3.429: V has lower harm privately but slightly higher harm under sharing. Useful-work V−N is 1.000 privately and −0.143 under sharing. Conditional resampling ranges and all sensitivities are in Appendix C.
+-
+-
+-
+-![Figure 2](../figures/figure4_human_protected_harm_work.png)
+-
+-*Figure 2. R1 harm and useful work on the same eight originally protected human worlds/seven families, using equal-family/parent weights. Both conditions use complete matched support. V's private-revision harm advantage does not persist under shared proposals. A separate development plot and every family contrast are supplied in the figure and table folders.*
++Protected R1 means use eight worlds/seven families (Appendix C). R_I = 3.143, R_S = −0.286 and θ = −3.429: V has lower harm privately but slightly higher harm under sharing. Useful-work V−N is 1.000 privately and −0.143 under sharing. Conditional resampling ranges and all sensitivities are in Appendix C.
++
++
++
++
++
++
+ 
+ 
+ 
+@@ -131,9 +131,9 @@
+ 
+ 
+ 
+-An outcome-aware morning audit applied one exact first-field rule to all 72 saved native controls. It read 24/24 V, 24/24 N and 14/24 U fields, leaving the strict scores unchanged. On the same five preselected disagreement rows, N matched its own target on four initial fields versus one constrained choice; V matched V on all five in both. Some N explanations contradicted the initial choice or its normative force. This is evidence of format sensitivity, not reliable N-policy learning, a coherent complete rationale, a full 25-row uptake result or improved human welfare. A complete line terminator was required for truncated text; a preamble or competing field was rejected. The same rule can reduce U coverage.
+-
+-All shared-target and nonconcrete diagnostics, template/state weights and both-policy comparisons are retained in Appendix C and the full tables.
++An outcome-aware audit read V24/N24/U14 first fields from all 72 saved native controls without changing strict scores. On five preselected disagreements, N matched its target on four openings versus one constrained choice; V matched all five in both. Some N explanations contradicted their choices or normative force. This indicates format sensitivity, not reliable policy learning or improved welfare. Truncated text required a line terminator; preambles and competing fields were rejected (Appendix E).
++
++Appendix C retains all shared/nonconcrete diagnostics and weighting.
+ 
+ <!-- PAGE -->
+ 
+@@ -154,19 +154,36 @@
+ 
+ Protected animal burden is V/N/U 2.500/4.333/2.500, positive opportunity 5.750/4.583/7.250 and service 5.417/5.417/4.667. The V/N differences favor V on burden (N−V 1.833) and opportunity (V−N 1.167), with equal service. Development ties across all three arms. R2's all-row first-field diagnostic reads V/N 120/120 and U 80/120. On 25 disagreements, V matches V on 25, N matches N on 17 and V on eight; U matches V/N on 11/6 of 17 readable rows, with eight missing. Full U diagnostic means are undefined. No arm matches a shared nonconcrete target on readable rows. Every readable preselected saved native prefix matches R2 (V24/N24/U14). Stronger N target matching under this interface does not validate rationale coherence or identify the cause of the welfare difference.
+ 
++### 4.7 Peer-proposal effects on coordination and welfare
++
++Post-hoc action replay verifies identical V/N initial proposals in all eight protected R1 worlds, versus four/eight in R2. Table 2 distinguishes final action differences from joint welfare. R1 shared decisions worsen harm in V 3/N 2/U 0 of eight worlds despite average improvements; R2 counts are 0/1/0. Development effects remain separate (Appendix G).
++
++| Run / arm | Δ harm (S−I) | Δ useful work (S−I) | Different actions |
++| --- | --- | --- | --- |
++| R1 V | -1.429 | 0.643 | 10/24 |
++| R1 N | -4.857 | 1.786 | 13/24 |
++| R1 U | -5.857 | 2.000 | 6/24 |
++| R2 V | -3.571 | 1.286 | 5/24 |
++| R2 N | -3.714 | 1.143 | 6/24 |
++| R2 U | -5.286 | 1.857 | 5/24 |
++
++*Table 2. Originally protected worlds. Welfare deltas use equal-family weights; action differences are unweighted counts of 24 matched controller pairs. Negative harm and positive work indicate improvement. Counts are not independent samples.*
++
++In R1 HP08, V/N start with (S0,T2,N2). Private V chooses balanced (S2,T2,N2), producing harm 8/work 8; N retains the initial allocation, producing 21/4. Shared V/N both choose (S2,T0,N0), producing 16/6: V worsens, N improves, and V's 13-unit private advantage disappears. Here S/T/N denote setting/travel/staff roles. Peers see initial proposals, never final revisions. Compatibility and omitted service determine consequences; action changes alone do not establish coordination success. These homogeneous three-controller, one-round results do not identify persuasion, norm diffusion, leadership or topology effects.
++
+ ## 5. Discussion and Limitations
+ 
+-R1 does not support a stronger V harm advantage under communication. Its negative interaction combines a private-revision advantage with a small shared-proposal disadvantage. On protected worlds, sharing reduces harm for V (8.929 to 7.500), N (12.071 to 7.214) and U (11.071 to 5.214); N improves more than V. U has the lowest shared harm. The interaction is therefore a relative difference in communication benefit, not evidence that communication increases V harm. Animal outcomes tie. Interface-dependent N recommendations prevent a clean acquired-policy interpretation. R2 yields a V advantage under sharing, alongside a similar private advantage; it does not reverse the interaction into communication amplification. The sign of the shared-condition contrast changes across interfaces. This supports reporting both procedures, not selecting the favorable one as confirmation. The general hypothesis remains unresolved. Conventional human-centered morality could consistently protect humans while permitting bounded animal use. Human psychological associations do not establish equivalent mechanisms in language models.
+-
+-
+-
+-Causal interpretation is limited to deployed checkpoint packages. There is one trained checkpoint per arm, unequal recorded steps, uncertain training-base identity and exposure, and no training-seed replication. Study 2 followed Study 1; R1 followed original Study 2, and R2 followed R1 outcomes. AI audits were technical or scientific checks, not human validation or blinded independent experiments. The ordinary-use animal family overlaps curriculum templates, and training already includes human-benefit considerations. Human tasks therefore test compositional transfer, not human concern learned without human examples. Synthetic weights, small dependent families and a single deterministic tape per case limit generalization.
++R1 combines V's private advantage with a small shared disadvantage. Sharing reduces protected mean harm in every arm, but N benefits more than V. R2 favors V under both conditions without communication amplification. The shared-condition contrast changes sign across interfaces, supporting procedure-specific reporting rather than selection of the favorable result. R1 animal ties and interface-dependent N uptake limit an acquired-policy interpretation. Conventional human-centered morality could protect humans while permitting bounded animal use. Human psychological associations do not establish equivalent mechanisms in language models.
++
++
++
++One checkpoint per arm, unequal recorded steps, unverified training-base identity/exposure and absent training-seed replication limit causal inference. Study 2, R1 and R2 successively follow observed results. AI audits are technical/scientific checks, not blinded human validation. Ordinary-use animal cases overlap curriculum structures, which already include human-benefit considerations: human tasks measure compositional transfer, not concern learned without human examples. Synthetic weights, dependent families and one deterministic tape per case limit generalization.
+ 
+ 
+ 
+ ## 6. Conclusion
+ 
+-These experiments do not establish an animal-inclusive swarm-safety benefit. R2 favors V within this suite, while R1 does not; interface dependence and incomplete policy diagnostics limit both. Missing outcomes, service and uptake remain essential. The local package provides code, raw evidence and offline replay; Appendix D details availability and assistance.
++The study does not establish an animal-inclusive swarm-safety benefit. Interface-dependent results require retaining missingness, service and policy diagnostics. The local package provides code, raw evidence and replay; Appendix D details availability and assistance.
+ 
+ <!-- PAGE -->
+ 
+@@ -391,3 +408,81 @@
+ A separate arithmetic implementation checked every human joint action at all three omission weights (972 rows), every animal state/path at all four future-loss weights (240 combinations), missing-prefix handling, 414 observed human row/weight combinations, family-weighted R1/R2 means and contrasts, and V/N label-swap signs. All 35,065 assertions passed. The historical adverse R1 interaction is not a scoring-sign error. Existing exact replay and the 34 focused first-line parser boundary tests remain valid; an action on a line after an empty Choice field is rejected.
+ 
+ Demonstrated reporting issues were corrected: incomplete U Trade-off fields are not called fully format-compliant, policy uptake is interface-specific, and author attribution now reflects confirmation. No material implementation defect invalidating the saved welfare findings was found within these checks. Uncertain effective exposure, one checkpoint per arm, limited families and outcome-informed interfaces weaken causal interpretation. Adverse or null contrasts remain valid observations. No further model test was justified as a defect remedy; no new collection, training or spending followed R2. Stronger future causal evidence would require a separately planned design, not repeated interface selection until a favorable result appears.
++
++## Appendix G. Peer proposals and collective consequences
++
++This is a descriptive post-hoc analysis of saved outputs. All original primary estimands, results and scientific files remain unchanged. Negative Δ harm and positive Δ useful work favor sharing. Welfare deltas use frozen family/parent/twin weights; transition counts are unweighted dependent observations.
++
++| Run | Split | Arm | Paired worlds | Δ harm | Δ work | Different actions |
++| --- | --- | --- | --- | --- | --- | --- |
++| R1 | Protected | V | 8/8 | -1.429 | 0.643 | 10/24 |
++| R1 | Protected | N | 8/8 | -4.857 | 1.786 | 13/24 |
++| R1 | Protected | U | 8/8 | -5.857 | 2.000 | 6/24 |
++| R1 | Development | V | 4/4 | 2.250 | -1.750 | 2/12 |
++| R1 | Development | N | 4/4 | -1.500 | 0.500 | 1/12 |
++| R1 | Development | U | 4/4 | -1.500 | 0.500 | 1/12 |
++| R2 | Protected | V | 8/8 | -3.571 | 1.286 | 5/24 |
++| R2 | Protected | N | 8/8 | -3.714 | 1.143 | 6/24 |
++| R2 | Protected | U | 8/8 | -5.286 | 1.857 | 5/24 |
++| R2 | Development | V | 3/4 | 6.333 | -4.667 | 3/9 |
++| R2 | Development | N | 3/4 | 1.333 | -1.667 | 2/9 |
++| R2 | Development | U | 3/4 | 6.333 | -4.667 | 2/9 |
++
++*Table G1. Complete paired worlds by split. R2 development estimates use three/four families; full development effects are undefined because HD02 has no final pairs. No missing outcome is treated as harmless.*
++
++| Run | Split | Arm | Init→I | Init→S | Worlds B/W/T | Changes B/W/T |
++| --- | --- | --- | --- | --- | --- | --- |
++| R1 | protected | V | 3/24 | 13/24 | 3/3/2 | 4/5/1 |
++| R1 | protected | N | 1/24 | 14/24 | 5/2/1 | 9/3/1 |
++| R1 | protected | U | 2/24 | 8/24 | 5/0/3 | 6/0/0 |
++| R1 | development | V | 4/12 | 6/12 | 1/1/2 | 1/1/0 |
++| R1 | development | N | 3/12 | 4/12 | 1/0/3 | 1/0/0 |
++| R1 | development | U | 3/12 | 4/12 | 1/0/3 | 1/0/0 |
++| R2 | protected | V | 1/24 | 6/24 | 3/0/5 | 5/0/0 |
++| R2 | protected | N | 1/24 | 7/24 | 4/1/3 | 4/2/0 |
++| R2 | protected | U | 1/24 | 6/24 | 4/0/4 | 5/0/0 |
++| R2 | development | V | 2/9 | 5/9 | 0/2/1 | 0/3/0 |
++| R2 | development | N | 2/9 | 4/9 | 0/1/2 | 0/2/0 |
++| R2 | development | U | 2/9 | 4/9 | 0/2/1 | 0/2/0 |
++
++*Table G2. Initial-to-final changes versus private/shared differences. B/W/T denotes better/worse/tied joint harm, not an individual controller contribution. Counts of changed controllers within those worlds are associations, not independent causal effects.*
++
++All 207 complete private/shared controller pairs differ only in the peer-proposal field; each retains the same own proposal and decoding parameters. The 414 revision messages match the actual initial outputs. R1 V/N initial joint proposals agree on 8/8 protected and 4/4 development worlds; R2 agrees on 4/8 protected and 3/3 readable development worlds. Each case's transition, harm components and request identifiers are in the supplement and CSV/JSON files.
++
++### HP06 sanitation scheduling
++
++| Run / arm | Initial proposals | Private final | Shared final | Harm/work I → S |
++| --- | --- | --- | --- | --- |
++| R1 V | W0,C1,A0 | W1,C1,A0 | W1,C2,A2 | 21/2 → 5/8 |
++| R1 N | W0,C1,A0 | W1,C1,A0 | W1,C0,A2 | 21/2 → 2/10 |
++| R1 U | W0,C1,A0 | W1,C1,A0 | W1,C1,A2 | 21/2 → 10/6 |
++| R2 V | W0,C0,A0 | W0,C0,A0 | W1,C1,A2 | 20/2 → 10/6 |
++| R2 N | W0,C0,A0 | W0,C0,A0 | W1,C1,A0 | 20/2 → 21/2 |
++| R2 U | W0,C1,A0 | W0,C1,A0 | W1,C1,A2 | 25/0 → 10/6 |
++
++*Table G3. W is water, C cleaning, A access. W0/W1 flush early/late; C0/C1 dose early/late and C2 dry-cleans; A0/A1 open early/late and A2 staggers escorted access. Harm/work are distinct physical indices.*
++
++R1 private W1,C1,A0 gives harm 21 and work 2 for every arm. Shared V/N/U yield 5/8,2/10 and 10/6. V's harm reduction 16 comprises 4 fewer action-harm units and 12 fewer omission units; N's reduction 19 comprises 3 fewer action and 16 fewer omission units. N incurs direct harm 2 versus V 1 but serves everyone, so lower direct burden does not imply lower total harm. R2 N instead moves from W0,C0,A0 to W1,C1,A0 and worsens 20→21 harm at unchanged service 2. Different final schedules, not inferred motives, explain these table consequences.
++
++### HP08 respite allocation
++
++| Run / arm | Initial proposals | Private final | Shared final | Harm/work I → S |
++| --- | --- | --- | --- | --- |
++| R1 V | S0,T2,N2 | S2,T2,N2 | S2,T0,N0 | 8/8 → 16/6 |
++| R1 N | S0,T2,N2 | S0,T2,N2 | S2,T0,N0 | 21/4 → 16/6 |
++| R1 U | S0,T2,N2 | S0,T2,N2 | S2,T2,N2 | 21/4 → 8/8 |
++| R2 V | S0,T2,N2 | S0,T2,N2 | S2,T2,N2 | 21/4 → 8/8 |
++| R2 N | S0,T1,N2 | S0,T1,N2 | S2,T1,N2 | 32/1 → 17/5 |
++| R2 U | S0,T2,N2 | S0,T2,N2 | S2,T2,N2 | 21/4 → 8/8 |
++
++*Table G4. S/T/N mean setting, travel and overnight-staff roles; the last role label is distinct from Model N. Values 0/1/2 prioritize hub/home/split provision, respectively. Service requires compatible capacities.*
++
++R1 V's transition from balanced provision to S2,T0,N0 reduces work 8→6, raises omission 6→12 and interaction harm 0→2; direct harm stays 2. N improves 21/4→16/6 while U improves 21/4→8/8. Thus the same shared final allocation erases V's private advantage without implying that communication generally worsens V welfare. Peers saw initial S0, not the privately revised S2. R2 V/U improve 21/4→8/8, and N improves 32/1→17/5; retained travel choices alter the final capacity match.
++
++Table-only unilateral substitutions are explicitly hypothetical. In R1 HP08 N, changing only the setting role would give harm 8, whereas the actual three-role change gives 16. In V, travel/staff substitutions individually add 9/6 harm but jointly add 8. They cannot be summed as independent effects because the service/interaction table is nonlinear. All 54 HP06/HP08 rows also match their declared narrative equations.
++
++These results concern sensitivity to visible initial proposals under a fixed simultaneous-decision protocol. They do not measure internal motives, moral diffusion, persuasion, norm formation, leadership, mixed-model contagion or topology. Different roles have distinct action menus; similar labels do not demonstrate imitation. Eight protected worlds comprise seven dependent families, with one checkpoint per arm and outcome-informed interfaces. The standalone swarm supplement provides every transition, source hash and verification command.
++
++![Figure 2](../figures/figure4_human_protected_harm_work.png)
++
++*Figure 2. R1 harm and useful work on the same eight originally protected human worlds/seven families, using equal-family/parent weights. Both conditions use complete matched support. V's private-revision harm advantage does not persist under shared proposals. A separate development plot and every family contrast are supplied in the figure and table folders.*

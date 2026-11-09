@@ -1,0 +1,536 @@
+{
+  "checks_passed": 105,
+  "checks": [
+    {
+      "check": "R1 protected total VI",
+      "actual": 8.928571428571429,
+      "rounded_manuscript_value": 8.929
+    },
+    {
+      "check": "R1 protected total VS",
+      "actual": 7.5,
+      "rounded_manuscript_value": 7.5
+    },
+    {
+      "check": "R1 protected total NI",
+      "actual": 12.071428571428571,
+      "rounded_manuscript_value": 12.071
+    },
+    {
+      "check": "R1 protected total NS",
+      "actual": 7.214285714285714,
+      "rounded_manuscript_value": 7.214
+    },
+    {
+      "check": "R1 protected total UI",
+      "actual": 11.071428571428571,
+      "rounded_manuscript_value": 11.071
+    },
+    {
+      "check": "R1 protected total US",
+      "actual": 5.214285714285714,
+      "rounded_manuscript_value": 5.214
+    },
+    {
+      "check": "R1 protected action VI",
+      "actual": 2.5,
+      "rounded_manuscript_value": 2.5
+    },
+    {
+      "check": "R1 protected action VS",
+      "actual": 1.7857142857142858,
+      "rounded_manuscript_value": 1.786
+    },
+    {
+      "check": "R1 protected action NI",
+      "actual": 2.642857142857143,
+      "rounded_manuscript_value": 2.643
+    },
+    {
+      "check": "R1 protected action NS",
+      "actual": 1.6428571428571428,
+      "rounded_manuscript_value": 1.643
+    },
+    {
+      "check": "R1 protected action UI",
+      "actual": 2.0714285714285716,
+      "rounded_manuscript_value": 2.071
+    },
+    {
+      "check": "R1 protected action US",
+      "actual": 1.2142857142857142,
+      "rounded_manuscript_value": 1.214
+    },
+    {
+      "check": "R1 protected omission VI",
+      "actual": 6.428571428571429,
+      "rounded_manuscript_value": 6.429
+    },
+    {
+      "check": "R1 protected omission VS",
+      "actual": 5.714285714285714,
+      "rounded_manuscript_value": 5.714
+    },
+    {
+      "check": "R1 protected omission NI",
+      "actual": 9.428571428571429,
+      "rounded_manuscript_value": 9.429
+    },
+    {
+      "check": "R1 protected omission NS",
+      "actual": 5.571428571428571,
+      "rounded_manuscript_value": 5.571
+    },
+    {
+      "check": "R1 protected omission UI",
+      "actual": 9,
+      "rounded_manuscript_value": 9.0
+    },
+    {
+      "check": "R1 protected omission US",
+      "actual": 4,
+      "rounded_manuscript_value": 4.0
+    },
+    {
+      "check": "R1 protected useful_work VI",
+      "actual": 7.285714285714286,
+      "rounded_manuscript_value": 7.286
+    },
+    {
+      "check": "R1 protected useful_work VS",
+      "actual": 7.928571428571429,
+      "rounded_manuscript_value": 7.929
+    },
+    {
+      "check": "R1 protected useful_work NI",
+      "actual": 6.285714285714286,
+      "rounded_manuscript_value": 6.286
+    },
+    {
+      "check": "R1 protected useful_work NS",
+      "actual": 8.071428571428571,
+      "rounded_manuscript_value": 8.071
+    },
+    {
+      "check": "R1 protected useful_work UI",
+      "actual": 6.5,
+      "rounded_manuscript_value": 6.5
+    },
+    {
+      "check": "R1 protected useful_work US",
+      "actual": 8.5,
+      "rounded_manuscript_value": 8.5
+    },
+    {
+      "check": "human_protected weight 0.5 R_I",
+      "actual": 1.6428571428571428,
+      "rounded_manuscript_value": 1.643
+    },
+    {
+      "check": "human_protected weight 0.5 R_S",
+      "actual": -0.21428571428571427,
+      "rounded_manuscript_value": -0.214
+    },
+    {
+      "check": "human_protected weight 0.5 theta",
+      "actual": -1.8571428571428572,
+      "rounded_manuscript_value": -1.857
+    },
+    {
+      "check": "human_protected weight 1 R_I",
+      "actual": 3.142857142857143,
+      "rounded_manuscript_value": 3.143
+    },
+    {
+      "check": "human_protected weight 1 R_S",
+      "actual": -0.2857142857142857,
+      "rounded_manuscript_value": -0.286
+    },
+    {
+      "check": "human_protected weight 1 theta",
+      "actual": -3.4285714285714284,
+      "rounded_manuscript_value": -3.429
+    },
+    {
+      "check": "human_protected weight 2 R_I",
+      "actual": 6.142857142857143,
+      "rounded_manuscript_value": 6.143
+    },
+    {
+      "check": "human_protected weight 2 R_S",
+      "actual": -0.42857142857142855,
+      "rounded_manuscript_value": -0.429
+    },
+    {
+      "check": "human_protected weight 2 theta",
+      "actual": -6.571428571428571,
+      "rounded_manuscript_value": -6.571
+    },
+    {
+      "check": "human_development weight 0.5 R_I",
+      "actual": 1.25,
+      "rounded_manuscript_value": 1.25
+    },
+    {
+      "check": "human_development weight 0.5 R_S",
+      "actual": -0.25,
+      "rounded_manuscript_value": -0.25
+    },
+    {
+      "check": "human_development weight 0.5 theta",
+      "actual": -1.5,
+      "rounded_manuscript_value": -1.5
+    },
+    {
+      "check": "human_development weight 1 R_I",
+      "actual": 1.75,
+      "rounded_manuscript_value": 1.75
+    },
+    {
+      "check": "human_development weight 1 R_S",
+      "actual": -2,
+      "rounded_manuscript_value": -2
+    },
+    {
+      "check": "human_development weight 1 theta",
+      "actual": -3.75,
+      "rounded_manuscript_value": -3.75
+    },
+    {
+      "check": "human_development weight 2 R_I",
+      "actual": 2.75,
+      "rounded_manuscript_value": 2.75
+    },
+    {
+      "check": "human_development weight 2 R_S",
+      "actual": -5.5,
+      "rounded_manuscript_value": -5.5
+    },
+    {
+      "check": "human_development weight 2 theta",
+      "actual": -8.25,
+      "rounded_manuscript_value": -8.25
+    },
+    {
+      "check": "animal_protected burden V",
+      "actual": 4.083333333333334,
+      "rounded_manuscript_value": 4.083
+    },
+    {
+      "check": "animal_protected burden N",
+      "actual": 4.083333333333334,
+      "rounded_manuscript_value": 4.083
+    },
+    {
+      "check": "animal_protected burden U",
+      "actual": 1.25,
+      "rounded_manuscript_value": 1.25
+    },
+    {
+      "check": "animal_protected positive_opportunity V",
+      "actual": 4.833333333333334,
+      "rounded_manuscript_value": 4.833
+    },
+    {
+      "check": "animal_protected positive_opportunity N",
+      "actual": 4.833333333333334,
+      "rounded_manuscript_value": 4.833
+    },
+    {
+      "check": "animal_protected positive_opportunity U",
+      "actual": 6.5,
+      "rounded_manuscript_value": 6.5
+    },
+    {
+      "check": "animal_protected service V",
+      "actual": 5.666666666666666,
+      "rounded_manuscript_value": 5.667
+    },
+    {
+      "check": "animal_protected service N",
+      "actual": 5.666666666666666,
+      "rounded_manuscript_value": 5.667
+    },
+    {
+      "check": "animal_protected service U",
+      "actual": 5.666666666666666,
+      "rounded_manuscript_value": 5.667
+    },
+    {
+      "check": "animal_protected contrast burden 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast positive_opportunity 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast service 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast burden 0.5",
+      "actual": 0.0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast positive_opportunity 0.5",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast service 0.5",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast burden 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast positive_opportunity 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast service 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast burden 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast positive_opportunity 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_protected contrast service 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development burden V",
+      "actual": 1.25,
+      "rounded_manuscript_value": 1.25
+    },
+    {
+      "check": "animal_development burden N",
+      "actual": 1.25,
+      "rounded_manuscript_value": 1.25
+    },
+    {
+      "check": "animal_development burden U",
+      "actual": 3.25,
+      "rounded_manuscript_value": 3.25
+    },
+    {
+      "check": "animal_development positive_opportunity V",
+      "actual": 7,
+      "rounded_manuscript_value": 7
+    },
+    {
+      "check": "animal_development positive_opportunity N",
+      "actual": 7,
+      "rounded_manuscript_value": 7
+    },
+    {
+      "check": "animal_development positive_opportunity U",
+      "actual": 5.5,
+      "rounded_manuscript_value": 5.5
+    },
+    {
+      "check": "animal_development service V",
+      "actual": 6,
+      "rounded_manuscript_value": 6
+    },
+    {
+      "check": "animal_development service N",
+      "actual": 6,
+      "rounded_manuscript_value": 6
+    },
+    {
+      "check": "animal_development service U",
+      "actual": 6,
+      "rounded_manuscript_value": 6
+    },
+    {
+      "check": "animal_development contrast burden 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast positive_opportunity 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast service 0",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast burden 0.5",
+      "actual": 0.0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast positive_opportunity 0.5",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast service 0.5",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast burden 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast positive_opportunity 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast service 1",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast burden 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast positive_opportunity 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "animal_development contrast service 2",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "Original protected available R_I",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "Original protected available R_S",
+      "actual": 5.5,
+      "rounded_manuscript_value": 5.5
+    },
+    {
+      "check": "Original protected available theta",
+      "actual": 5.5,
+      "rounded_manuscript_value": 5.5
+    },
+    {
+      "check": "S2 protected available R_I",
+      "actual": 1.5833333333333333,
+      "rounded_manuscript_value": 1.583333
+    },
+    {
+      "check": "S2 protected available R_S",
+      "actual": 2,
+      "rounded_manuscript_value": 2
+    },
+    {
+      "check": "S2 protected available theta",
+      "actual": 0.4166666666666667,
+      "rounded_manuscript_value": 0.416667
+    },
+    {
+      "check": "Study1 total_harm BI",
+      "actual": 13.357142857142858,
+      "rounded_manuscript_value": 13.357
+    },
+    {
+      "check": "Study1 total_harm BS",
+      "actual": 13.357142857142858,
+      "rounded_manuscript_value": 13.357
+    },
+    {
+      "check": "Study1 total_harm CI",
+      "actual": 10.571428571428571,
+      "rounded_manuscript_value": 10.571
+    },
+    {
+      "check": "Study1 total_harm CS",
+      "actual": 10.571428571428571,
+      "rounded_manuscript_value": 10.571
+    },
+    {
+      "check": "Study1 useful_work BI",
+      "actual": 3.642857142857143,
+      "rounded_manuscript_value": 3.643
+    },
+    {
+      "check": "Study1 useful_work BS",
+      "actual": 3.642857142857143,
+      "rounded_manuscript_value": 3.643
+    },
+    {
+      "check": "Study1 useful_work CI",
+      "actual": 4.5,
+      "rounded_manuscript_value": 4.5
+    },
+    {
+      "check": "Study1 useful_work CS",
+      "actual": 4.5,
+      "rounded_manuscript_value": 4.5
+    },
+    {
+      "check": "Study1 interaction",
+      "actual": 0,
+      "rounded_manuscript_value": 0
+    },
+    {
+      "check": "disagreement uptake V",
+      "actual": 25,
+      "rounded_manuscript_value": 25
+    },
+    {
+      "check": "disagreement uptake N",
+      "actual": 5,
+      "rounded_manuscript_value": 5
+    },
+    {
+      "check": "disagreement uptake U",
+      "actual": 5,
+      "rounded_manuscript_value": 5
+    },
+    {
+      "check": "native valid V",
+      "actual": 9,
+      "rounded_manuscript_value": 9
+    },
+    {
+      "check": "native valid N",
+      "actual": 4,
+      "rounded_manuscript_value": 4
+    },
+    {
+      "check": "native valid U",
+      "actual": 17,
+      "rounded_manuscript_value": 17
+    }
+  ],
+  "additional_invariants": [
+    "full-primary missingness",
+    "all work aliases",
+    "native full means undefined",
+    "task counts"
+  ]
+}

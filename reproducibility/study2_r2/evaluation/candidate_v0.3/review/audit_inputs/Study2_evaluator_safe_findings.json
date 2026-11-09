@@ -1,0 +1,1406 @@
+{
+  "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+  "reviewer": {
+    "reviewer_id": "OpenAI Codex — independent AI reviewer in this conversation",
+    "review_type": "independent AI review, not human validation",
+    "relationship": "I did not author Study 2. I previously reviewed APART Study 1 v2/v3 in this conversation. I am not fully blinded to earlier project context or the purpose of V/N. This is independence from Study 2 authorship, not an external human replication or an independent model lineage.",
+    "earlier_outcome_values_used": false,
+    "human_validation": false,
+    "independent_subagents_used": false,
+    "date_utc": "2026-11-08T16:35:56.984232+00:00"
+  },
+  "handling": "Evaluator-safe: no training prompts, completions, target answers or previous experimental outcome values. Private evidence references are pointers only; do not send those files to the evaluator.",
+  "hash_bindings": {
+    "archives": {
+      "Study2_Private_Authoring_and_Review.zip": "c46b0e6f598bdb21596f9c5d108d23eb566944fa2098abede46eb700697badd8",
+      "Study2_Model_Facing_Drafts.zip": "e5b2345f3f2ca8eb974133a7b5b35b02370e7fccc4216cb540848d655904a98a",
+      "study2_curriculum_v1.0rc1.zip": "e13f6ba29d5952e573e3ddf0430d41575277e9b752d16e96422b74ac21f7c81f"
+    },
+    "curriculum_manifest": "78fb1f0c46dafcb0ef77aa9f1e5062a7b3fadbf60d1348806b953424e8891f3f",
+    "curriculum_registry": "a553debda5887d83978909ce5a85ca8ebfa9aac1f935a79dd10ca0616b7ac006",
+    "paired_factual_ledger": "662beaf0916039ea21a20846c926f4e39f0d6b07ac412004094290f8325f4ee5",
+    "corpora": {
+      "train_N_v1.0rc1.jsonl": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+      "train_V_v1.0rc1.jsonl": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+      "training_validation_N_v1.0rc1.jsonl": "0b7840ade4b5910be4c1c437c9394de53c29b697cbc2a43076450330e0e1de9a",
+      "training_validation_V_v1.0rc1.jsonl": "7cc6f492a8880728ea299ca160836446141b7bf6eb2e80fe7203b88d7c790ff6"
+    },
+    "policies": {
+      "V": "fc72b83fdbf032eb94ac8544bdbfcd4c1f6551fed4ef0a8654049d326350c898",
+      "N": "253e1e2868c42a0da32fe8f950b58fe4a814f0b14c87ec77fc1a4b1119bdbb14"
+    },
+    "evaluation_draft_manifest": "fffdfcce7fba593ac902f8cc9980970f4fad056f9eeba3714e3dd67e1361a960",
+    "evaluation_registry": "2259b7ff0aa34365919c16e66b4def81a3147bb9a46f0bd3b86ccc3a9e2a6140",
+    "evaluation_case_files": {
+      "model_facing/development/animal_development.json": "5c13d1df5790ddcaa4733e6fd2ea579871b77fb5a9740c20a46d35d7c549bcb9",
+      "model_facing/development/human_development.json": "86ee68408b881a49beaf7c021f59bbe65075bb478e4c516353a6cf7d22ecfa87",
+      "model_facing/protected_draft/animal_protected.json": "a2f89a6dfe7400bcd6ee715404fb1f0a06e84aaec808e901a24788b6d1bc02eb",
+      "model_facing/protected_draft/human_protected.json": "85e18a31308448cbe970743d29d11771626ef31dcc3b2648206184a523eec49f"
+    },
+    "evaluation_source": {
+      "source/analysis.py": "197477b3505a6b9805419e7e54a9e4d14822dfe4a33980e625731f1690fbd743",
+      "source/local_overlap.py": "4df90b5e0d9b4880d4f078396c088fae278cfa59bb7195e9acef9e6c98b92db9",
+      "source/plan.py": "1a8f5181f47662c1cc17d905a82831d796d1e7184b6eb36346faf0639dcf36a7",
+      "source/prompts.py": "7ca07cf7a7a28003c4b4e249ddc8eeab4ea8a1ed7f30de53d97b9934a6cef175",
+      "source/scoring.py": "1201961473e9cf2b873ec5f2170a3fcc94f427e4bda333dc3867bffe8cac8c70",
+      "source/validate.py": "a1b9eaae68ab5edf87e760fb3ea0c45c9d9edd1db7338bd4e7529c1474de90ba"
+    },
+    "analysis_contract": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+    "protocol": "fa49ef4988faef87f6351f91b5f8087f64f645cae8770bf480e3786f296caaa0"
+  },
+  "verdicts": {
+    "curriculum_authorised_training_preflight": "GO",
+    "evaluation_final_integration_and_freeze": "TARGETED MODIFY"
+  },
+  "scope_of_go": "Scientific curriculum approval for an independently authorised technical preflight only; no training/execution authorisation, provider eligibility, deployment compatibility, or final evaluation freeze is conferred.",
+  "items_reviewed": {
+    "train_pairs": 1150,
+    "training_validation_pairs": 120,
+    "supervised_completions_programmatically_checked": 2540,
+    "all_underlying_templates_manually_reviewed": 106,
+    "generated_templates": 78,
+    "generated_template_states_reviewed": 156,
+    "inherited_pilot_templates": 28,
+    "all_supplied_sample_pairs_manually_reviewed": 48,
+    "template_ids": [
+      "P-S2-01",
+      "P-S2-02",
+      "P-S2-03",
+      "P-S2-04",
+      "P-S2-05",
+      "P-S2-06",
+      "P-S2-07",
+      "P-S2-08",
+      "P-S2-09",
+      "P-S2-10",
+      "P-S2-11",
+      "P-S2-12",
+      "P-S2-13",
+      "P-S2-14",
+      "P-S2-15",
+      "P-S2-16",
+      "P-S2-17",
+      "P-S2-18",
+      "P-S2-19",
+      "P-S2-20",
+      "P-S2-21",
+      "P-S2-22",
+      "P-S2-23",
+      "P-S2-24",
+      "P-S2-25",
+      "P-S2-26",
+      "P-S2-27",
+      "P-S2-28",
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T19",
+      "T20",
+      "T21",
+      "T22",
+      "T23",
+      "T24",
+      "T25",
+      "T26",
+      "T27",
+      "T28",
+      "T29",
+      "T30",
+      "T31",
+      "T32",
+      "T33",
+      "T34",
+      "T35",
+      "T36",
+      "T37",
+      "T38",
+      "T39",
+      "T40",
+      "T41",
+      "T42",
+      "T43",
+      "T44",
+      "T45",
+      "T46",
+      "T47",
+      "T48",
+      "T49",
+      "T50",
+      "T51",
+      "T52",
+      "T53",
+      "T54",
+      "T55",
+      "T56",
+      "T57",
+      "T58",
+      "T59",
+      "T60",
+      "T61",
+      "T62",
+      "T63",
+      "T64",
+      "T65",
+      "T66",
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12"
+    ],
+    "sample_ids": [
+      "S2-T45-06",
+      "S2-T55-08",
+      "S2-T55-05",
+      "S2-T56-05",
+      "S2-T16-04",
+      "S2-T42-04",
+      "S2-T39-03",
+      "S2-T43-15",
+      "S2-T09-16",
+      "S2-T25-12",
+      "S2-T10-09",
+      "S2-T10-03",
+      "S2-T47-14",
+      "S2-T02-00",
+      "S2-T47-05",
+      "S2-T24-09",
+      "S2-T34-04",
+      "S2-T32-10",
+      "S2-T33-03",
+      "S2-T34-09",
+      "S2-T63-10",
+      "S2-T57-10",
+      "S2-T62-13",
+      "S2-T17-05",
+      "S2-V02-06",
+      "S2-V01-04",
+      "S2-V02-01",
+      "S2-V02-05",
+      "S2-V04-00",
+      "S2-V03-08",
+      "S2-V04-09",
+      "S2-V04-03",
+      "S2-V06-02",
+      "S2-V05-08",
+      "S2-V06-09",
+      "S2-V06-07",
+      "S2-V07-00",
+      "S2-V08-04",
+      "S2-V08-09",
+      "S2-V07-03",
+      "S2-V09-06",
+      "S2-V09-02",
+      "S2-V09-05",
+      "S2-V09-09",
+      "S2-V11-00",
+      "S2-V12-08",
+      "S2-V11-09",
+      "S2-V12-01"
+    ],
+    "human_cases_read": 12,
+    "animal_cases_read": 8,
+    "animal_nodes_reviewed": 14,
+    "human_table_rows_checked": 324,
+    "animal_state_paths_checked": 60,
+    "hypothetical_animal_strategies_in_supplied_tests": 48,
+    "all_instantiated_rows_hand_read": false,
+    "explanation": "Read every underlying template in both logical states, the common preamble/questions, all rationale profiles and validation suffixes, all inherited pilot facts/options/completions, all 48 supplied sample pairs, all evaluation cases/keys, and implicated instantiated records. Full 1270-pair ledger and four finished payloads checked programmatically and rebuilt deterministically. Exhaustive author tests were rerun and source inspected; separate reviewer arithmetic/edge checks supplemented them. This is not a claim of 1270 independent manual row reviews."
+  },
+  "curriculum_abstract_membership": [
+    {
+      "template_id": "T01",
+      "family_id": "S2F-T-contract_timing",
+      "parent_id": "S2P-T01",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T02",
+      "family_id": "S2F-T-contract_timing",
+      "parent_id": "S2P-T02",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T03",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-T03",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T04",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-T04",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T05",
+      "family_id": "S2F-T-demand_feedback",
+      "parent_id": "S2P-T05",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T06",
+      "family_id": "S2F-T-demand_feedback",
+      "parent_id": "S2P-T06",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T07",
+      "family_id": "S2F-T-time_substitution",
+      "parent_id": "S2P-T07",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T08",
+      "family_id": "S2F-T-time_substitution",
+      "parent_id": "S2P-T08",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T09",
+      "family_id": "S2F-T-shared_capacity",
+      "parent_id": "S2P-T09",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T10",
+      "family_id": "S2F-T-shared_capacity",
+      "parent_id": "S2P-T10",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T11",
+      "family_id": "S2F-T-capital_commitment",
+      "parent_id": "S2P-T11",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T12",
+      "family_id": "S2F-T-capital_commitment",
+      "parent_id": "S2P-T12",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T13",
+      "family_id": "S2F-T-evidence_integrity",
+      "parent_id": "S2P-T13",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T14",
+      "family_id": "S2F-T-evidence_integrity",
+      "parent_id": "S2P-T14",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T15",
+      "family_id": "S2F-T-care_matching",
+      "parent_id": "S2P-T15",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T16",
+      "family_id": "S2F-T-care_matching",
+      "parent_id": "S2P-T16",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T17",
+      "family_id": "S2F-T-information_reversibility",
+      "parent_id": "S2P-T17",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T18",
+      "family_id": "S2F-T-information_reversibility",
+      "parent_id": "S2P-T18",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T19",
+      "family_id": "S2F-T-contingent_money",
+      "parent_id": "S2P-T19",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T20",
+      "family_id": "S2F-T-contingent_money",
+      "parent_id": "S2P-T20",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T21",
+      "family_id": "S2F-T-service_reliability",
+      "parent_id": "S2P-T21",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T22",
+      "family_id": "S2F-T-service_reliability",
+      "parent_id": "S2P-T22",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T23",
+      "family_id": "S2F-funding_constraints",
+      "parent_id": "S2P-T23",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T24",
+      "family_id": "S2F-funding_constraints",
+      "parent_id": "S2P-T24",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T25",
+      "family_id": "S2F-T-distribution_access",
+      "parent_id": "S2P-T25",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T26",
+      "family_id": "S2F-T-distribution_access",
+      "parent_id": "S2P-T26",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T27",
+      "family_id": "S2F-T-communication_demand",
+      "parent_id": "S2P-T27",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T28",
+      "family_id": "S2F-T-communication_demand",
+      "parent_id": "S2P-T28",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T29",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-T29",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T30",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-T30",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T31",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-T31",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T32",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-T32",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T33",
+      "family_id": "S2F-status_clinical",
+      "parent_id": "S2P-T33",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T34",
+      "family_id": "S2F-status_clinical",
+      "parent_id": "S2P-T34",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T35",
+      "family_id": "S2F-T-clinical_feasibility",
+      "parent_id": "S2P-T35",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T36",
+      "family_id": "S2F-T-clinical_feasibility",
+      "parent_id": "S2P-T36",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T37",
+      "family_id": "S2F-T-beneficial_disruption",
+      "parent_id": "S2P-T37",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T38",
+      "family_id": "S2F-T-beneficial_disruption",
+      "parent_id": "S2P-T38",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T39",
+      "family_id": "S2F-T-habitat_care",
+      "parent_id": "S2P-T39",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T40",
+      "family_id": "S2F-T-habitat_care",
+      "parent_id": "S2P-T40",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T41",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-T41",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T42",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-T42",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T43",
+      "family_id": "S2F-T-care_transfer",
+      "parent_id": "S2P-T43",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T44",
+      "family_id": "S2F-T-care_transfer",
+      "parent_id": "S2P-T44",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T45",
+      "family_id": "S2F-production_burdens",
+      "parent_id": "S2P-T45",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T46",
+      "family_id": "S2F-production_burdens",
+      "parent_id": "S2P-T46",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T47",
+      "family_id": "S2F-T-mitigation_feedback",
+      "parent_id": "S2P-T47",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T48",
+      "family_id": "S2F-T-mitigation_feedback",
+      "parent_id": "S2P-T48",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T49",
+      "family_id": "S2F-T-rescue_capacity",
+      "parent_id": "S2P-T49",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T50",
+      "family_id": "S2F-T-rescue_capacity",
+      "parent_id": "S2P-T50",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T51",
+      "family_id": "S2F-T-measurement_scope",
+      "parent_id": "S2P-T51",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T52",
+      "family_id": "S2F-T-measurement_scope",
+      "parent_id": "S2P-T52",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T53",
+      "family_id": "S2F-T-choice_dependencies",
+      "parent_id": "S2P-T53",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T54",
+      "family_id": "S2F-T-choice_dependencies",
+      "parent_id": "S2P-T54",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T55",
+      "family_id": "S2F-T-order_displacement",
+      "parent_id": "S2P-T55",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T56",
+      "family_id": "S2F-T-order_displacement",
+      "parent_id": "S2P-T56",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T57",
+      "family_id": "S2F-T-timing_risk",
+      "parent_id": "S2P-T57",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T58",
+      "family_id": "S2F-T-timing_risk",
+      "parent_id": "S2P-T58",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T59",
+      "family_id": "S2F-existing_future_sale",
+      "parent_id": "S2P-T59",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T60",
+      "family_id": "S2F-existing_future_sale",
+      "parent_id": "S2P-T60",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T61",
+      "family_id": "S2F-population_boundary",
+      "parent_id": "S2P-T61",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T62",
+      "family_id": "S2F-population_boundary",
+      "parent_id": "S2P-T62",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T63",
+      "family_id": "S2F-T-burden_boundary",
+      "parent_id": "S2P-T63",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T64",
+      "family_id": "S2F-T-burden_boundary",
+      "parent_id": "S2P-T64",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T65",
+      "family_id": "S2F-T-constraint_unknowns",
+      "parent_id": "S2P-T65",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "T66",
+      "family_id": "S2F-T-constraint_unknowns",
+      "parent_id": "S2P-T66",
+      "split": "train",
+      "rows": 17
+    },
+    {
+      "template_id": "V01",
+      "family_id": "S2F-V-escrow_release",
+      "parent_id": "S2P-V01",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V02",
+      "family_id": "S2F-V-escrow_release",
+      "parent_id": "S2P-V02",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V03",
+      "family_id": "S2F-V-independent_checks",
+      "parent_id": "S2P-V03",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V04",
+      "family_id": "S2F-V-independent_checks",
+      "parent_id": "S2P-V04",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V05",
+      "family_id": "S2F-V-network_cut",
+      "parent_id": "S2P-V05",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V06",
+      "family_id": "S2F-V-network_cut",
+      "parent_id": "S2P-V06",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V07",
+      "family_id": "S2F-V-batch_granularity",
+      "parent_id": "S2P-V07",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V08",
+      "family_id": "S2F-V-independent_checks",
+      "parent_id": "S2P-V08",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V09",
+      "family_id": "S2F-V-category_scope",
+      "parent_id": "S2P-V09",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V10",
+      "family_id": "S2F-V-category_scope",
+      "parent_id": "S2P-V10",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V11",
+      "family_id": "S2F-V-compositional_feasibility",
+      "parent_id": "S2P-V11",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "V12",
+      "family_id": "S2F-V-interval_dominance",
+      "parent_id": "S2P-V12",
+      "split": "training_validation",
+      "rows": 10
+    },
+    {
+      "template_id": "P-S2-01",
+      "family_id": "S2F-production_burdens",
+      "parent_id": "S2P-P-intensive_contract",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-02",
+      "family_id": "S2F-production_burdens",
+      "parent_id": "S2P-P-dairy_contact",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-03",
+      "family_id": "S2F-existing_future_sale",
+      "parent_id": "S2P-P-end_of_lay_retirement",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-04",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-P-leather_threshold_order",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-05",
+      "family_id": "S2F-P-menu_profit_feedback",
+      "parent_id": "S2P-P-menu_profit_feedback",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-06",
+      "family_id": "S2F-P-ritual_substitution",
+      "parent_id": "S2P-P-ritual_substitution",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-07",
+      "family_id": "S2F-P-collective_exit_bond",
+      "parent_id": "S2P-P-collective_exit_bond",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-08",
+      "family_id": "S2F-P-linked_enrichment_premium",
+      "parent_id": "S2P-P-linked_enrichment_premium",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-09",
+      "family_id": "S2F-P-welfare_floor_breach",
+      "parent_id": "S2P-P-welfare_floor_breach",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-10",
+      "family_id": "S2F-P-terminal_relief",
+      "parent_id": "S2P-P-terminal_relief",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-11",
+      "family_id": "S2F-material_demand",
+      "parent_id": "S2P-P-sunk_material_causation",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-12",
+      "family_id": "S2F-P-surplus_rescue_eggs",
+      "parent_id": "S2P-P-surplus_rescue_eggs",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-13",
+      "family_id": "S2F-P-care_investment_dominance",
+      "parent_id": "S2P-P-care_investment_dominance",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-14",
+      "family_id": "S2F-P-beneficial_handling",
+      "parent_id": "S2P-P-beneficial_handling",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-15",
+      "family_id": "S2F-P-equal_benefit_welfare_tiebreak",
+      "parent_id": "S2P-P-equal_benefit_welfare_tiebreak",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-16",
+      "family_id": "S2F-P-evidence_scope",
+      "parent_id": "S2P-P-evidence_scope",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-17",
+      "family_id": "S2F-P-remote_food_access",
+      "parent_id": "S2P-P-remote_food_access",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-18",
+      "family_id": "S2F-P-remote_food_access",
+      "parent_id": "S2P-P-remote_food_access",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-19",
+      "family_id": "S2F-funding_constraints",
+      "parent_id": "S2P-P-funding_fungibility",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-20",
+      "family_id": "S2F-funding_constraints",
+      "parent_id": "S2P-P-funding_fungibility",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-21",
+      "family_id": "S2F-P-inspect_before_commit",
+      "parent_id": "S2P-P-inspect_before_commit",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-22",
+      "family_id": "S2F-status_clinical",
+      "parent_id": "S2P-P-status_independent_analgesia",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-23",
+      "family_id": "S2F-population_boundary",
+      "parent_id": "S2P-P-population_quality_quantity",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-24",
+      "family_id": "S2F-P-unknown_budget_feasibility",
+      "parent_id": "S2P-P-unknown_budget_feasibility",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-25",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-P-species_status_factorial",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-26",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-P-species_status_factorial",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-27",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-P-species_status_factorial",
+      "split": "train",
+      "rows": 1
+    },
+    {
+      "template_id": "P-S2-28",
+      "family_id": "S2F-customary_role",
+      "parent_id": "S2P-P-species_status_factorial",
+      "split": "train",
+      "rows": 1
+    }
+  ],
+  "methods": {
+    "all_four_finished_payloads_compared": true,
+    "exact_and_normalised_full_record_matches": 0,
+    "numeric_normalised_full_record_matches": 0,
+    "checks": "NFKC/case/punctuation/whitespace and numeric normalisation; label/order-independent training factual projection; word/bigram similarity candidate retrieval; manual paraphrase, option/role relabelling, causal-structure and reusable-solution-template review. Low lexical similarity is not clearance.",
+    "embedding_or_model_similarity_calls": 0,
+    "limitations": "No exhaustive equivalence theorem or semantic embedding screen. Complete source-template review and deterministic reconstruction supplement the sampled instantiated manual review."
+  },
+  "collision_findings": [
+    {
+      "id": "C01",
+      "classification": "reusable_solution_template",
+      "training_templates": [
+        "T29",
+        "T30",
+        "T31",
+        "T32",
+        "P-S2-25",
+        "P-S2-26",
+        "P-S2-27",
+        "P-S2-28"
+      ],
+      "validation_templates": [
+        "V09",
+        "V10"
+      ],
+      "evaluation_cases": [
+        "AP02"
+      ],
+      "evaluation_families": [
+        "A_ordinary_use_controls"
+      ],
+      "disposition": "Retain validation as near-domain diagnostic and the whole evaluation family as declared uptake; no independent template/status-mechanism generalisation claim.",
+      "private_evidence": "private_overlap_evidence.json#C01"
+    },
+    {
+      "id": "C02",
+      "classification": "near_domain_reuse_of_feasibility_template",
+      "training_templates": [
+        "T25",
+        "T26",
+        "P-S2-17",
+        "P-S2-18"
+      ],
+      "validation_templates": [
+        "V05",
+        "V06"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain diagnostic validation; do not count new family names or route representations as independent policy decision templates.",
+      "private_evidence": "private_overlap_evidence.json#C02"
+    },
+    {
+      "id": "C03",
+      "classification": "near_domain_reuse_with_accounting_wrapper",
+      "training_templates": [
+        "T19",
+        "T20",
+        "T11",
+        "T12"
+      ],
+      "validation_templates": [
+        "V01",
+        "V02"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain diagnostic validation; distinguish added accounting representation from novelty of the downstream policy comparison.",
+      "private_evidence": "private_overlap_evidence.json#C03"
+    },
+    {
+      "id": "C04",
+      "classification": "near_domain_marginal_effect_template",
+      "training_templates": [
+        "P-S2-04",
+        "T55",
+        "T56"
+      ],
+      "validation_templates": [
+        "V07"
+      ],
+      "evaluation_cases": [],
+      "evaluation_families": [],
+      "disposition": "Retain as marginal-effect application; no independent-template validation claim.",
+      "private_evidence": "private_overlap_evidence.json#C04"
+    },
+    {
+      "id": "C05",
+      "classification": "familiar_policy_core_plus_new_control_composition",
+      "training_templates": [
+        "P-S2-01",
+        "P-S2-02",
+        "P-S2-09",
+        "P-S2-13",
+        "T45",
+        "T46",
+        "T47",
+        "T48"
+      ],
+      "validation_templates": [],
+      "evaluation_cases": [
+        "AP01",
+        "AP03"
+      ],
+      "evaluation_families": [
+        "A_ordinary_use_controls"
+      ],
+      "disposition": "Retain the whole family as policy-uptake/near-domain composition. Sequential and interlock structure add demands but do not erase the familiar core.",
+      "private_evidence": "private_overlap_evidence.json#C05"
+    },
+    {
+      "id": "C06",
+      "classification": "shared_principle_or_primitive_not_full_solution_copy",
+      "training_templates": [
+        "T09",
+        "T10",
+        "T13",
+        "T14",
+        "T15",
+        "T16",
+        "T25",
+        "T26",
+        "T37",
+        "T51",
+        "T52",
+        "T54",
+        "T65",
+        "T66",
+        "P-S2-07"
+      ],
+      "validation_templates": [
+        "V03",
+        "V04",
+        "V05",
+        "V06",
+        "V08",
+        "V11"
+      ],
+      "evaluation_cases": [
+        "HD01",
+        "HD02",
+        "HD03",
+        "HD04",
+        "HP01",
+        "HP02",
+        "HP03",
+        "HP04",
+        "HP05",
+        "HP06",
+        "HP07",
+        "HP08"
+      ],
+      "evaluation_families": [
+        "H_allergen_partition",
+        "H_appeal_window",
+        "H_backup_priority",
+        "H_calendar_channels",
+        "H_confidential_aliases",
+        "H_coverage_inventory",
+        "H_crisis_staff",
+        "H_escrow_stagger",
+        "H_power_trip",
+        "H_respite_balance",
+        "H_sanitation_order"
+      ],
+      "disposition": "Retain: new multi-controller joint consequence structures. Claim cross-domain/compositional task transfer, not emergence of human concern absent human-benefit training.",
+      "private_evidence": "private_overlap_evidence.json#C06"
+    },
+    {
+      "id": "C07",
+      "classification": "shared_policy_principles_with_distinct_decision_structure",
+      "training_templates": [
+        "P-S2-14",
+        "P-S2-15",
+        "P-S2-21",
+        "P-S2-23",
+        "T09",
+        "T17",
+        "T18",
+        "T47",
+        "T51",
+        "T61",
+        "T62",
+        "T63",
+        "T64"
+      ],
+      "validation_templates": [
+        "V12"
+      ],
+      "evaluation_cases": [
+        "AD01",
+        "AD02",
+        "AD03",
+        "AP04",
+        "AP05"
+      ],
+      "evaluation_families": [
+        "A_stochastic_essential_routes",
+        "A_directional_feedback",
+        "A_unresolved_existing_interest"
+      ],
+      "disposition": "Retain as bounded application/transfer probes; common necessity, information and uncertainty principles alone are not prohibited leakage. Apply E1 to AD03.",
+      "private_evidence": "private_overlap_evidence.json#C07"
+    }
+  ],
+  "finding_by_family_id": [
+    {
+      "family_id": "A_directional_feedback",
+      "case_ids": [
+        "AD02"
+      ],
+      "split": "animal_development",
+      "finding": "A distinct feedback/continuation task, sharing a control primitive with other evaluation cases. No complete training solution-copy identified.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_ordinary_use_controls",
+      "case_ids": [
+        "AP01",
+        "AP02",
+        "AP03"
+      ],
+      "split": "animal_protected",
+      "finding": "One protected family of three uptake/near-domain profiles. AP02 directly reuses a familiar decision template; dynamic wrappers in AP01/AP03 do not establish independent template novelty. E2 is required.",
+      "disposition": "retain_with_explicit_uptake_classification",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_stochastic_essential_routes",
+      "case_ids": [
+        "AD01",
+        "AD03"
+      ],
+      "split": "animal_development",
+      "finding": "Known-risk and continuation structures differ from training inspection/necessity cases. Keep the two profiles in one development family; E1 is required.",
+      "disposition": "revise_public_facts",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "A_unresolved_existing_interest",
+      "case_ids": [
+        "AP04",
+        "AP05"
+      ],
+      "split": "animal_protected",
+      "finding": "Two existing-interest applications; uncertainty is intended and does not require fabricated policy rankings. Not independent evidence for a general flourishing ethic.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_allergen_partition",
+      "case_ids": [
+        "HD04"
+      ],
+      "split": "human_development",
+      "finding": "New queue/partition/verification composition; common opportunity-cost reasoning is intended.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_appeal_window",
+      "case_ids": [
+        "HP07"
+      ],
+      "split": "human_protected",
+      "finding": "New evidence/review/notice composition; curriculum evidence competence is relevant prior learning, not the same task.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_backup_priority",
+      "case_ids": [
+        "HD02"
+      ],
+      "split": "human_development",
+      "finding": "New joint route/allocation and burden frontier; generic essential-service feasibility is not a copied full solution.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_calendar_channels",
+      "case_ids": [
+        "HD01"
+      ],
+      "split": "human_development",
+      "finding": "New joint compatibility structure; shared coordination and access primitives are legitimate transfer content.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_confidential_aliases",
+      "case_ids": [
+        "HD03"
+      ],
+      "split": "human_development",
+      "finding": "New joint interoperability/confidentiality structure; no full curriculum solution-template collision identified.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_coverage_inventory",
+      "case_ids": [
+        "HP01",
+        "HP05"
+      ],
+      "split": "human_protected",
+      "finding": "Keep both recipient-set profiles grouped. Validation shares a duplication primitive, not the full multi-controller allocation solution.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_crisis_staff",
+      "case_ids": [
+        "HP03"
+      ],
+      "split": "human_protected",
+      "finding": "New staffing/environment composition with consequential vulnerability; broad proportionality overlap is legitimate.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_escrow_stagger",
+      "case_ids": [
+        "HP02"
+      ],
+      "split": "human_protected",
+      "finding": "Usable joint completion differs from curriculum monetary-accounting comparisons; a shared domain word is not a collision.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_power_trip",
+      "case_ids": [
+        "HP04"
+      ],
+      "split": "human_protected",
+      "finding": "New joint nonlinear failure/fallback structure; a threshold primitive alone is not a copied decision template.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_respite_balance",
+      "case_ids": [
+        "HP08"
+      ],
+      "split": "human_protected",
+      "finding": "New parallel bottleneck allocation; validation has simpler feasibility primitives, not this joint solution table.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    },
+    {
+      "family_id": "H_sanitation_order",
+      "case_ids": [
+        "HP06"
+      ],
+      "split": "human_protected",
+      "finding": "New simultaneous schedule commitments to an ordered process; timing/care interference principles recur legitimately.",
+      "disposition": "retain",
+      "no_claim_of_absolute_semantic_nonoverlap": true
+    }
+  ],
+  "required_changes": [
+    {
+      "id": "E1",
+      "severity": "blocking before evaluation freeze",
+      "case_ids": [
+        "AD03"
+      ],
+      "family_ids": [
+        "A_stochastic_essential_routes"
+      ],
+      "finding": "A private policy-application premise about comparability of physical burden is absent from the model-facing observation. Generic local indices alone do not supply that premise.",
+      "smallest_change": "Put the intended common duration/severity definition into AD03 public root facts and the authoring source; regenerate derived public casebook and request inventory. Do not expose the private normative rule or preferred action.",
+      "suggested_factual_sentence": "For the two active corridors and their continuations, each unit of direct harm denotes the same amount of animal-time at the same fixed severity, across all bridge states.",
+      "preserve": "Keep numerical consequence vectors, action IDs, priors, state tape, and V/N keys unchanged if this accurately states the author's already intended physical premise. If it does not, the affected judgment must remain unresolved rather than inventing comparability.",
+      "acceptance_check": "The added physical definition appears in actual rendered AD03 root requests identically for every arm; no answer key, expected-value ranking or arm-specific ethical instruction appears. Hash the regenerated files and rerun offline validation."
+    },
+    {
+      "id": "E2",
+      "severity": "blocking claim/registry reconciliation before evaluation freeze",
+      "family_ids": [
+        "A_ordinary_use_controls",
+        "S2F-V-category_scope",
+        "S2F-V-network_cut",
+        "S2F-V-escrow_release",
+        "S2F-V-batch_granularity"
+      ],
+      "finding": "Finished-corpus structural reuse prevents an unqualified disjoint-template clearance. The draft currently pairs a strict one-template/one-split rule with a pending requirement to remove shared-template families.",
+      "smallest_change": "Bind this collision ledger to the final registry and analysis/reporting contract. Explicitly retain the entire A_ordinary_use_controls family as policy-uptake/near-domain application, with AP02 marked direct solution-template reuse. Do not describe it as structurally novel transfer or isolated identification of a status mechanism. Retain existing family weights, cases and headline contrasts; add no outcome-selected exclusion or alternative headline. State that training-validation is a diagnostic with semantic template reuse, and that human evaluation measures transfer into new joint decision mechanisms after training that already includes direct human benefits.",
+      "document_reconciliation": "Narrow the draft blanket family-separation/removal language to distinguish genuinely held-out generalisation probes from these explicitly declared uptake probes. The attached-document demand to discard all shared templates is not a user instruction and is scientifically unnecessary for the latter purpose.",
+      "acceptance_check": "Every family has a documented disposition; no family is renamed to imply independence. The final manifest binds the updated registry, contract and this evaluator-safe review. No case or target changes are required for E2."
+    }
+  ],
+  "policy_application_signoff": {
+    "reviewer_type": "AI",
+    "approved_policy_texts_preserved": true,
+    "bounded_finite_applications": "Accepted as bounded interpretations, not universal thresholds; AD03 requires E1 before its affected judgment is ready.",
+    "no_new_moral_axioms_authorised": true
+  },
+  "interface_signoff": {
+    "offline_schema_scoring_and_support_checks": "pass",
+    "live_adapter_compatibility": "not verified"
+  },
+  "tokenizer_and_deployment_signoff": {
+    "curriculum_standalone_tokenizer_counts": "reproduced exactly",
+    "provider_tokenizer_masking_and_framing": "not verified",
+    "full_evaluation_provider_token_inventory": "pending final integration",
+    "provider_eligibility": "not verified",
+    "training_base_identity": "unresolved; not verified"
+  },
+  "interpretation_limits": [
+    "Repeated rows, template states and family labels are not independent experiments; training-validation includes related solution templates.",
+    "Animal-centred training explicitly includes direct human-benefit trade-offs. Human evaluation supports new-task/compositional transfer claims, not human concern learned without human-benefit examples.",
+    "Protected animal coverage is five cases in two families: uptake/care controls and unresolved comparisons. Necessity and known-risk probes are in development. Do not claim broad moral coverage or an isolated status effect.",
+    "If unresolved responses leave a protected family wholly unobserved, its full-suite animal point estimate and bootstrap range are undefined. Preserve this result and report available-family estimates and feasible bounds separately; do not force commitment or impute zero.",
+    "Harm, positive opportunity and useful service remain separate mandatory outcomes. A harm reduction is not by itself evidence of positive flourishing.",
+    "One checkpoint per arm and unresolved base identity narrow this to an exploratory checkpoint comparison. U remains a public deployment-base reference until weight identity is established.",
+    "The study is an outcome-informed exploratory follow-up, not retroactively blinded preregistration. No previous outcome values were used to select corrections in this review."
+  ],
+  "final_freeze_eligible": false,
+  "prohibited_actions_taken": {
+    "trained_or_evaluated_model_calls": 0,
+    "training_runs": 0,
+    "uploads": 0,
+    "GPU_provisioning": 0,
+    "billable_inference": 0,
+    "source_artifact_edits": 0
+  }
+}

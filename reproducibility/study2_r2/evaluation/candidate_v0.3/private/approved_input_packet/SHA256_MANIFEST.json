@@ -1,0 +1,12 @@
+{
+  "purpose": "Transfer integrity, not final freeze or authorization",
+  "files": {
+    "ABSTRACT_CURRICULUM_EXCLUSIONS_v0.2.md": "5b825d3fc41a320f12d5cd4fef748f355f2535dd964c4db8f34037a4cffa542b",
+    "POLICIES_v0.2.md": "12a30014c90e82645d0742007b2472dbe5131f5e516bcb46137c9df7d2a84e17",
+    "START_HERE.md": "c81856332c3730ebcd59da643032bda3821a2886fdcc44f19f6b998fcbc2723d",
+    "study2_evaluator_handoff/MANIFEST.json": "78c7fa330757483e20dad2419b72e0393dc725520c88c20073302a206784d976",
+    "study2_evaluator_handoff/START_HERE.md": "d9354b63d4c3e8dd11342d4c46660b3a5d35cfc615233235155ac367070fbdcc",
+    "study2_evaluator_handoff/analysis_contract.v1.json": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+    "study2_evaluator_handoff/interface.json": "1252f242ee831af4a0b23d6b6a0b5e655fcd118dbb05eb25dea9c961c5244c36"
+  }
+}

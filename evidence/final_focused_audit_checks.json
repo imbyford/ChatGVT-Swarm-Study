@@ -1,0 +1,287 @@
+{
+  "scope": "Post-collection offline focused audit; no frozen code, scores or observations changed",
+  "parser_sha256": "1090715af6bd95ed269022fa7d471eded31fc754fa815e7549bd8da137ff23b1",
+  "boundary_tests_passed": 34,
+  "boundary_tests": [
+    {
+      "raw": "Choice:\nA\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: \nA",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "\nChoice:\r\nA\r\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice:\nChoice: A\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Preamble\nChoice: A\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: A or B\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: A Choice: B\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: A; B\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: AA\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: A Reason: yes\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice:",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice:",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: ",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: ",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: \"A",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: \"A",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "\n\n",
+      "finish": "stop",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "\n\n",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\n",
+      "finish": "length",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "\n \nChoice: A\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "\n \nChoice: A\n",
+      "finish": "length",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\r\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\r\n",
+      "finish": "length",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "choice: `A`.\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "choice: `A`.\n",
+      "finish": "length",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\nChoice: B\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A\nChoice: B\n",
+      "finish": "length",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "A",
+      "passed": true
+    },
+    {
+      "raw": "Choice: A",
+      "finish": "length",
+      "expected_status": "truncated",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice:\nA",
+      "finish": "length",
+      "expected_status": "invalid",
+      "expected_choice": null,
+      "passed": true
+    },
+    {
+      "raw": "Choice: B\nChoice: A\n",
+      "finish": "stop",
+      "expected_status": "valid",
+      "expected_choice": "B",
+      "passed": true
+    }
+  ],
+  "multiline_action_rejected": true,
+  "later_line_conflict_rule": "First exact field remains irrevocable; later fields are retained but not used. Competing values on the first line are invalid.",
+  "historical_U_extractor_valid": 17,
+  "historical_U_without_complete_Trade_off_field": [
+    {
+      "request_id": "native/S2-V09-01/U",
+      "raw": "Choice: B\nReason: The verified individual entry explicitly establishes the companion category, which overrides the group heading's food designation; therefore, the animal is not eligible for the food use, making the trade-off impossible and the only valid action to continue funded care.",
+      "historical_parsed": {
+        "choice": "B",
+        "policy_status_text_present": false,
+        "rationale_format": false,
+        "status": "valid"
+      },
+      "response_sha256": "37aa5aea3ed3800cd4261455bc30aceff4b9c4f2561eb929d76a4b50ae41825e"
+    },
+    {
+      "request_id": "native/S2-V03-00/U",
+      "raw": "Choice / Trade-off / Reason.\nChoice: A\nReason: The facts stipulate that the underlying observations are established and the provenance is documented, satisfying the requirement for a qualified conclusion; independent replication is explicitly absent, making Option B impossible to execute on these specific facts, while Option A is the only action that can be taken without inventing new data or violating the constraint against inferring permission.",
+      "historical_parsed": {
+        "choice": "A",
+        "policy_status_text_present": false,
+        "rationale_format": false,
+        "status": "valid"
+      },
+      "response_sha256": "26f0a88052b7d3b0eda925749cd50fdec40f9c9d6aa9483ce39ecfdddcb65d25"
+    },
+    {
+      "request_id": "native/S2-V03-01/U",
+      "raw": "Choice / Trade-off / Reason\nChoice: A\nReason: The facts stipulate that the provenance of the reports is documented and no other evidence exists, making the publication of the qualified conclusion the only available action; independent replication is not an option because the record explicitly states the correction does not create another sample.",
+      "historical_parsed": {
+        "choice": "A",
+        "policy_status_text_present": false,
+        "rationale_format": false,
+        "status": "valid"
+      },
+      "response_sha256": "a63b4cccf58cf80f459e282c00bc9da6f12063838337fa7b827dd09163263026"
+    }
+  ],
+  "historical_scoring_and_model_binding": "Reviewer reports no historical mismatch; original results retained, not reinterpreted as implementation failure.",
+  "parser_matches_precollection_freeze": true,
+  "saved_GUIDE_readable_fields_confirmed_on_actual_first_nonblank_line": 62,
+  "saved_GUIDE_rows_inspected": 72
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "C01",
+    "claim": "Study 1 does not show the proposed B advantage or communication amplification.",
+    "file": "evidence/study1_analysis.json",
+    "sha256": "6dd388dbf1e8e058a28b200281b7b0139899c1d89b7c42870aa4feedb760bab4",
+    "locator": "human/estimates; animal",
+    "support": "14/16 human worlds, 7/8 families; 16 animal pairs",
+    "interpretation_limit": "Exploratory B/C package comparison; missing human family; one animal status-twin drives difference."
+  },
+  {
+    "id": "C02",
+    "claim": "Original Study 2 full protected human contrasts are undefined.",
+    "file": "evidence/original_study2_analysis.json",
+    "sha256": "bf600912684d940b7b1cb03e49b4db518b68c22e356cc21e3eb4cb92854899dd",
+    "locator": "human/human_protected/1/metrics/total/primary",
+    "support": "Two common-four-cell worlds/families; zero common-six worlds",
+    "interpretation_limit": "Available R_S=theta=5.5 is not a full-suite benefit."
+  },
+  {
+    "id": "C03",
+    "claim": "S1/S2 recover 20/37 commitments and 44/55 human cells.",
+    "file": "evidence/original_sensitivity.json",
+    "sha256": "40d6a5683f0de38713a0e880c4f5744fa3000bebb6ef844468e0fecc3ac604e5",
+    "locator": "modes/*/counts_by_arm; modes/*/physical",
+    "support": "302 original started responses, same raw text",
+    "interpretation_limit": "No new calls or uncalled-branch backfill; S2 still lacks one protected family."
+  },
+  {
+    "id": "C04",
+    "claim": "R1 six protected human means and contrasts use complete matched support.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "human/human_protected/1",
+    "support": "8 worlds / 7 families; all six cells",
+    "interpretation_limit": "Synthetic index, one checkpoint per arm, originally protected cases already observed."
+  },
+  {
+    "id": "C05",
+    "claim": "R1 protected theta remains negative at all three omission weights.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "human/human_protected/*/metrics/total/primary",
+    "support": "Same complete support at weights .5/1/2",
+    "interpretation_limit": "Sensitivity over stipulated weights, not general proof."
+  },
+  {
+    "id": "C06",
+    "claim": "R1 development contrasts are separate and adverse for swarm advantage.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "human/human_development",
+    "support": "4 worlds / 4 families",
+    "interpretation_limit": "Development is never pooled into the protected headline."
+  },
+  {
+    "id": "C07",
+    "claim": "R1 V/N animal burden, opportunity and service tie at every weight.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "animal/*/*/channels",
+    "support": "All 8 cases; 2 families in each split",
+    "interpretation_limit": "Identical observed actions do not establish policy identity or general equivalence."
+  },
+  {
+    "id": "C08",
+    "claim": "U animal results differ by development/protected split.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "animal/*/1/channels/*/three_arm_means",
+    "support": "3 development and 5 protected cases",
+    "interpretation_limit": "U is a public deployment-base reference, not verified training-start control."
+  },
+  {
+    "id": "C09",
+    "claim": "Separate animal factual and exact policy-status performance is weak.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "policy_diagnostics/animal_protected",
+    "support": "5 reached nodes per arm; choice applicability varies",
+    "interpretation_limit": "Validity imposed by grammar is not correct factual or moral classification."
+  },
+  {
+    "id": "C10",
+    "claim": "V matches its target on 25/25 disagreements; N own matches 5/25, as does U.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "uptake/uptake/different",
+    "support": "25 related validation prompts; 5 template/state groups",
+    "interpretation_limit": "Constrained-interface observation; later saved native initial fields qualify global failure-to-learn claims."
+  },
+  {
+    "id": "C11",
+    "claim": "Shared-target and nonconcrete outcomes are reported separately.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "uptake/uptake/same; uptake/uptake/shared_nonconcrete",
+    "support": "85 shared-concrete and 10 shared-nonconcrete rows",
+    "interpretation_limit": "Equal-template/state means differ from raw row fractions."
+  },
+  {
+    "id": "C12",
+    "claim": "Native V/N/U extractability is 9/4/17 of 24; N disagreement native support is zero.",
+    "file": "evidence/r1_analysis.json",
+    "sha256": "407c6fd9299a1fa27fab5fe3151364c37534eb7256cb58e238f83c64c2e41638",
+    "locator": "uptake/native; native_comparison",
+    "support": "24 preselected rows per arm; same rows in both formats",
+    "interpretation_limit": "Full native means undefined; no format invariance claim from selective paired support."
+  },
+  {
+    "id": "C13",
+    "claim": "R1 completed 925 requests and all physical trajectories; all 42 bad outputs were native.",
+    "file": "evidence/r1_verification.json",
+    "sha256": "27a97be728746d7dd946ec5f9ec99101d9c3769e30e6a25d02cd1ce453b88533",
+    "locator": "requests_by_task; response_status_counts",
+    "support": "24 fixtures + 901 non-fixture calls",
+    "interpretation_limit": "Fixtures are technical evidence, never treatment results."
+  },
+  {
+    "id": "C14",
+    "claim": "Exact runtime identities and adapter disabling were checked.",
+    "file": "evidence/r1_verification.json",
+    "sha256": "27a97be728746d7dd946ec5f9ec99101d9c3769e30e6a25d02cd1ce453b88533",
+    "locator": "all_model_routes_verified; exact_adapter_gpu_tensors_per_arm",
+    "support": "All 925 requests; 256 tensors/128 modules per adapter",
+    "interpretation_limit": "Trusted-host evidence; offline package does not repeat omitted-weight GPU verification."
+  },
+  {
+    "id": "C15",
+    "claim": "V/N training recipe and provenance limitations remain disclosed.",
+    "file": "evidence/original_study2_methods.txt",
+    "sha256": "4a9be456f6e6b1846e30b5bc33286463c6d68fb857f905d2a464799c7a440ffc",
+    "locator": "Training and model-provenance paragraphs",
+    "support": "One exposed artifact per arm; V23/N24 steps",
+    "interpretation_limit": "Requested batch8 differs from recorded batch1; starting weights, effective exposure and terminal selection unverified."
+  },
+  {
+    "id": "C16",
+    "claim": "R1 is an explicitly post-result interface follow-up.",
+    "file": "evidence/r1_analysis_contract.txt",
+    "sha256": "21d03cddc410ff6ecf4d370f286ac4acc3b74d93dc8f7d15994dd917492d22d3",
+    "locator": "Entire precollection contract",
+    "support": "New R1 freeze before new outputs; original results already observed",
+    "interpretation_limit": "Not blinded confirmation; AI reviews are not human validation."
+  },
+  {
+    "id": "C17",
+    "claim": "Human harm, service aliases, companion animal metrics and support rules remain fixed.",
+    "file": "evidence/r1_analysis_contract.txt",
+    "sha256": "21d03cddc410ff6ecf4d370f286ac4acc3b74d93dc8f7d15994dd917492d22d3",
+    "locator": "Physical scoring and support paragraphs",
+    "support": "All frozen cells/trajectories and weights",
+    "interpretation_limit": "No combined welfare score; no zero-harm imputation."
+  },
+  {
+    "id": "C18",
+    "claim": "R1 GPU deletion verified; observed deduction US$0.465588.",
+    "file": "evidence/resource_shutdown_summary.json",
+    "sha256": "2fbbe7c2d6c0789a71a5df8de01e9b55bde5d3eef3bf04462f0ef1b9abd6b327",
+    "locator": "Entire sanitized record",
+    "support": "Saved post-run check, 46.431 minutes rental",
+    "interpretation_limit": "Itemized posting may lag; not a fresh account polling claim."
+  },
+  {
+    "id": "C19",
+    "claim": "The original four literature sources were verified; additional morning sources have a separate ledger.",
+    "file": "sources/verified_references.json",
+    "sha256": "4e00013fd664c5614ec3299ef38e36cc02969bcdac57a588411ef30da8084e33",
+    "locator": "references",
+    "support": "Four cited papers",
+    "interpretation_limit": "No external paper is evidence for this study’s own safety hypothesis."
+  },
+  {
+    "id": "C20",
+    "claim": "Source inputs and executed files were preserved.",
+    "file": "evidence/source_inventory.json",
+    "sha256": "14f4afca8caf899b8f77cc87455ae9318ad0b283ffd0d3300600403804282e45",
+    "locator": "All entries",
+    "support": "33 copied manuscript evidence/table sources",
+    "interpretation_limit": "This manuscript task writes only to its separate workspace; pre-sprint upstream chronology requires author confirmation."
+  },
+  {
+    "id": "C21",
+    "claim": "Saved native first-field readability V/N/U24/24/14; N own-policy4/5 versus1/5 constrained on the same selected disagreements.",
+    "file": "evidence/first_field_audit.json",
+    "sha256": "5b43f0346a9046fdb28d39f1daefdc8222d7f76b53111bc823ac4463068057f1",
+    "locator": "summary;records",
+    "support": "All72 fixed native controls; same5 selected disagreement rows",
+    "interpretation_limit": "Post-hoc initial fields, not coherent full answers or a full25-row diagnostic."
+  },
+  {
+    "id": "C22",
+    "claim": "Specific N explanations contradict choices, facts or normative force.",
+    "file": "evidence/rationale_conflict_examples.json",
+    "sha256": "560277a30352e6e0a4a0699642d6d2a2033601bea12012d578b6d4e63c7c2973",
+    "locator": "examples",
+    "support": "Three illustrative saved N responses",
+    "interpretation_limit": "Qualitative outcome-aware examples; not exhaustive scoring and never inclusion criteria."
+  },
+  {
+    "id": "C23",
+    "claim": "R2 protected R_I3.143, R_S3.000, theta−.143; full six-cell support.",
+    "file": "evidence/r2_analysis.json",
+    "sha256": "1175bdd66b4b20c3f7751811b0dbb087ed4c55fa455af2a4d3f7d18eaf8df4b3",
+    "locator": "human/human_protected/1",
+    "support": "8 worlds/7 families, all48 protected cells",
+    "interpretation_limit": "Outcome-informed sensitivity, not robust confirmation; no positive communication amplification."
+  },
+  {
+    "id": "C24",
+    "claim": "R2 development full means undefined; available R_I0,R_S/theta−5.",
+    "file": "evidence/r2_analysis.json",
+    "sha256": "1175bdd66b4b20c3f7751811b0dbb087ed4c55fa455af2a4d3f7d18eaf8df4b3",
+    "locator": "human/human_development",
+    "support": "3/4 families; HD02 missing for every arm",
+    "interpretation_limit": "No harmless imputation; available-family contrast is adverse for V."
+  },
+  {
+    "id": "C25",
+    "claim": "R2 protected animal N−V burden1.833, V−N opportunity1.167, service0.",
+    "file": "evidence/r2_analysis.json",
+    "sha256": "1175bdd66b4b20c3f7751811b0dbb087ed4c55fa455af2a4d3f7d18eaf8df4b3",
+    "locator": "animal/animal_protected/1",
+    "support": "5 cases/2 families; complete three-arm support",
+    "interpretation_limit": "Near-domain structural overlap; three distinct synthetic channels, no composite score."
+  },
+  {
+    "id": "C26",
+    "claim": "R2 N own recommendations17/25 versus5/25 in R1; V25/25 in both; U6/17 own-N matches with8 missing.",
+    "file": "evidence/r2_format_comparisons.json",
+    "sha256": "f50b7954eb68cb4472e37789d1bc1b111ef13e5faef70c01cdbedfb512b012d5",
+    "locator": "summary/different;rows",
+    "support": "All25 disagreement rows per arm; U17 readable",
+    "interpretation_limit": "Format changes expression; no rationale or causal moral-transfer claim."
+  },
+  {
+    "id": "C27",
+    "claim": "All readable preselected saved native prefixes match R2: V24,N24,U14.",
+    "file": "evidence/r2_format_comparisons.json",
+    "sha256": "f50b7954eb68cb4472e37789d1bc1b111ef13e5faef70c01cdbedfb512b012d5",
+    "locator": "summary/all",
+    "support": "Same24 preselected rows per arm",
+    "interpretation_limit": "Descriptive consistency, not an independent selection or ranking gate."
+  },
+  {
+    "id": "C28",
+    "claim": "R2 retained720 requests,43 invalid fields,66/72 complete human cells and24 animal trajectories.",
+    "file": "evidence/r2_verification.json",
+    "sha256": "96b55fd288c526ff000ba758d2b0ccdb4472660cf230aa3425b940d8060dc8cc",
+    "locator": "requests_by_task; response_status_counts; independent_human_table_checks",
+    "support": "24fixtures,336physical,360validation;92160reserved tokens",
+    "interpretation_limit": "Three wrong-authority physical labels;40U validation fields. No retries or missing-outcome replacement."
+  },
+  {
+    "id": "C29",
+    "claim": "R2 exact replay, independent arithmetic and all720 identity/prompt/first-token stopping checks passed.",
+    "file": "evidence/r2_verification.json",
+    "sha256": "96b55fd288c526ff000ba758d2b0ccdb4472660cf230aa3425b940d8060dc8cc",
+    "locator": "Entire record",
+    "support": "198human weighted cells;96animal weighted paths",
+    "interpretation_limit": "Saved trusted-host evidence; weights omitted from offline distribution."
+  },
+  {
+    "id": "C30",
+    "claim": "Additional literature is version-specific and primary-source checked.",
+    "file": "evidence/morning_source_verification.json",
+    "sha256": "521269557ec65697f0cd818c71556d94239b322ab04a2c9a2f7a230db560f6bf",
+    "locator": "Tam2024;Piatti2024;Du2024;Caviola2019",
+    "support": "Sources used only for bounded motivating claims",
+    "interpretation_limit": "No cited study establishes this experiment’s animal-to-human welfare hypothesis."
+  },
+  {
+    "id": "C31",
+    "claim": "R2 GPU was deleted after 13.043 minutes; observed charge US$0.130319; no active pods remain.",
+    "file": "evidence/r2_resource_shutdown.json",
+    "sha256": "963ae2cb5ce642f58c1758ff34ab0b75a74b86d5c304d02aea68140dc73e60f8",
+    "locator": "Entire sanitized record",
+    "support": "Fresh post-deletion account and pod checks; one allocation",
+    "interpretation_limit": "Observed credit deduction, not a finalized itemized invoice; no further allocation or payment."
+  },
+  {
+    "id": "C32",
+    "claim": "The unchanged frozen R2 parser passes 34 newline, EOS, incomplete-field and conflict checks.",
+    "file": "evidence/final_focused_audit_checks.json",
+    "sha256": "bd29a6646b3e181793f74b2b88568264c3a29679b2937ba896408d0272436e36",
+    "locator": "boundary_tests; parser_matches_precollection_freeze",
+    "support": "Post-collection read-only checks; all 62 readable GUIDE fields also occur on the actual first nonblank line",
+    "interpretation_limit": "Does not revise collection, extraction or historical scores; later lines cannot revise the first exact field."
+  },
+  {
+    "id": "C33",
+    "claim": "Three historical U extractor-valid native choices lack a complete Trade-off field.",
+    "file": "evidence/final_focused_audit_checks.json",
+    "sha256": "bd29a6646b3e181793f74b2b88568264c3a29679b2937ba896408d0272436e36",
+    "locator": "historical_U_without_complete_Trade_off_field",
+    "support": "Exact raw evidence for 3 of 17 extractor-valid U native responses",
+    "interpretation_limit": "Extractor validity is not full format compliance; no score change."
+  },
+  {
+    "id": "C34",
+    "claim": "Author confirms independent UK affiliation and no project-specific work before 6 November 2026.",
+    "file": "evidence/author_confirmations.json",
+    "sha256": "5678b7b510a3211d3bd70fda7c4763be5e2360679d7b80da60ef38b87b5d129a",
+    "locator": "author;affiliation;project_specific_work_before_2026_11_06",
+    "support": "Author statement, not inferred from timestamps",
+    "interpretation_limit": "No university or Apart research affiliation asserted."
+  },
+  {
+    "id": "C35",
+    "claim": "Full V/N ingestion is preserved; steps23/24 and effective exposure unverified;540 normalized training factual records.",
+    "file": "evidence/training_reassessment.json",
+    "sha256": "8d7a6ecbd71384285e27393d6091a473acdec5fababa56ee92b426411a2132e0",
+    "locator": "arms;normalized_factual_repetition",
+    "support": "1150 submitted/exported rows per arm;all256 adapter tensors differ",
+    "interpretation_limit": "Local token counts are not verified provider-supervised exposure;weights excluded from ZIP."
+  },
+  {
+    "id": "C36",
+    "claim": "N policy-expression improvement is concentrated in three disagreement templates.",
+    "file": "evidence/uptake_reassessment.json",
+    "sha256": "963acc2907759428c74ca43cf9970ef251a96f96cc31f924c9af009b1f80a65f",
+    "locator": "N_disagreement_by_template",
+    "support": "Five templates with five paired prompts each;all25 retained",
+    "interpretation_limit": "Post-result descriptive breakdown, not new independent tests or proof of rationale coherence."
+  },
+  {
+    "id": "C37",
+    "claim": "Exhaustive consequence and saved-result checks find no demonstrated scoring defect.",
+    "file": "evidence/scoring_reassessment.json",
+    "sha256": "184663c37b7d5919482793f185315376fd2202fad53a7fe7f829b87439b03fe6",
+    "locator": "assertions;stages",
+    "support": "972 human rows;240 animal path/weights;414 observed human row/weights;35065assertions",
+    "interpretation_limit": "Implementation-owner independent arithmetic, not independent human scientific validation."
+  },
+  {
+    "id": "C38",
+    "claim": "Added literature uses verified primary sources and bounded mechanism claims.",
+    "file": "sources/AUTHOR_UPDATE_SOURCE_LEDGER.json",
+    "sha256": "f9a247ae59a8fdb377bd2438fae67bdcc923d2f5f3da81b591d693c93d31948d",
+    "locator": "entries",
+    "support": "Direct animal midtraining, four human-psychology sources, speciesist bias, cross-domain and interface sources",
+    "interpretation_limit": "Brazilek currentv4;human transfer retention distinguished from animal benchmark degradation."
+  },
+  {
+    "id": "C39",
+    "claim": "Protected/development within-arm harm/work communication effects are recomputed separately for R1 and R2.",
+    "file": "swarm_analysis/peer_proposal_analysis.json",
+    "sha256": "b9172d1112e43b507c4ef97c7bad69180d1c7aacb9d4338f1ded81b6fdefed1e",
+    "locator": "summary/*/*/models/*/deltas",
+    "support": "8 protected worlds/7 families;4 development families exceptR2 observes3",
+    "interpretation_limit": "Descriptive post-hoc;S−I sign, family weights;fullR2 development effect undefined."
+  },
+  {
+    "id": "C40",
+    "claim": "R1 V/N initial vectors agree8/8 and final action differencesV10/N13/U6 of24;R2 initial agreement4/8 and differences5/6/5.",
+    "file": "swarm_analysis/peer_proposal_analysis.json",
+    "sha256": "b9172d1112e43b507c4ef97c7bad69180d1c7aacb9d4338f1ded81b6fdefed1e",
+    "locator": "summary/*/human_protected",
+    "support": "All protected initial/rawfinal fields;role-specific actions",
+    "interpretation_limit": "Action counts are dependent observations, not policy imitation or independent trials."
+  },
+  {
+    "id": "C41",
+    "claim": "HP06 R1 sharing improves all arms;R2 N worsens20→21 harm with service2 unchanged.",
+    "file": "swarm_analysis/peer_proposal_analysis.json",
+    "sha256": "b9172d1112e43b507c4ef97c7bad69180d1c7aacb9d4338f1ded81b6fdefed1e",
+    "locator": "cases where case_id=HP06",
+    "support": "Exact initial/private/shared action traces;both interfaces;all3arms",
+    "interpretation_limit": "Schedule compatibility and deterministic consequences;no inferred motives."
+  },
+  {
+    "id": "C42",
+    "claim": "HP08 R1 sharing erases V’s13-unit private advantage:V8→16 and N21→16 harm,workV8→6 andN4→6.",
+    "file": "swarm_analysis/peer_proposal_analysis.json",
+    "sha256": "b9172d1112e43b507c4ef97c7bad69180d1c7aacb9d4338f1ded81b6fdefed1e",
+    "locator": "cases where case_id=HP08",
+    "support": "Identical V/N initial proposals;exact scored final actions",
+    "interpretation_limit": "World-specific post-hoc illustration;not proof of general communication harm or persuasion."
+  },
+  {
+    "id": "C43",
+    "claim": "All original scientific evidence and prior complete archive are preserved;no new collection or spending.",
+    "file": "swarm_analysis/source_preservation.json",
+    "sha256": "1d402b362936848af01675be7baef842a9836b1759c1b3a6089c4facd5940f20",
+    "locator": "files_checked;prior_complete_archive_sha256",
+    "support": "Hash comparison against previous final delivery",
+    "interpretation_limit": "New descriptive analyses and manuscript edits are separate successor artifacts."
+  },
+  {
+    "id": "C44",
+    "claim": "207 matched private/shared controller prompts differ only in peer-proposal visibility;all54 HP06/HP08 table entries match narrative equations.",
+    "file": "swarm_analysis/verification.json",
+    "sha256": "f209cd78ad5f119d0967ebba1a37b9d54fb916586d446c35a1c73a34cb44a32d",
+    "locator": "independent_numeric_assertions;HP06_HP08_narrative_table_entries_verified",
+    "support": "414 revision messages;518 second-route checks",
+    "interpretation_limit": "Same implementation-owner verification, not independent human validation."
+  }
+]

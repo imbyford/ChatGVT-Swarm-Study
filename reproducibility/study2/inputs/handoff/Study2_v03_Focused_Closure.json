@@ -1,0 +1,1633 @@
+{
+  "review_id": "Study2-v03-guide-focused-closure-20261108",
+  "date": "2026-11-08",
+  "status": "E1_E2_FOCUSED_LOCAL_VERIFICATION_PASS",
+  "reviewer_role": "Guide assistant in this conversation; involved in overall design/coordination, not the v0.3 correction author. This is an additional AI technical check, not an external human review or independent model lineage.",
+  "scope": "Limited comparison and verification of E1/E2 against delivered v0.2 and the already supplied independent-audit dispositions. Not a new broad scientific audit.",
+  "candidate_bindings": {
+    "version": "v0.3",
+    "status": "CORRECTED_CANDIDATE_PENDING_FOCUSED_CLOSURE_AND_FINAL_DEPLOYMENT_INTEGRATION",
+    "package_integrity": "PASS",
+    "manifest_file": "Study2_Evaluation_Candidate_v0.3/private/CANDIDATE_INTEGRITY_MANIFEST_v0.3.json",
+    "manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+    "archives": [
+      {
+        "file": "Study2_Model_Facing_Candidate_v0.3.zip",
+        "sha256": "52cf63df24b86976166d0404d2c83b62d4b6efc06f0fb38fe8f90e49b50482b4",
+        "bytes": 30574,
+        "members": 6
+      },
+      {
+        "file": "Study2_Private_Authoring_Review_Candidate_v0.3.zip",
+        "sha256": "a3ac8bfc99fc2922dec947f00624c99767029ade17085fde67d85ec4ea1b7496",
+        "bytes": 215091,
+        "members": 54
+      }
+    ],
+    "bound_payload_files": 59,
+    "original_offline_assertions": 141946,
+    "focused_checks": 323,
+    "predecessor_v0.2_preserved": true,
+    "archive_extraction_integrity_verified": true,
+    "public_private_separation_verified": true,
+    "unqualified_template_independence_claim": false,
+    "focused_closure_pending": true,
+    "deployment_integration_pending": true,
+    "live_execution_authorized": false,
+    "model_calls": 0,
+    "uploads": 0,
+    "training_runs": 0,
+    "GPUs": 0,
+    "costs": 0
+  },
+  "verification": {
+    "additional_checks_passed": 392,
+    "additional_checks": [
+      {
+        "check": "archive SHA256 Study2_Model_Facing_Candidate_v0.3.zip",
+        "pass": true
+      },
+      {
+        "check": "archive bytes Study2_Model_Facing_Candidate_v0.3.zip",
+        "pass": true
+      },
+      {
+        "check": "archive SHA256 Study2_Private_Authoring_Review_Candidate_v0.3.zip",
+        "pass": true
+      },
+      {
+        "check": "archive bytes Study2_Private_Authoring_Review_Candidate_v0.3.zip",
+        "pass": true
+      },
+      {
+        "check": "candidate manifest externally bound",
+        "pass": true
+      },
+      {
+        "check": "manifest member present README.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes README.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/CASEBOOK.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/CASEBOOK.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/README.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/README.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/development/animal_development.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/development/animal_development.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/development/human_development.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/development/human_development.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/protected_draft/animal_protected.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/protected_draft/animal_protected.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present model_facing/protected_draft/human_protected.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes model_facing/protected_draft/human_protected.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/AUTHORING_CHANGELOG.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/AUTHORING_CHANGELOG.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/INPUT_PROVENANCE.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/INPUT_PROVENANCE.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/POLICY_APPLICATION_NOTES.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/POLICY_APPLICATION_NOTES.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/V0_2_INTEGRITY_MANIFEST_REFERENCE.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/V0_2_INTEGRITY_MANIFEST_REFERENCE.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/all_animal_paths.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/all_animal_paths.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/all_animal_strategies.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/all_animal_strategies.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/all_human_commitments.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/all_human_commitments.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/animal_keys.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/animal_keys.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/animal_source_with_tapes.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/animal_source_with_tapes.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/ABSTRACT_CURRICULUM_EXCLUSIONS_v0.2.md",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/ABSTRACT_CURRICULUM_EXCLUSIONS_v0.2.md",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/POLICIES_v0.2.md",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/POLICIES_v0.2.md",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/SHA256_MANIFEST.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/SHA256_MANIFEST.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/START_HERE.md",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/START_HERE.md",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/study2_evaluator_handoff/MANIFEST.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/study2_evaluator_handoff/MANIFEST.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/study2_evaluator_handoff/START_HERE.md",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/study2_evaluator_handoff/START_HERE.md",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/approved_input_packet/study2_evaluator_handoff/interface.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/approved_input_packet/study2_evaluator_handoff/interface.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/build_cases.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/build_cases.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/family_split_registry.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/family_split_registry.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/human_keys.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/human_keys.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/rendered_initial_requests.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/rendered_initial_requests.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present private/state_tape_draft.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes private/state_tape_draft.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/PROTOCOL_AND_ANALYSIS.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/PROTOCOL_AND_ANALYSIS.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/prompt_byte_inventory.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/prompt_byte_inventory.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/reporting_contract.v0.3.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/reporting_contract.v0.3.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/request_plan.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/request_plan.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/request_slots.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/request_slots.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present protocol/runtime_ledger_schema.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes protocol/runtime_ledger_schema.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/FINAL_REVIEW_REQUIREMENTS.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/FINAL_REVIEW_REQUIREMENTS.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/abstract_family_reservations.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/abstract_family_reservations.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/audit_disposition_registry.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/audit_disposition_registry.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/audit_inputs/Study2_Codex_handoff.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/audit_inputs/Study2_Codex_handoff.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/audit_inputs/Study2_evaluator_safe_findings.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/audit_inputs/Study2_evaluator_safe_findings.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/coverage_and_limitations.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/coverage_and_limitations.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/family_balance.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/family_balance.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present review/local_structural_audit.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes review/local_structural_audit.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/analysis.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/analysis.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/bind_audit.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/bind_audit.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/local_overlap.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/local_overlap.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/plan.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/plan.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/prompts.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/prompts.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/render_casebook.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/render_casebook.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/scoring.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/scoring.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/validate.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/validate.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present source/verify_corrections.py",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes source/verify_corrections.py",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/E1_rendered_payload_evidence.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/E1_rendered_payload_evidence.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/E2_disposition_checklist.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/E2_disposition_checklist.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/FOCUSED_DIFF.txt",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/FOCUSED_DIFF.txt",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/check_report.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/check_report.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/correction_check_report.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/correction_check_report.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/focused_diff.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/focused_diff.json",
+        "pass": true
+      },
+      {
+        "check": "manifest member present validation/reproduction_report.json",
+        "pass": true
+      },
+      {
+        "check": "payload SHA256 and bytes validation/reproduction_report.json",
+        "pass": true
+      },
+      {
+        "check": "59 manifest-bound payloads",
+        "pass": true
+      },
+      {
+        "check": "uploaded and bundled manifests identical",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant source/analysis.py",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant source/scoring.py",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant source/prompts.py",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant source/validate.py",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant source/plan.py",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant protocol/request_slots.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant protocol/runtime_ledger_schema.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/animal_keys.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/human_keys.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/state_tape_draft.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/all_animal_paths.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/all_animal_strategies.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/all_human_commitments.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/approved_input_packet/POLICIES_v0.2.md",
+        "pass": true
+      },
+      {
+        "check": "unchanged invariant private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+        "pass": true
+      },
+      {
+        "check": "AD03 exactly appended factual premise",
+        "pass": true
+      },
+      {
+        "check": "only animal-development semantic delta is AD03 premise",
+        "pass": true
+      },
+      {
+        "check": "unchanged case file model_facing/development/human_development.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged case file model_facing/protected_draft/human_protected.json",
+        "pass": true
+      },
+      {
+        "check": "unchanged case file model_facing/protected_draft/animal_protected.json",
+        "pass": true
+      },
+      {
+        "check": "only authoritative animal source delta is AD03 premise",
+        "pass": true
+      },
+      {
+        "check": "registry length preserved",
+        "pass": true
+      },
+      {
+        "check": "all registered cases preserved",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD01 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD02 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD03 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HD04 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP01 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP02 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP03 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP04 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP05 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP06 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP07 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved HP08 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD01 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP01 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP04 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP02 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD03 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP05 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AP03 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 family_group",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 parent_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 split",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 world_or_profile_count",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 abstract_reservation",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 closest_pilot_or_handoff_overlap",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 residual_concepts",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 twins",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 mechanism_id",
+        "pass": true
+      },
+      {
+        "check": "registry preserved AD02 within_family_note",
+        "pass": true
+      },
+      {
+        "check": "whole ordinary-use family retained",
+        "pass": true
+      },
+      {
+        "check": "ordinary-use weight unchanged 0.5",
+        "pass": true
+      },
+      {
+        "check": "uptake classification explicit",
+        "pass": true
+      },
+      {
+        "check": "all four validation reuse lineages retained",
+        "pass": true
+      },
+      {
+        "check": "prior human-benefit content disclosed",
+        "pass": true
+      },
+      {
+        "check": "predecessor key documented intended comparable physical units",
+        "pass": true
+      },
+      {
+        "check": "actual AD03 root rendering matches supplied evidence for V",
+        "pass": true
+      },
+      {
+        "check": "AD03 actual rendered payload only adds factual definition for V",
+        "pass": true
+      },
+      {
+        "check": "actual AD03 root rendering matches supplied evidence for N",
+        "pass": true
+      },
+      {
+        "check": "AD03 actual rendered payload only adds factual definition for N",
+        "pass": true
+      },
+      {
+        "check": "actual AD03 root rendering matches supplied evidence for U",
+        "pass": true
+      },
+      {
+        "check": "AD03 actual rendered payload only adds factual definition for U",
+        "pass": true
+      },
+      {
+        "check": "unchanged other animal-development rendering AD01/root",
+        "pass": true
+      },
+      {
+        "check": "only E1 rendering difference at AD03/root",
+        "pass": true
+      },
+      {
+        "check": "only E1 rendering difference at AD03/finish_bridge_open",
+        "pass": true
+      },
+      {
+        "check": "only E1 rendering difference at AD03/finish_bridge_closed",
+        "pass": true
+      },
+      {
+        "check": "unchanged other animal-development rendering AD02/root",
+        "pass": true
+      },
+      {
+        "check": "unchanged other animal-development rendering AD02/sector_returning",
+        "pass": true
+      },
+      {
+        "check": "unchanged other animal-development rendering AD02/sector_dispersed",
+        "pass": true
+      },
+      {
+        "check": "reporting contract actual hash binding audit_binding",
+        "pass": true
+      },
+      {
+        "check": "reporting contract actual hash binding registry_binding",
+        "pass": true
+      },
+      {
+        "check": "reporting contract actual hash binding disposition_binding",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HD01",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HD02",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HD03",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HD04",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP01",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP02",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP03",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP04",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP05",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP06",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP07",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition HP08",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AD01",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AP01",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AP04",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AP02",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AD03",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AP05",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AP03",
+        "pass": true
+      },
+      {
+        "check": "registry carries original audit disposition AD02",
+        "pass": true
+      },
+      {
+        "check": "supplied finite checks rerun successfully",
+        "pass": true
+      },
+      {
+        "check": "supplied focused checks rerun successfully",
+        "pass": true
+      }
+    ],
+    "supplied_focused_checks_rerun": 323,
+    "supplied_finite_assertions_rerun": 141946
+  },
+  "findings": {
+    "E1": "PASS: actual rendered AD03 requests contain exactly the intended factual comparability sentence; shared bytes match V/N/U evidence, and removal reproduces predecessor task content. Other physical consequences, actions and keys unchanged.",
+    "E2": "PASS: ordinary-use animal family retained and explicitly designated uptake/near-domain application; collision ledger, 15 family dispositions, validation reuse, and prior human-benefit training are bound to reporting. Scoring code, primary contrasts and grouping structural fields unchanged.",
+    "source_integrity": "Both supplied v0.3 archive hashes, manifest, and all 59 payload entries match. Uploaded sources and archives were not changed; tests ran on extracted scratch copies."
+  },
+  "limitations": [
+    "Does not certify provider billing, retention, data masks or exact starting weights.",
+    "Does not verify live adapters, GPU results, final tokenizer counts for the successor integration or final execution bundle.",
+    "Does not override no-upload/no-training/no-spending authorisation.",
+    "Candidate historical status flags remain preserved; the next integrated manifest should bind this closure as a separate record, without pretending author checks were independent human validation."
+  ],
+  "next": "Implementation may integrate these exact corrected artifacts, bind this focused closure and rerun affected local integration/token checks; no additional broad scientific review requested absent a demonstrated mismatch.",
+  "final_live_execution_authorized": false,
+  "paid_operations_performed": false,
+  "evaluated_model_calls": 0
+}

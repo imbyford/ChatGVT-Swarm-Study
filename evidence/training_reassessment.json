@@ -1,0 +1,191 @@
+{
+  "status": "OFFLINE_POST_RESULT_ASSESSMENT",
+  "no_model_calls": true,
+  "arms": {
+    "V": {
+      "submitted_rows": 1150,
+      "unique_full_rows": 1150,
+      "unique_prompt_strings": 1150,
+      "prompt_multiplicity_histogram": {
+        "1": 1150
+      },
+      "contradictory_choices_for_identical_prompt": [],
+      "train_validation_exact_prompt_overlap": 0,
+      "export_full_content_and_multiplicity_match": true,
+      "paired_ledger_projection_matches": true,
+      "complete_rationale_fields_in_all_rows": true,
+      "local_token_counts": {
+        "serialized_full_total": 571626,
+        "serialized_full_max": 575,
+        "serialized_full_median": 497.0,
+        "completion_text_total": 145470,
+        "completion_text_max": 159,
+        "note": "Local pinned deployment tokenizer and user/assistant template, not verified provider packing or supervision."
+      },
+      "global_step": 23,
+      "max_steps": 23,
+      "epoch": 1.0,
+      "dataloader_batch_size": 1,
+      "requested_and_API_batch": 8,
+      "gradient_accumulation_steps": null,
+      "world_size": null,
+      "effective_rows_or_tokens": null,
+      "token_counter": 0,
+      "first_logged_train_loss": 3.5703125,
+      "last_logged_train_loss": 2.369140625,
+      "first_logged_internal_eval_loss": 2.96484375,
+      "last_logged_internal_eval_loss": 2.359375,
+      "reported_nan_loss_batches": 0,
+      "internal_eval_runtime_times_samples_per_second": [
+        4.0036136,
+        4.0003551999999996,
+        3.9996528999999996,
+        4.000330300000001,
+        4.0003551999999996
+      ],
+      "internal_eval_units_interpretation": "Approximately four reported units; unknown examples versus packed units; not the 120 local validation rows.",
+      "adapter_tensors": 256,
+      "nonzero_B_tensors": 128,
+      "B_tensors": 128,
+      "weight_sha256": "a24c16006dd0c96feaca5b547e993b61fd264440a49b694d7fd4b7c247fec702",
+      "provider_exposed_settings": {
+        "lora_r": 16,
+        "n_epochs": 1,
+        "batch_size": 8,
+        "lora_alpha": 32,
+        "lora_dropout": 0,
+        "min_lr_ratio": 0.1,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0,
+        "learning_rate": 5e-05,
+        "max_grad_norm": 2,
+        "train_on_inputs": false,
+        "lr_scheduler_type": "cosine",
+        "scheduler_num_cycles": 0.5,
+        "lora_trainable_modules": "k_proj,up_proj,o_proj,q_proj,down_proj,v_proj,gate_proj",
+        "training_type": "lora"
+      },
+      "checkpoint_selection_fields": {
+        "best_global_step": null,
+        "best_metric": null,
+        "best_model_checkpoint": null,
+        "save_steps": 0
+      }
+    },
+    "N": {
+      "submitted_rows": 1150,
+      "unique_full_rows": 1150,
+      "unique_prompt_strings": 1150,
+      "prompt_multiplicity_histogram": {
+        "1": 1150
+      },
+      "contradictory_choices_for_identical_prompt": [],
+      "train_validation_exact_prompt_overlap": 0,
+      "export_full_content_and_multiplicity_match": true,
+      "paired_ledger_projection_matches": true,
+      "complete_rationale_fields_in_all_rows": true,
+      "local_token_counts": {
+        "serialized_full_total": 573315,
+        "serialized_full_max": 583,
+        "serialized_full_median": 498.0,
+        "completion_text_total": 147159,
+        "completion_text_max": 154,
+        "note": "Local pinned deployment tokenizer and user/assistant template, not verified provider packing or supervision."
+      },
+      "global_step": 24,
+      "max_steps": 24,
+      "epoch": 1.0,
+      "dataloader_batch_size": 1,
+      "requested_and_API_batch": 8,
+      "gradient_accumulation_steps": null,
+      "world_size": null,
+      "effective_rows_or_tokens": null,
+      "token_counter": 0,
+      "first_logged_train_loss": 3.61328125,
+      "last_logged_train_loss": 2.33984375,
+      "first_logged_internal_eval_loss": 2.8740234375,
+      "last_logged_internal_eval_loss": 2.307861328125,
+      "reported_nan_loss_batches": 0,
+      "internal_eval_runtime_times_samples_per_second": [
+        4.0021196,
+        4.0003623,
+        3.9998838,
+        3.9996978000000003,
+        4.000604999999999
+      ],
+      "internal_eval_units_interpretation": "Approximately four reported units; unknown examples versus packed units; not the 120 local validation rows.",
+      "adapter_tensors": 256,
+      "nonzero_B_tensors": 128,
+      "B_tensors": 128,
+      "weight_sha256": "885d1262accbc60afd76333bb2ff698ff5100b7f2139f72cc4ca037aaabc490f",
+      "provider_exposed_settings": {
+        "lora_r": 16,
+        "n_epochs": 1,
+        "batch_size": 8,
+        "lora_alpha": 32,
+        "lora_dropout": 0,
+        "min_lr_ratio": 0.1,
+        "warmup_ratio": 0.03,
+        "weight_decay": 0,
+        "learning_rate": 5e-05,
+        "max_grad_norm": 2,
+        "train_on_inputs": false,
+        "lr_scheduler_type": "cosine",
+        "scheduler_num_cycles": 0.5,
+        "lora_trainable_modules": "k_proj,up_proj,o_proj,q_proj,down_proj,v_proj,gate_proj",
+        "training_type": "lora"
+      },
+      "checkpoint_selection_fields": {
+        "best_global_step": null,
+        "best_metric": null,
+        "best_model_checkpoint": null,
+        "save_steps": 0
+      }
+    }
+  },
+  "distinct_VN_tensors": 256,
+  "train_action_relation_counts": {
+    "different": 230,
+    "same": 831,
+    "shared_nonconcrete": 89
+  },
+  "validation_action_relation_counts": {
+    "same": 85,
+    "different": 25,
+    "shared_nonconcrete": 10
+  },
+  "training_steps_difference_is_observed_not_equal_exposure": true,
+  "sources": {
+    "study2_integration_rc1/working/curriculum/data/incoming/paired_factual_ledger_v1.0rc1.jsonl": "662beaf0916039ea21a20846c926f4e39f0d6b07ac412004094290f8325f4ee5",
+    "study2_integration_rc1/working/curriculum/tools/build.py": "ae3afa09afcb241658566a0557ab51ebecfc41c2d364b0d25b1d507595c3d2a3",
+    "study2_r2_20261109/private_validation/records.json": "d42b63bad57140d9318fb3a1edffa5d3997e0ddf580a2adb0d9302a25e11384d",
+    "study2_r2_20261109/tokenizer/tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "study2_r2_20261109/tokenizer/chat_template.jinja": "2424952d53b6b63c3aee1d9a7aad3c32b7def9fee6c27b5def9dea86f607dc7a",
+    "study2_integration_rc1/working/curriculum/data/incoming/train_V_v1.0rc1.jsonl": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+    "study2_integration_v03/training_preflight/exports/V.jsonl": "2ca348d6dedfc82fa7294a232698a343bc1e7f2866be99635add7c9709d2d940",
+    "study2_training_run_20261108/checkpoints/V/trainer_state.json": "857b3e3cb01f8e60ecaa4ebec5fc1db963bd77faf96726e7dedcc8f55fce8c84",
+    "study2_training_run_20261108/evidence/V_completed.json": "a251a989505b5d1a2b6377d971b99f58eecbfa602a782e226a27b00b550ca209",
+    "study2_training_run_20261108/checkpoints/V/adapter_model.safetensors": "a24c16006dd0c96feaca5b547e993b61fd264440a49b694d7fd4b7c247fec702",
+    "study2_integration_rc1/working/curriculum/data/incoming/train_N_v1.0rc1.jsonl": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+    "study2_integration_v03/training_preflight/exports/N.jsonl": "d7311371026e2dd428d11e8afb625d707e88bbca97eb35ef26ad567642b9c316",
+    "study2_training_run_20261108/checkpoints/N/trainer_state.json": "f212d951241bc99cacae74ab1c75d9ef91045e9500cad5dbc150ad21e894c3f1",
+    "study2_training_run_20261108/evidence/N_completed.json": "4c23fa93812a1635ad3be91ba0271fe3ef2c2ae019c4cb46abd412d00b808b70",
+    "study2_training_run_20261108/checkpoints/N/adapter_model.safetensors": "885d1262accbc60afd76333bb2ff698ff5100b7f2139f72cc4ca037aaabc490f"
+  },
+  "normalized_factual_repetition": {
+    "train": {
+      "submitted_rows": 1150,
+      "unique_normalized_factual_records": 540,
+      "repeats_beyond_first": 610,
+      "largest_repeat": 9,
+      "definition": "Supplied textual factual normalization ignoring question wording and label order; not semantic independence."
+    },
+    "training_validation": {
+      "submitted_rows": 120,
+      "unique_normalized_factual_records": 60,
+      "repeats_beyond_first": 60,
+      "largest_repeat": 5,
+      "definition": "Supplied textual factual normalization ignoring question wording and label order; not semantic independence."
+    }
+  }
+}

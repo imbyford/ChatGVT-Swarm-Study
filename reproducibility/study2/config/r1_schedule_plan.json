@@ -1,0 +1,4343 @@
+{
+  "counts": {
+    "physical": 357,
+    "auxiliary": 132,
+    "uptake": 360,
+    "native": 72,
+    "fixtures": 24,
+    "total_requests": 945,
+    "reserved_output_tokens": 148608
+  },
+  "physical_order": "original dependency-eligible proposed_order_key; all 357 original slots",
+  "auxiliary_order": "SHA256 study2-r1-order-v1|20261108|request_id, after immutable physical schedule",
+  "validation_order": "same hash order, uptake then native, after auxiliary",
+  "uptake_slots": [
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-09/V",
+      "row_id": "S2-V07-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-02/V",
+      "row_id": "S2-V12-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-02/N",
+      "row_id": "S2-V05-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-00/N",
+      "row_id": "S2-V12-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-05/N",
+      "row_id": "S2-V06-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-00/N",
+      "row_id": "S2-V02-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-04/V",
+      "row_id": "S2-V10-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-09/U",
+      "row_id": "S2-V05-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-09/U",
+      "row_id": "S2-V11-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-02/V",
+      "row_id": "S2-V05-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-05/N",
+      "row_id": "S2-V12-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-03/N",
+      "row_id": "S2-V05-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-01/U",
+      "row_id": "S2-V09-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-09/U",
+      "row_id": "S2-V10-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-09/N",
+      "row_id": "S2-V09-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-08/N",
+      "row_id": "S2-V11-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-08/N",
+      "row_id": "S2-V08-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-05/U",
+      "row_id": "S2-V10-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-03/U",
+      "row_id": "S2-V07-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-00/N",
+      "row_id": "S2-V04-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-08/U",
+      "row_id": "S2-V05-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-08/U",
+      "row_id": "S2-V01-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-08/V",
+      "row_id": "S2-V06-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-00/U",
+      "row_id": "S2-V12-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-09/N",
+      "row_id": "S2-V11-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-09/N",
+      "row_id": "S2-V07-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-07/N",
+      "row_id": "S2-V03-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-03/U",
+      "row_id": "S2-V12-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-06/U",
+      "row_id": "S2-V02-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-01/V",
+      "row_id": "S2-V05-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-07/N",
+      "row_id": "S2-V05-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-02/V",
+      "row_id": "S2-V07-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-00/V",
+      "row_id": "S2-V11-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-04/V",
+      "row_id": "S2-V06-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-01/U",
+      "row_id": "S2-V01-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-07/V",
+      "row_id": "S2-V09-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-07/V",
+      "row_id": "S2-V11-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-06/V",
+      "row_id": "S2-V10-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-03/U",
+      "row_id": "S2-V04-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-05/U",
+      "row_id": "S2-V01-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-08/N",
+      "row_id": "S2-V07-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-00/U",
+      "row_id": "S2-V07-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-06/N",
+      "row_id": "S2-V08-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-05/N",
+      "row_id": "S2-V07-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-05/U",
+      "row_id": "S2-V12-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-07/N",
+      "row_id": "S2-V10-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-03/V",
+      "row_id": "S2-V09-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-07/N",
+      "row_id": "S2-V12-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-00/U",
+      "row_id": "S2-V05-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-03/V",
+      "row_id": "S2-V11-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-07/U",
+      "row_id": "S2-V10-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-08/N",
+      "row_id": "S2-V01-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-04/V",
+      "row_id": "S2-V11-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-04/U",
+      "row_id": "S2-V12-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-05/V",
+      "row_id": "S2-V07-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-05/V",
+      "row_id": "S2-V02-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-02/N",
+      "row_id": "S2-V09-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-04/U",
+      "row_id": "S2-V11-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-05/U",
+      "row_id": "S2-V02-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-03/V",
+      "row_id": "S2-V04-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-04/N",
+      "row_id": "S2-V05-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-05/U",
+      "row_id": "S2-V11-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-02/U",
+      "row_id": "S2-V04-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-00/V",
+      "row_id": "S2-V10-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-02/U",
+      "row_id": "S2-V03-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-09/V",
+      "row_id": "S2-V09-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-00/V",
+      "row_id": "S2-V02-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-00/U",
+      "row_id": "S2-V09-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-02/U",
+      "row_id": "S2-V09-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-06/U",
+      "row_id": "S2-V06-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-09/N",
+      "row_id": "S2-V01-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-06/V",
+      "row_id": "S2-V07-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-01/N",
+      "row_id": "S2-V06-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-09/N",
+      "row_id": "S2-V12-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-02/U",
+      "row_id": "S2-V07-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-02/N",
+      "row_id": "S2-V11-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-00/N",
+      "row_id": "S2-V03-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-05/V",
+      "row_id": "S2-V05-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-02/V",
+      "row_id": "S2-V08-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-03/V",
+      "row_id": "S2-V02-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-09/U",
+      "row_id": "S2-V04-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-08/N",
+      "row_id": "S2-V06-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-04/N",
+      "row_id": "S2-V09-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-07/U",
+      "row_id": "S2-V11-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-00/U",
+      "row_id": "S2-V06-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-09/U",
+      "row_id": "S2-V06-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-09/V",
+      "row_id": "S2-V10-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-07/V",
+      "row_id": "S2-V06-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-00/V",
+      "row_id": "S2-V09-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-01/V",
+      "row_id": "S2-V11-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-03/V",
+      "row_id": "S2-V06-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-01/N",
+      "row_id": "S2-V08-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-06/U",
+      "row_id": "S2-V04-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-06/V",
+      "row_id": "S2-V06-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-01/V",
+      "row_id": "S2-V03-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-00/N",
+      "row_id": "S2-V06-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-00/N",
+      "row_id": "S2-V11-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-04/N",
+      "row_id": "S2-V04-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-00/U",
+      "row_id": "S2-V10-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-05/U",
+      "row_id": "S2-V07-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-06/V",
+      "row_id": "S2-V04-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-06/U",
+      "row_id": "S2-V11-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-01/U",
+      "row_id": "S2-V06-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-08/U",
+      "row_id": "S2-V07-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-09/V",
+      "row_id": "S2-V03-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-05/N",
+      "row_id": "S2-V01-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-04/U",
+      "row_id": "S2-V07-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-06/N",
+      "row_id": "S2-V03-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-04/U",
+      "row_id": "S2-V09-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-01/V",
+      "row_id": "S2-V07-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-00/N",
+      "row_id": "S2-V05-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-04/V",
+      "row_id": "S2-V04-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-09/N",
+      "row_id": "S2-V05-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-04/V",
+      "row_id": "S2-V08-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-05/N",
+      "row_id": "S2-V03-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-06/V",
+      "row_id": "S2-V05-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-08/V",
+      "row_id": "S2-V03-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-04/V",
+      "row_id": "S2-V02-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-01/U",
+      "row_id": "S2-V08-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-07/U",
+      "row_id": "S2-V12-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-03/N",
+      "row_id": "S2-V02-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-04/N",
+      "row_id": "S2-V03-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-08/V",
+      "row_id": "S2-V01-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-02/U",
+      "row_id": "S2-V12-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-05/V",
+      "row_id": "S2-V09-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-04/U",
+      "row_id": "S2-V10-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-04/N",
+      "row_id": "S2-V02-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-06/U",
+      "row_id": "S2-V05-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-03/U",
+      "row_id": "S2-V06-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-04/U",
+      "row_id": "S2-V06-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-04/U",
+      "row_id": "S2-V08-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-00/V",
+      "row_id": "S2-V05-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-08/V",
+      "row_id": "S2-V07-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-03/U",
+      "row_id": "S2-V01-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-00/V",
+      "row_id": "S2-V07-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-01/V",
+      "row_id": "S2-V02-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-01/N",
+      "row_id": "S2-V02-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-01/N",
+      "row_id": "S2-V10-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-00/V",
+      "row_id": "S2-V01-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-09/U",
+      "row_id": "S2-V01-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-02/N",
+      "row_id": "S2-V08-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-07/U",
+      "row_id": "S2-V04-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-00/N",
+      "row_id": "S2-V10-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-08/U",
+      "row_id": "S2-V11-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-08/V",
+      "row_id": "S2-V10-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-01/V",
+      "row_id": "S2-V01-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-08/N",
+      "row_id": "S2-V02-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-06/N",
+      "row_id": "S2-V07-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-01/U",
+      "row_id": "S2-V10-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-02/V",
+      "row_id": "S2-V03-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-05/V",
+      "row_id": "S2-V03-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-00/U",
+      "row_id": "S2-V01-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-05/V",
+      "row_id": "S2-V12-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-03/U",
+      "row_id": "S2-V05-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-05/U",
+      "row_id": "S2-V09-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-04/U",
+      "row_id": "S2-V01-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-01/N",
+      "row_id": "S2-V05-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-01/N",
+      "row_id": "S2-V09-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-02/N",
+      "row_id": "S2-V07-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-03/N",
+      "row_id": "S2-V09-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-06/U",
+      "row_id": "S2-V10-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-04/N",
+      "row_id": "S2-V08-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-06/V",
+      "row_id": "S2-V09-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-09/V",
+      "row_id": "S2-V12-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-07/U",
+      "row_id": "S2-V02-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-00/N",
+      "row_id": "S2-V09-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-04/N",
+      "row_id": "S2-V07-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-01/U",
+      "row_id": "S2-V12-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-02/U",
+      "row_id": "S2-V08-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-05/V",
+      "row_id": "S2-V10-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-02/V",
+      "row_id": "S2-V02-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-08/U",
+      "row_id": "S2-V12-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-06/N",
+      "row_id": "S2-V10-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-06/N",
+      "row_id": "S2-V11-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-01/V",
+      "row_id": "S2-V12-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-07/N",
+      "row_id": "S2-V01-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-02/V",
+      "row_id": "S2-V04-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-05/V",
+      "row_id": "S2-V08-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-01/N",
+      "row_id": "S2-V11-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-03/U",
+      "row_id": "S2-V02-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-00/U",
+      "row_id": "S2-V02-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-02/N",
+      "row_id": "S2-V04-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-02/U",
+      "row_id": "S2-V06-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-01/U",
+      "row_id": "S2-V05-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-08/N",
+      "row_id": "S2-V09-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-02/V",
+      "row_id": "S2-V06-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-00/V",
+      "row_id": "S2-V08-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-07/V",
+      "row_id": "S2-V02-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-00/U",
+      "row_id": "S2-V03-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-08/N",
+      "row_id": "S2-V12-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-04/V",
+      "row_id": "S2-V07-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-05/U",
+      "row_id": "S2-V06-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-06/N",
+      "row_id": "S2-V05-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-09/U",
+      "row_id": "S2-V08-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-04/U",
+      "row_id": "S2-V03-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-01/U",
+      "row_id": "S2-V03-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-09/N",
+      "row_id": "S2-V03-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-09/N",
+      "row_id": "S2-V06-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-07/U",
+      "row_id": "S2-V05-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-05/V",
+      "row_id": "S2-V11-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-09/V",
+      "row_id": "S2-V04-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-01/N",
+      "row_id": "S2-V07-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-06/U",
+      "row_id": "S2-V08-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-08/U",
+      "row_id": "S2-V03-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-09/V",
+      "row_id": "S2-V01-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-03/V",
+      "row_id": "S2-V07-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-07/N",
+      "row_id": "S2-V06-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-08/V",
+      "row_id": "S2-V05-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-02/V",
+      "row_id": "S2-V10-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-03/V",
+      "row_id": "S2-V01-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-01/V",
+      "row_id": "S2-V04-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-02/N",
+      "row_id": "S2-V02-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-01/V",
+      "row_id": "S2-V09-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-02/N",
+      "row_id": "S2-V01-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-07/U",
+      "row_id": "S2-V09-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-03/U",
+      "row_id": "S2-V03-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-06/N",
+      "row_id": "S2-V02-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-09/V",
+      "row_id": "S2-V08-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-05/U",
+      "row_id": "S2-V04-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-08/U",
+      "row_id": "S2-V09-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-03/V",
+      "row_id": "S2-V10-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-01/U",
+      "row_id": "S2-V11-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-02/U",
+      "row_id": "S2-V02-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-03/U",
+      "row_id": "S2-V09-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-09/V",
+      "row_id": "S2-V11-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-01/N",
+      "row_id": "S2-V12-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-08/N",
+      "row_id": "S2-V04-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-06/V",
+      "row_id": "S2-V03-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-05/U",
+      "row_id": "S2-V08-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-09/U",
+      "row_id": "S2-V09-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-03/N",
+      "row_id": "S2-V08-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-09/U",
+      "row_id": "S2-V02-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-02/U",
+      "row_id": "S2-V10-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-07/V",
+      "row_id": "S2-V08-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-03/N",
+      "row_id": "S2-V12-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-04/V",
+      "row_id": "S2-V01-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-06/U",
+      "row_id": "S2-V01-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-06/N",
+      "row_id": "S2-V01-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-02/V",
+      "row_id": "S2-V01-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-08/U",
+      "row_id": "S2-V06-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-04/N",
+      "row_id": "S2-V10-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-06/V",
+      "row_id": "S2-V08-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-08/N",
+      "row_id": "S2-V05-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-01/V",
+      "row_id": "S2-V08-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-09/N",
+      "row_id": "S2-V04-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-05/N",
+      "row_id": "S2-V10-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-07/N",
+      "row_id": "S2-V08-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-04/N",
+      "row_id": "S2-V11-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-06/V",
+      "row_id": "S2-V12-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-07/V",
+      "row_id": "S2-V05-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-05/U",
+      "row_id": "S2-V03-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-09/N",
+      "row_id": "S2-V02-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-06/N",
+      "row_id": "S2-V09-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-07/N",
+      "row_id": "S2-V11-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-02/N",
+      "row_id": "S2-V12-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-08/N",
+      "row_id": "S2-V10-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-09/U",
+      "row_id": "S2-V07-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-06/V",
+      "row_id": "S2-V11-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-05/V",
+      "row_id": "S2-V04-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-00/V",
+      "row_id": "S2-V12-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-06/U",
+      "row_id": "S2-V03-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-01/N",
+      "row_id": "S2-V03-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-08/V",
+      "row_id": "S2-V12-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-06/U",
+      "row_id": "S2-V07-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-02/N",
+      "row_id": "S2-V10-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-06/U",
+      "row_id": "S2-V09-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-00/N",
+      "row_id": "S2-V08-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-07/U",
+      "row_id": "S2-V06-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-03/V",
+      "row_id": "S2-V12-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-02/N",
+      "row_id": "S2-V03-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-08/U",
+      "row_id": "S2-V08-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-08/U",
+      "row_id": "S2-V04-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-01/N",
+      "row_id": "S2-V01-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-03/N",
+      "row_id": "S2-V11-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-00/V",
+      "row_id": "S2-V06-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-02/U",
+      "row_id": "S2-V05-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-08/V",
+      "row_id": "S2-V02-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-04/U",
+      "row_id": "S2-V02-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-01/V",
+      "row_id": "S2-V06-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-07/U",
+      "row_id": "S2-V07-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-00/N",
+      "row_id": "S2-V07-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-07/N",
+      "row_id": "S2-V04-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-03/V",
+      "row_id": "S2-V05-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-00/U",
+      "row_id": "S2-V08-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-08/V",
+      "row_id": "S2-V04-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-00/U",
+      "row_id": "S2-V04-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-00/V",
+      "row_id": "S2-V04-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-03/V",
+      "row_id": "S2-V08-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-07/V",
+      "row_id": "S2-V04-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-04/V",
+      "row_id": "S2-V03-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-05/N",
+      "row_id": "S2-V05-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-09/N",
+      "row_id": "S2-V10-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-03/N",
+      "row_id": "S2-V01-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-07/N",
+      "row_id": "S2-V09-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-04/U",
+      "row_id": "S2-V05-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-09/U",
+      "row_id": "S2-V03-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-08/V",
+      "row_id": "S2-V09-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-05/V",
+      "row_id": "S2-V01-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-05/N",
+      "row_id": "S2-V11-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-01/V",
+      "row_id": "S2-V10-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-07/V",
+      "row_id": "S2-V12-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-07/V",
+      "row_id": "S2-V10-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-06/V",
+      "row_id": "S2-V01-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-04/U",
+      "row_id": "S2-V04-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-04/V",
+      "row_id": "S2-V05-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-06/U",
+      "row_id": "S2-V12-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-04/N",
+      "row_id": "S2-V06-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-00/V",
+      "row_id": "S2-V03-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-01/U",
+      "row_id": "S2-V07-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-03/U",
+      "row_id": "S2-V11-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-02/U",
+      "row_id": "S2-V11-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-07/V",
+      "row_id": "S2-V07-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-05/N",
+      "row_id": "S2-V08-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-07/N",
+      "row_id": "S2-V07-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-05/N",
+      "row_id": "S2-V04-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-04/V",
+      "row_id": "S2-V09-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-06/N",
+      "row_id": "S2-V04-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-08/U",
+      "row_id": "S2-V10-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-03/V",
+      "row_id": "S2-V03-03",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-08/N",
+      "row_id": "S2-V03-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-00/N",
+      "row_id": "S2-V01-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-09/U",
+      "row_id": "S2-V12-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-03/N",
+      "row_id": "S2-V03-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-06/N",
+      "row_id": "S2-V06-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-06/V",
+      "row_id": "S2-V02-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-05/V",
+      "row_id": "S2-V06-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-05/N",
+      "row_id": "S2-V02-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-01/N",
+      "row_id": "S2-V04-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-03/N",
+      "row_id": "S2-V04-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-09/N",
+      "row_id": "S2-V08-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-03/N",
+      "row_id": "S2-V10-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-07/U",
+      "row_id": "S2-V03-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-07/U",
+      "row_id": "S2-V01-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-08/U",
+      "row_id": "S2-V02-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-02/V",
+      "row_id": "S2-V11-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-04/N",
+      "row_id": "S2-V12-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-02/U",
+      "row_id": "S2-V01-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-03/N",
+      "row_id": "S2-V06-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-03/U",
+      "row_id": "S2-V08-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-04/V",
+      "row_id": "S2-V12-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-01/U",
+      "row_id": "S2-V02-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-02/N",
+      "row_id": "S2-V06-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-04/N",
+      "row_id": "S2-V01-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-07/U",
+      "row_id": "S2-V08-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V08-08/V",
+      "row_id": "S2-V08-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-02/V",
+      "row_id": "S2-V09-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-09/V",
+      "row_id": "S2-V05-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-07/N",
+      "row_id": "S2-V02-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V09-05/N",
+      "row_id": "S2-V09-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V03-07/V",
+      "row_id": "S2-V03-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V02-09/V",
+      "row_id": "S2-V02-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V01-07/V",
+      "row_id": "S2-V01-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V10-03/U",
+      "row_id": "S2-V10-03",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V06-09/V",
+      "row_id": "S2-V06-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V04-01/U",
+      "row_id": "S2-V04-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V05-05/U",
+      "row_id": "S2-V05-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V12-06/N",
+      "row_id": "S2-V12-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-08/V",
+      "row_id": "S2-V11-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V11-00/U",
+      "row_id": "S2-V11-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    },
+    {
+      "task": "uptake",
+      "request_id": "uptake/S2-V07-03/N",
+      "row_id": "S2-V07-03",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 128
+    }
+  ],
+  "native_slots": [
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-00/N",
+      "row_id": "S2-V03-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-05/U",
+      "row_id": "S2-V06-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-01/U",
+      "row_id": "S2-V09-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-00/V",
+      "row_id": "S2-V04-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-02/N",
+      "row_id": "S2-V06-02",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-08/N",
+      "row_id": "S2-V10-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-09/N",
+      "row_id": "S2-V07-09",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-02/U",
+      "row_id": "S2-V06-02",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-07/V",
+      "row_id": "S2-V04-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-04/V",
+      "row_id": "S2-V12-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-01/V",
+      "row_id": "S2-V09-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-06/U",
+      "row_id": "S2-V05-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-08/U",
+      "row_id": "S2-V01-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-07/N",
+      "row_id": "S2-V04-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-08/N",
+      "row_id": "S2-V01-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-06/N",
+      "row_id": "S2-V09-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-08/V",
+      "row_id": "S2-V01-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-07/U",
+      "row_id": "S2-V10-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-01/U",
+      "row_id": "S2-V02-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-04/U",
+      "row_id": "S2-V12-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-01/U",
+      "row_id": "S2-V11-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-05/N",
+      "row_id": "S2-V01-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-06/V",
+      "row_id": "S2-V05-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-01/V",
+      "row_id": "S2-V03-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-05/U",
+      "row_id": "S2-V05-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-00/U",
+      "row_id": "S2-V04-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-06/N",
+      "row_id": "S2-V07-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-00/V",
+      "row_id": "S2-V03-00",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-08/V",
+      "row_id": "S2-V10-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-04/N",
+      "row_id": "S2-V08-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-01/V",
+      "row_id": "S2-V08-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-01/N",
+      "row_id": "S2-V02-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-01/U",
+      "row_id": "S2-V12-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-00/N",
+      "row_id": "S2-V04-00",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-05/N",
+      "row_id": "S2-V05-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-05/U",
+      "row_id": "S2-V01-05",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-08/N",
+      "row_id": "S2-V11-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-08/N",
+      "row_id": "S2-V02-08",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-04/V",
+      "row_id": "S2-V08-04",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-08/V",
+      "row_id": "S2-V02-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-00/U",
+      "row_id": "S2-V03-00",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-09/V",
+      "row_id": "S2-V07-09",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-01/N",
+      "row_id": "S2-V11-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-08/U",
+      "row_id": "S2-V02-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V01-05/V",
+      "row_id": "S2-V01-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-08/V",
+      "row_id": "S2-V11-08",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-06/U",
+      "row_id": "S2-V09-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-01/N",
+      "row_id": "S2-V12-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V02-01/V",
+      "row_id": "S2-V02-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-05/V",
+      "row_id": "S2-V06-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-06/V",
+      "row_id": "S2-V09-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-08/U",
+      "row_id": "S2-V11-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-08/U",
+      "row_id": "S2-V10-08",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V09-01/N",
+      "row_id": "S2-V09-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-06/U",
+      "row_id": "S2-V07-06",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-06/V",
+      "row_id": "S2-V07-06",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-01/V",
+      "row_id": "S2-V12-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V07-09/U",
+      "row_id": "S2-V07-09",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-01/N",
+      "row_id": "S2-V08-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-07/V",
+      "row_id": "S2-V10-07",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-01/N",
+      "row_id": "S2-V03-01",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-02/V",
+      "row_id": "S2-V06-02",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V03-01/U",
+      "row_id": "S2-V03-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V10-07/N",
+      "row_id": "S2-V10-07",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V04-07/U",
+      "row_id": "S2-V04-07",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-04/U",
+      "row_id": "S2-V08-04",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V08-01/U",
+      "row_id": "S2-V08-01",
+      "arm": "U",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V11-01/V",
+      "row_id": "S2-V11-01",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V06-05/N",
+      "row_id": "S2-V06-05",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V12-04/N",
+      "row_id": "S2-V12-04",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-05/V",
+      "row_id": "S2-V05-05",
+      "arm": "V",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    },
+    {
+      "task": "native",
+      "request_id": "native/S2-V05-06/N",
+      "row_id": "S2-V05-06",
+      "arm": "N",
+      "split": "training_validation",
+      "max_output_tokens": 512
+    }
+  ],
+  "fixtures": [
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/0",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/1",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"X1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X10\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X_1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"X1\",\"status\":\"commit\"}",
+          "{\"action\":\"X10\",\"status\":\"commit\"}",
+          "{\"action\":\"X_1\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/2",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"unresolved\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/3",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/4",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"answer\\\":\\\"X1\\\"}\",\"{\\\"answer\\\":\\\"X10\\\"}\",\"{\\\"answer\\\":\\\"X_1\\\"}\",\"{\\\"answer\\\":\\\"unknown\\\"}\",\"{\\\"answer\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"answer\":\"X1\"}",
+          "{\"answer\":\"X10\"}",
+          "{\"answer\":\"X_1\"}",
+          "{\"answer\":\"unknown\"}",
+          "{\"answer\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/5",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":true}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":true,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":true,\\\"unresolved\\\":false}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":true}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":true,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":true,\"unresolved\":false}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/6",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"Choice\\\":\\\"A\\\"}\",\"{\\\"Choice\\\":\\\"B\\\"}\",\"{\\\"Choice\\\":\\\"Conditional\\\"}\",\"{\\\"Choice\\\":\\\"Undetermined\\\"}\",\"{\\\"Choice\\\":\\\"Refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"Choice\":\"A\"}",
+          "{\"Choice\":\"B\"}",
+          "{\"Choice\":\"Conditional\"}",
+          "{\"Choice\":\"Undetermined\"}",
+          "{\"Choice\":\"Refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/V/7",
+        "arm": "V",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/0",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/1",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"X1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X10\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X_1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"X1\",\"status\":\"commit\"}",
+          "{\"action\":\"X10\",\"status\":\"commit\"}",
+          "{\"action\":\"X_1\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/2",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"unresolved\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/3",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/4",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"answer\\\":\\\"X1\\\"}\",\"{\\\"answer\\\":\\\"X10\\\"}\",\"{\\\"answer\\\":\\\"X_1\\\"}\",\"{\\\"answer\\\":\\\"unknown\\\"}\",\"{\\\"answer\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"answer\":\"X1\"}",
+          "{\"answer\":\"X10\"}",
+          "{\"answer\":\"X_1\"}",
+          "{\"answer\":\"unknown\"}",
+          "{\"answer\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/5",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":true}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":true,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":true,\\\"unresolved\\\":false}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":true}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":true,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":true,\"unresolved\":false}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/6",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"Choice\\\":\\\"A\\\"}\",\"{\\\"Choice\\\":\\\"B\\\"}\",\"{\\\"Choice\\\":\\\"Conditional\\\"}\",\"{\\\"Choice\\\":\\\"Undetermined\\\"}\",\"{\\\"Choice\\\":\\\"Refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"Choice\":\"A\"}",
+          "{\"Choice\":\"B\"}",
+          "{\"Choice\":\"Conditional\"}",
+          "{\"Choice\":\"Undetermined\"}",
+          "{\"Choice\":\"Refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/N/7",
+        "arm": "N",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/0",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/1",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"X1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X10\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"X_1\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"X1\",\"status\":\"commit\"}",
+          "{\"action\":\"X10\",\"status\":\"commit\"}",
+          "{\"action\":\"X_1\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/2",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"unresolved\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/3",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/4",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"answer\\\":\\\"X1\\\"}\",\"{\\\"answer\\\":\\\"X10\\\"}\",\"{\\\"answer\\\":\\\"X_1\\\"}\",\"{\\\"answer\\\":\\\"unknown\\\"}\",\"{\\\"answer\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"answer\":\"X1\"}",
+          "{\"answer\":\"X10\"}",
+          "{\"answer\":\"X_1\"}",
+          "{\"answer\":\"unknown\"}",
+          "{\"answer\":\"refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/5",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":false,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":true}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":false,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":false,\\\"required\\\":true,\\\"unresolved\\\":false}\",\"{\\\"permitted\\\":true,\\\"recommended\\\":true,\\\"required\\\":true,\\\"unresolved\\\":false}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":false,\"recommended\":false,\"required\":false,\"unresolved\":true}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":false,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":false,\"required\":true,\"unresolved\":false}",
+          "{\"permitted\":true,\"recommended\":true,\"required\":true,\"unresolved\":false}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/6",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"Choice\\\":\\\"A\\\"}\",\"{\\\"Choice\\\":\\\"B\\\"}\",\"{\\\"Choice\\\":\\\"Conditional\\\"}\",\"{\\\"Choice\\\":\\\"Undetermined\\\"}\",\"{\\\"Choice\\\":\\\"Refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"Choice\":\"A\"}",
+          "{\"Choice\":\"B\"}",
+          "{\"Choice\":\"Conditional\"}",
+          "{\"Choice\":\"Undetermined\"}",
+          "{\"Choice\":\"Refuse\"}"
+        ]
+      }
+    },
+    {
+      "slot": {
+        "task": "fixture",
+        "request_id": "fixture/U/7",
+        "arm": "U",
+        "split": "neutral_technical",
+        "max_output_tokens": 128
+      },
+      "request": {
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a neutral serialization test. No welfare decision is involved. Return a permitted output form."
+          },
+          {
+            "role": "user",
+            "content": "Permitted output forms: [\"{\\\"action\\\":\\\"NEUTRAL_LEFT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_RIGHT\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":\\\"NEUTRAL_HOLD\\\",\\\"status\\\":\\\"commit\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"unresolved\\\"}\",\"{\\\"action\\\":null,\\\"status\\\":\\\"refuse\\\"}\"]"
+          }
+        ],
+        "temperature": 0,
+        "top_p": 1,
+        "seed": 20261107,
+        "max_completion_tokens": 128,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "stream": false,
+        "n": 1,
+        "r1_allowed_responses": [
+          "{\"action\":\"NEUTRAL_LEFT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_RIGHT\",\"status\":\"commit\"}",
+          "{\"action\":\"NEUTRAL_HOLD\",\"status\":\"commit\"}",
+          "{\"action\":null,\"status\":\"unresolved\"}",
+          "{\"action\":null,\"status\":\"refuse\"}"
+        ]
+      }
+    }
+  ]
+}

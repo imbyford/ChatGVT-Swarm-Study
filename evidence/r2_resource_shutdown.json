@@ -1,0 +1,27 @@
+{
+  "checked_at": 1794213076.3864498,
+  "deletion_verified_http": 404,
+  "active_billable_pods": 0,
+  "current_spend_per_hour_usd": 0.0,
+  "observed_credit_deduction_usd": 0.1303194120000004,
+  "rental_wall_seconds_including_setup_retrieval_deletion": 782.5997478961945,
+  "elapsed_price_estimate_usd": 0.13127869227826594,
+  "authorized_cap_usd": 2,
+  "authorized_aggregate_seconds": 7200,
+  "new_payments_or_topups": 0,
+  "replacement_allocations": 0,
+  "provider_enforced_dollar_cap": false,
+  "billing_caveat": "Observed account deduction is measured at the stated timestamp; final itemized billing may lag. Elapsed-price figure is an estimate, not a separately charged amount.",
+  "allocation_count": 1,
+  "collection_completed_UTC": "2026-11-09T08:02:43Z",
+  "deletion_verified_UTC": "2026-11-09T08:02:55Z",
+  "itemized_billing_http": 200,
+  "itemized_record_count": 0,
+  "itemized_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0,
+    "totalAmount": 0
+  },
+  "itemized_zero_totals_do_not_mean_free": "No itemized records have posted; observed balance deduction remains the charge evidence."
+}

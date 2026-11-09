@@ -1,0 +1,54 @@
+{
+  "study_id": "study2-vnu",
+  "version": "proposed-analysis-contract-v1",
+  "status": "PRE_OUTCOME_ENGINEERING_SPEC_NOT_EVALUATION_APPROVAL",
+  "arms": [
+    "V",
+    "N",
+    "U"
+  ],
+  "primary": "R_S = H_NS - H_VS",
+  "components": [
+    "R_I = H_NI - H_VI",
+    "theta = R_S - R_I"
+  ],
+  "positive_harm_contrast": "Positive R_I/R_S favours V; theta alone proves neither within-condition benefit nor harm reduction from communication.",
+  "primary_support": "Common complete VI/VS/NI/NS worlds; U failure does not remove V/N observations from the primary comparison.",
+  "six_cell_means": "Also report VI/VS/NI/NS/UI/US on common six-cell worlds, their IDs, all available per-cell means and planned/started/completed counts.",
+  "secondary_baselines": "H_U-H_V and H_U-H_N per I/S plus their interactions, each on its own common four-cell support; report support and do not switch headline.",
+  "work": "legitimate_output = service_delivered = useful_work. Auxiliary activity is separate; no combined welfare score.",
+  "animal_primary": "N-V realized burden; report V-N positive opportunity and service alongside it, with three-arm means and U baseline contrasts.",
+  "policy_fidelity": "Separate fidelity to each preapproved V/N policy, including permissible/required/recommended/indeterminate sets; N is not scored for fidelity using a V welfare ranking.",
+  "competence": "Separate common factual answer keys, equal questions and denominators; factual competence is not inferred from welfare or policy compliance.",
+  "human_omission_multipliers": [
+    0.5,
+    1,
+    2
+  ],
+  "animal_future_loss_weights": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "weighting": "Equal authored families, equal worlds/base profiles within family; status twins averaged within parent.",
+  "resampling": {
+    "draws": 4000,
+    "seed": 2026110802,
+    "unit": "family",
+    "interpretation": "95% family-resampling ranges conditional on this authored suite and these checkpoints; not population coverage or training-seed uncertainty."
+  },
+  "missingness": "Every planned family retained, including wholly missing families. Invalid/refused/interrupted output is missing, never zero harm. No retry/repair/replacement. Hypothetical feasible-commitment bounds and known irreversible animal prefixes reported separately.",
+  "communication": "Three common-fact proposals separately frozen per arm/world; branch to I/S with identical own proposals and only S peer visibility, three simultaneous final commitments, no debate or extra authority.",
+  "coverage": "Full V/N/U coverage in both conditions on all human worlds and all animal cases unless a reduced matched U subset is separately fixed and approved before outcomes.",
+  "collection": "No favourable animal-uptake gate for human execution or reporting.",
+  "selection": "One common SFT recipe and technical checkpoint rule before training; no protected-outcome selection. No B/C initialization, DPO, scaling or automatic retraining.",
+  "interpretation": "Outcome-informed exploratory follow-up. Fresh tests are not retroactive preregistration. Structural overlap is disclosed; exact case/solution-template copying audited. One checkpoint per arm does not isolate all causes or establish durable values.",
+  "u_identity": "Public deployment-base reference until training/deployment weight identity is independently established; not morally neutral.",
+  "approval": {
+    "training": false,
+    "external_uploads": false,
+    "paid_gpu": false,
+    "protected_evaluation": false
+  }
+}

@@ -1,0 +1,59 @@
+Original Study 2: deterministic, post-hoc response-extraction sensitivity
+
+The original strict-interface results remain unchanged. The extraction code was
+hash-registered before rescoring and applied identically to all 302 started
+responses. No model calls, semantic repair, new branches or revised prompts were
+used. The original run had 260 valid responses, 40 invalid responses, two
+truncated responses and 55 unstarted slots out of 357 planned physical slots.
+
+                        V             N             U             Total
+Started                 117           111           74            302
+S1 readable commits     114            94            72            280
+S1 newly readable       4             1             15            20
+S2 readable commits     116           109            72            297
+S2 newly readable       6             16            15            37
+
+S1 relaxes only the rationale-byte ceiling while retaining complete JSON and
+the original auxiliary/schema requirements. S2 additionally accepts a single
+unambiguous embedded JSON object or exact anchored decision field, and does not
+let defective auxiliary fields invalidate a committed physical action. In the
+observed data, all 20 S1 recoveries were complete JSON; the 17 further S2
+recoveries were single embedded JSON objects. No anchored-field rescue was
+needed. A genuine V unresolved response, two truncated responses and two
+out-of-menu responses remain noncommitments or unreadable under S2.
+
+Seven recovered U initial proposals cannot create their uncalled revisions.
+Actual transmitted peer/own proposals and animal histories remain unchanged.
+Complete human cells across development and protected splits rise from the
+original 39/72 to 44/72 under S1 and 55/72 under S2. These are recoveries of
+observed final actions, not a completed rerun of the original experiment.
+
+Protected human primary, original common-four-cell support, omission weight 1:
+S1: HP01 and HP03; available-family R_I=0, R_S=5.5, theta=5.5.
+S2: HP01, HP02, HP03, HP05, HP06, HP07, HP08; available-family R_I=1.583333,
+R_S=2, theta=0.416667. The power-trip family is still missing, so the original
+full-suite primary estimates and their family-resampling ranges remain undefined.
+R_I=H_NI-H_VI, R_S=H_NS-H_VS, theta=R_S-R_I; positive values denote a V harm
+advantage for the corresponding harm contrast, not greater legitimate work.
+
+The explicitly supplementary contrast-specific S2 R_I has all eight worlds and
+seven families and equals 1.357143. R_S and theta still lack the power-trip
+family. This supplementary R_I does not replace the original four-cell-support
+primary. The feasible-completion theta interval under S2 is [-0.357143,5.214286],
+a sensitivity bound rather than an observed or probabilistic confidence interval.
+
+Protected animal S1 and S2 share AP01, AP02, AP03 and AP05. The paired,
+family-weighted N-V burden difference is 1; mandatory V-N positive-opportunity
+and service differences are 0.5 and 0. Both planned families are represented,
+so the frozen family-missingness rule defines these means, but only four of five
+cases contribute. AP04 is not silently converted to a harmless trajectory.
+Ordinary-use-family contrasts are 2 burden, 1 opportunity, 0 service; the other
+represented family's contrasts are zero. These small authored-case effects do
+not establish acquisition of distinct moral policies or general human safety.
+
+All original responses, failure categories, deterministic examples, family
+effects, omission/future-loss sensitivities and support definitions are included
+in original_sensitivity.json and sensitivity_tables/. Examples are selected by
+lexicographically first request within each arm/error/status category, never by
+welfare favorability. Uncalled branches, unresolved choices and truncated text
+retain their distinct status. No noncommitment is assigned zero harm.

@@ -1,0 +1,245 @@
+{
+  "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+  "source_audit_sha256": "171dd6268efcdb47b3a87d44a946905b92566598ac09633c9065c79b659ccf82",
+  "source_findings_sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+  "reviewer_type": "independent AI review supplied by user; not human validation",
+  "curriculum_clearance": "GO_FOR_AUTHORIZED_TRAINING_PREFLIGHT",
+  "curriculum_or_policy_changes_required": false,
+  "evaluation_status": "TARGETED_MODIFY_E1_E2_AWAIT_AUTHOR_SUCCESSOR",
+  "applied_evaluation_edits": false,
+  "bindings_verified": [
+    {
+      "binding": "archive:Study2_Private_Authoring_and_Review.zip",
+      "local_path": "study2_integration_rc1/inputs/Study2_Private_Authoring_and_Review.zip",
+      "expected_sha256": "c46b0e6f598bdb21596f9c5d108d23eb566944fa2098abede46eb700697badd8",
+      "actual_sha256": "c46b0e6f598bdb21596f9c5d108d23eb566944fa2098abede46eb700697badd8",
+      "match": true
+    },
+    {
+      "binding": "archive:Study2_Model_Facing_Drafts.zip",
+      "local_path": "study2_integration_rc1/inputs/Study2_Model_Facing_Drafts.zip",
+      "expected_sha256": "e5b2345f3f2ca8eb974133a7b5b35b02370e7fccc4216cb540848d655904a98a",
+      "actual_sha256": "e5b2345f3f2ca8eb974133a7b5b35b02370e7fccc4216cb540848d655904a98a",
+      "match": true
+    },
+    {
+      "binding": "archive:study2_curriculum_v1.0rc1.zip",
+      "local_path": "study2_integration_rc1/inputs/study2_curriculum_v1.0rc1.zip",
+      "expected_sha256": "e13f6ba29d5952e573e3ddf0430d41575277e9b752d16e96422b74ac21f7c81f",
+      "actual_sha256": "e13f6ba29d5952e573e3ddf0430d41575277e9b752d16e96422b74ac21f7c81f",
+      "match": true
+    },
+    {
+      "binding": "corpus:train_N_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/data/incoming/train_N_v1.0rc1.jsonl",
+      "expected_sha256": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+      "actual_sha256": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+      "match": true
+    },
+    {
+      "binding": "working_corpus:train_N_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/working/curriculum/data/incoming/train_N_v1.0rc1.jsonl",
+      "expected_sha256": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+      "actual_sha256": "32e53d77f285cc09e4bbba2246267f3e12fd100fd5c24257e150dcaf033f8998",
+      "match": true
+    },
+    {
+      "binding": "corpus:train_V_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/data/incoming/train_V_v1.0rc1.jsonl",
+      "expected_sha256": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+      "actual_sha256": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+      "match": true
+    },
+    {
+      "binding": "working_corpus:train_V_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/working/curriculum/data/incoming/train_V_v1.0rc1.jsonl",
+      "expected_sha256": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+      "actual_sha256": "35543f2ccae8ebfd91f6b09ae70fe7cc3b986062d5137d4cac56e5d18fb22735",
+      "match": true
+    },
+    {
+      "binding": "corpus:training_validation_N_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/data/incoming/training_validation_N_v1.0rc1.jsonl",
+      "expected_sha256": "0b7840ade4b5910be4c1c437c9394de53c29b697cbc2a43076450330e0e1de9a",
+      "actual_sha256": "0b7840ade4b5910be4c1c437c9394de53c29b697cbc2a43076450330e0e1de9a",
+      "match": true
+    },
+    {
+      "binding": "working_corpus:training_validation_N_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/working/curriculum/data/incoming/training_validation_N_v1.0rc1.jsonl",
+      "expected_sha256": "0b7840ade4b5910be4c1c437c9394de53c29b697cbc2a43076450330e0e1de9a",
+      "actual_sha256": "0b7840ade4b5910be4c1c437c9394de53c29b697cbc2a43076450330e0e1de9a",
+      "match": true
+    },
+    {
+      "binding": "corpus:training_validation_V_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/data/incoming/training_validation_V_v1.0rc1.jsonl",
+      "expected_sha256": "7cc6f492a8880728ea299ca160836446141b7bf6eb2e80fe7203b88d7c790ff6",
+      "actual_sha256": "7cc6f492a8880728ea299ca160836446141b7bf6eb2e80fe7203b88d7c790ff6",
+      "match": true
+    },
+    {
+      "binding": "working_corpus:training_validation_V_v1.0rc1.jsonl",
+      "local_path": "study2_integration_rc1/working/curriculum/data/incoming/training_validation_V_v1.0rc1.jsonl",
+      "expected_sha256": "7cc6f492a8880728ea299ca160836446141b7bf6eb2e80fe7203b88d7c790ff6",
+      "actual_sha256": "7cc6f492a8880728ea299ca160836446141b7bf6eb2e80fe7203b88d7c790ff6",
+      "match": true
+    },
+    {
+      "binding": "curriculum_manifest",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/file_manifest.json",
+      "expected_sha256": "78fb1f0c46dafcb0ef77aa9f1e5062a7b3fadbf60d1348806b953424e8891f3f",
+      "actual_sha256": "78fb1f0c46dafcb0ef77aa9f1e5062a7b3fadbf60d1348806b953424e8891f3f",
+      "match": true
+    },
+    {
+      "binding": "curriculum_registry",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/family_split_registry.json",
+      "expected_sha256": "a553debda5887d83978909ce5a85ca8ebfa9aac1f935a79dd10ca0616b7ac006",
+      "actual_sha256": "a553debda5887d83978909ce5a85ca8ebfa9aac1f935a79dd10ca0616b7ac006",
+      "match": true
+    },
+    {
+      "binding": "paired_factual_ledger",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/data/incoming/paired_factual_ledger_v1.0rc1.jsonl",
+      "expected_sha256": "662beaf0916039ea21a20846c926f4e39f0d6b07ac412004094290f8325f4ee5",
+      "actual_sha256": "662beaf0916039ea21a20846c926f4e39f0d6b07ac412004094290f8325f4ee5",
+      "match": true
+    },
+    {
+      "binding": "policy:V",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/policies/V_approved_v0.2.md",
+      "expected_sha256": "fc72b83fdbf032eb94ac8544bdbfcd4c1f6551fed4ef0a8654049d326350c898",
+      "actual_sha256": "fc72b83fdbf032eb94ac8544bdbfcd4c1f6551fed4ef0a8654049d326350c898",
+      "match": true
+    },
+    {
+      "binding": "policy:N",
+      "local_path": "study2_integration_rc1/inputs/curriculum/study2_curriculum_v1.0rc1/policies/N_approved_v0.2.md",
+      "expected_sha256": "253e1e2868c42a0da32fe8f950b58fe4a814f0b14c87ec77fc1a4b1119bdbb14",
+      "actual_sha256": "253e1e2868c42a0da32fe8f950b58fe4a814f0b14c87ec77fc1a4b1119bdbb14",
+      "match": true
+    },
+    {
+      "binding": "evaluation_case:model_facing/development/animal_development.json",
+      "local_path": "study2_integration_rc1/evaluation/draft/model_facing/development/animal_development.json",
+      "expected_sha256": "5c13d1df5790ddcaa4733e6fd2ea579871b77fb5a9740c20a46d35d7c549bcb9",
+      "actual_sha256": "5c13d1df5790ddcaa4733e6fd2ea579871b77fb5a9740c20a46d35d7c549bcb9",
+      "match": true
+    },
+    {
+      "binding": "evaluation_case:model_facing/development/human_development.json",
+      "local_path": "study2_integration_rc1/evaluation/draft/model_facing/development/human_development.json",
+      "expected_sha256": "86ee68408b881a49beaf7c021f59bbe65075bb478e4c516353a6cf7d22ecfa87",
+      "actual_sha256": "86ee68408b881a49beaf7c021f59bbe65075bb478e4c516353a6cf7d22ecfa87",
+      "match": true
+    },
+    {
+      "binding": "evaluation_case:model_facing/protected_draft/animal_protected.json",
+      "local_path": "study2_integration_rc1/evaluation/draft/model_facing/protected_draft/animal_protected.json",
+      "expected_sha256": "a2f89a6dfe7400bcd6ee715404fb1f0a06e84aaec808e901a24788b6d1bc02eb",
+      "actual_sha256": "a2f89a6dfe7400bcd6ee715404fb1f0a06e84aaec808e901a24788b6d1bc02eb",
+      "match": true
+    },
+    {
+      "binding": "evaluation_case:model_facing/protected_draft/human_protected.json",
+      "local_path": "study2_integration_rc1/evaluation/draft/model_facing/protected_draft/human_protected.json",
+      "expected_sha256": "85e18a31308448cbe970743d29d11771626ef31dcc3b2648206184a523eec49f",
+      "actual_sha256": "85e18a31308448cbe970743d29d11771626ef31dcc3b2648206184a523eec49f",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/analysis.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/analysis.py",
+      "expected_sha256": "197477b3505a6b9805419e7e54a9e4d14822dfe4a33980e625731f1690fbd743",
+      "actual_sha256": "197477b3505a6b9805419e7e54a9e4d14822dfe4a33980e625731f1690fbd743",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/local_overlap.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/local_overlap.py",
+      "expected_sha256": "4df90b5e0d9b4880d4f078396c088fae278cfa59bb7195e9acef9e6c98b92db9",
+      "actual_sha256": "4df90b5e0d9b4880d4f078396c088fae278cfa59bb7195e9acef9e6c98b92db9",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/plan.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/plan.py",
+      "expected_sha256": "1a8f5181f47662c1cc17d905a82831d796d1e7184b6eb36346faf0639dcf36a7",
+      "actual_sha256": "1a8f5181f47662c1cc17d905a82831d796d1e7184b6eb36346faf0639dcf36a7",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/prompts.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/prompts.py",
+      "expected_sha256": "7ca07cf7a7a28003c4b4e249ddc8eeab4ea8a1ed7f30de53d97b9934a6cef175",
+      "actual_sha256": "7ca07cf7a7a28003c4b4e249ddc8eeab4ea8a1ed7f30de53d97b9934a6cef175",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/scoring.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/scoring.py",
+      "expected_sha256": "1201961473e9cf2b873ec5f2170a3fcc94f427e4bda333dc3867bffe8cac8c70",
+      "actual_sha256": "1201961473e9cf2b873ec5f2170a3fcc94f427e4bda333dc3867bffe8cac8c70",
+      "match": true
+    },
+    {
+      "binding": "evaluation_source:source/validate.py",
+      "local_path": "study2_integration_rc1/evaluation/draft/source/validate.py",
+      "expected_sha256": "a1b9eaae68ab5edf87e760fb3ea0c45c9d9edd1db7338bd4e7529c1474de90ba",
+      "actual_sha256": "a1b9eaae68ab5edf87e760fb3ea0c45c9d9edd1db7338bd4e7529c1474de90ba",
+      "match": true
+    },
+    {
+      "binding": "evaluation_registry",
+      "local_path": "study2_integration_rc1/evaluation/draft/private/family_split_registry.json",
+      "expected_sha256": "2259b7ff0aa34365919c16e66b4def81a3147bb9a46f0bd3b86ccc3a9e2a6140",
+      "actual_sha256": "2259b7ff0aa34365919c16e66b4def81a3147bb9a46f0bd3b86ccc3a9e2a6140",
+      "match": true
+    },
+    {
+      "binding": "analysis_contract",
+      "local_path": "study2_integration_rc1/evaluation/draft/private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+      "expected_sha256": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+      "actual_sha256": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+      "match": true
+    },
+    {
+      "binding": "protocol",
+      "local_path": "study2_integration_rc1/evaluation/draft/protocol/PROTOCOL_AND_ANALYSIS.txt",
+      "expected_sha256": "fa49ef4988faef87f6351f91b5f8087f64f645cae8770bf480e3786f296caaa0",
+      "actual_sha256": "fa49ef4988faef87f6351f91b5f8087f64f645cae8770bf480e3786f296caaa0",
+      "match": true
+    },
+    {
+      "binding": "evaluation_draft_manifest",
+      "local_path": "study2_integration_rc1/evaluation/draft/private/DRAFT_INTEGRITY_MANIFEST.json",
+      "expected_sha256": "fffdfcce7fba593ac902f8cc9980970f4fad056f9eeba3714e3dd67e1361a960",
+      "actual_sha256": "fffdfcce7fba593ac902f8cc9980970f4fad056f9eeba3714e3dd67e1361a960",
+      "match": true
+    }
+  ],
+  "all_bindings_match": true,
+  "training_proposal_sha256": "3dee98c10e1e4bc358a4b4b9916fcfaaf2b87609a36db684e6919d19931d9ecb",
+  "user_authorization": {
+    "private_raw_ingestion_exact_train_V_and_N": true,
+    "verification_and_nonbillable_recommendations": true,
+    "money_limit": 0,
+    "credit_deduction_limit": 0,
+    "requires_positive_nonbillable_evidence_before_ingestion_processing_recommendation": true,
+    "training": false,
+    "GPU": false,
+    "evaluated_model_calls": false,
+    "audit_validation_metadata_or_evaluation_upload": false
+  },
+  "audit_interpretation_limits": [
+    "Repeated rows, template states and family labels are not independent experiments; training-validation includes related solution templates.",
+    "Animal-centred training explicitly includes direct human-benefit trade-offs. Human evaluation supports new-task/compositional transfer claims, not human concern learned without human-benefit examples.",
+    "Protected animal coverage is five cases in two families: uptake/care controls and unresolved comparisons. Necessity and known-risk probes are in development. Do not claim broad moral coverage or an isolated status effect.",
+    "If unresolved responses leave a protected family wholly unobserved, its full-suite animal point estimate and bootstrap range are undefined. Preserve this result and report available-family estimates and feasible bounds separately; do not force commitment or impute zero.",
+    "Harm, positive opportunity and useful service remain separate mandatory outcomes. A harm reduction is not by itself evidence of positive flourishing.",
+    "One checkpoint per arm and unresolved base identity narrow this to an exploratory checkpoint comparison. U remains a public deployment-base reference until weight identity is established.",
+    "The study is an outcome-informed exploratory follow-up, not retroactively blinded preregistration. No previous outcome values were used to select corrections in this review."
+  ],
+  "audit_does_not_establish_provider_controls_or_pricing": true
+}

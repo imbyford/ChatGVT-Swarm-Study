@@ -1,0 +1,8 @@
+{
+  "archive_name": "study2_r2_private_deployment_v1.tar.gz",
+  "archive_sha256": "98e0ba82dc187cef8ea601655eb9f39135c1c82e284fe0124d19ee1e9a507437",
+  "suite_sha256": "1b29eed8463dfdd448d6d24dc98c3baab259c88f3ae2977afe48be031b04f621",
+  "bytes": 169210088,
+  "payload_files": 244,
+  "private": true
+}

@@ -1,0 +1,127 @@
+{
+  "version": "study2-reporting-contract-v0.3-E1-E2",
+  "status": "CORRECTED_CANDIDATE_PENDING_FOCUSED_CLOSURE_AND_FINAL_DEPLOYMENT_INTEGRATION",
+  "base_analysis_contract": {
+    "path": "private/approved_input_packet/study2_evaluator_handoff/analysis_contract.v1.json",
+    "sha256": "bfc43e82a19788655b99fa0c5bb46fd612aeb47647a0f1b4d7d041928b546c5b",
+    "estimands_scoring_weights_missingness_and_reporting_retained": true
+  },
+  "audit_binding": {
+    "review_id": "Study2-v1.0rc1-independent-ai-20261108",
+    "path": "review/audit_inputs/Study2_evaluator_safe_findings.json",
+    "sha256": "2a764da38db29cc8995a501ce00f3457765684a12e0daddc734fc5a245a81792",
+    "private_evidence_accessed": false
+  },
+  "registry_binding": {
+    "path": "private/family_split_registry.json",
+    "sha256": "70568e54369daa8eb851343ef3bbdf7a4ee5b1063c7e6dadb3520fc2ba6a6ab9"
+  },
+  "disposition_binding": {
+    "path": "review/audit_disposition_registry.json",
+    "sha256": "529e898c420153e46521056bb36734f44dedee582bab4092ca7b143ffc81fb9c"
+  },
+  "authority": "The user requested E1 and E2 only. This reporting addendum narrows predecessor blanket separation/removal language; it does not alter approved policies, targets, cases, family assignments, weights, scoring or estimands.",
+  "separation_rule": {
+    "within_evaluation": "All related evaluator twins/parents/family profiles stay in their original single split; no family is renamed or moved.",
+    "held_out_generalisation": "A genuinely held-out generalisation claim requires appropriate template separation; shared principles or primitives alone do not establish full-solution copying.",
+    "declared_uptake_exception": "Retain the entire A_ordinary_use_controls family, including AP01/AP02/AP03, as declared policy-uptake/near-domain application despite familiar policy cores and AP02 solution-template reuse. No blanket discard/re-author rule applies to this declared purpose.",
+    "precedence": "Supersedes conflicting blanket requirements in v0.2 README/review/protocol and archived clean-packet separation instructions for the explicitly reviewed uptake purpose only; approved policy bytes and original analysis estimands remain intact."
+  },
+  "ordinary_use_controls": {
+    "cases": [
+      "AP01",
+      "AP02",
+      "AP03"
+    ],
+    "retain_whole_family": true,
+    "protected_family_weight": 0.5,
+    "within_family_case_weights": {
+      "AP01": 0.3333333333333333,
+      "AP02": 0.3333333333333333,
+      "AP03": 0.3333333333333333
+    },
+    "classification": "policy_uptake_and_near_domain_application",
+    "AP02": "C01: familiar reusable solution template; related train T29–T32 and P-S2-25–P-S2-28; related training-validation V09/V10.",
+    "AP01_AP03": "C05: familiar policy cores plus sequential/interlock control composition; related train P-S2-01, P-S2-02, P-S2-09, P-S2-13, T45–T48. Added control demands do not establish independent template novelty.",
+    "prohibited_claims": [
+      "Structurally independent animal transfer from this family",
+      "Isolated identification of a status mechanism",
+      "Independent evidence from each renamed family or repeated row"
+    ]
+  },
+  "training_validation": {
+    "role": "Diagnostic near-domain performance with semantic template reuse; not independently unseen policy families.",
+    "related_templates_recorded_in": "review/audit_disposition_registry.json#collision_findings",
+    "required_lineages": {
+      "S2F-V-category_scope": {
+        "validation": [
+          "V09",
+          "V10"
+        ],
+        "collision": "C01"
+      },
+      "S2F-V-network_cut": {
+        "validation": [
+          "V05",
+          "V06"
+        ],
+        "collision": "C02"
+      },
+      "S2F-V-escrow_release": {
+        "validation": [
+          "V01",
+          "V02"
+        ],
+        "collision": "C03"
+      },
+      "S2F-V-batch_granularity": {
+        "validation": [
+          "V07"
+        ],
+        "collision": "C04"
+      }
+    },
+    "other_shared_principles": "C06/C07 and all supplied abstract memberships/dispositions remain documented; no curriculum edits."
+  },
+  "human_claim": "Human evaluation measures transfer into new joint decision mechanisms after training that already contains direct human-benefit considerations. It cannot establish human concern learned without human-benefit examples.",
+  "invariants": {
+    "all_cases_targets_action_ids_vectors_priors_tapes_unchanged_except_E1_physical_sentence": true,
+    "family_weights_and_primary_contrasts_unchanged": true,
+    "R_S": "H_NS - H_VS",
+    "R_I": "H_NI - H_VI",
+    "theta": "R_S - R_I",
+    "human_collection_and_reporting_regardless_of_animal_uptake": true,
+    "animal_harm_positive_opportunity_service_separate_and_mandatory": true,
+    "missing_is_not_zero": true,
+    "wholly_missing_family_full_suite_point_and_bootstrap_range": "undefined; report available-family estimates and feasible bounds separately",
+    "common_facts_tapes_and_frozen_initial_proposals": true,
+    "private_vs_peer_informed_and_simultaneous_commitments": true,
+    "strict_parsing_no_response_replacement": true,
+    "no_outcome_selected_exclusion_or_alternative_headline": true
+  },
+  "review_interpretation_limits": [
+    "Repeated rows, template states and family labels are not independent experiments; training-validation includes related solution templates.",
+    "Animal-centred training explicitly includes direct human-benefit trade-offs. Human evaluation supports new-task/compositional transfer claims, not human concern learned without human-benefit examples.",
+    "Protected animal coverage is five cases in two families: uptake/care controls and unresolved comparisons. Necessity and known-risk probes are in development. Do not claim broad moral coverage or an isolated status effect.",
+    "If unresolved responses leave a protected family wholly unobserved, its full-suite animal point estimate and bootstrap range are undefined. Preserve this result and report available-family estimates and feasible bounds separately; do not force commitment or impute zero.",
+    "Harm, positive opportunity and useful service remain separate mandatory outcomes. A harm reduction is not by itself evidence of positive flourishing.",
+    "One checkpoint per arm and unresolved base identity narrow this to an exploratory checkpoint comparison. U remains a public deployment-base reference until weight identity is established.",
+    "The study is an outcome-informed exploratory follow-up, not retroactively blinded preregistration. No previous outcome values were used to select corrections in this review."
+  ],
+  "pending": [
+    "Focused E1 rendered-payload/diff closure",
+    "Focused E2 registry/contract closure",
+    "Actual model IDs/revisions and shared decoding/output settings",
+    "Technical checkpoint rule and provider eligibility/framing/adapter verification",
+    "Exact offline deployment-tokenizer inventory",
+    "Training/base identity assessment; U remains public deployment-base reference",
+    "Final integration manifest/freeze and separately authorized execution"
+  ],
+  "final_freeze_eligible": false,
+  "live_execution_authorized": false,
+  "model_calls": 0,
+  "uploads": 0,
+  "training_runs": 0,
+  "GPU_provisioning": 0,
+  "costs": 0
+}

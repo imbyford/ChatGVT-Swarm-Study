@@ -1,0 +1,13 @@
+{
+  "original_overnight_archive_sha256": "21003e5c1c481a8b9523bc72d4781f8cc033788759ede6fb146783e93ad07fe9",
+  "original_overnight_pdf_sha256": "d3fb4ca47be9e1400ccc997ed2da9ed163fa2ca8a810525f71b94e547bbf0623",
+  "unchanged": true,
+  "preserved_fallback_files": {
+    "fallback/corrected_no_new_run/ChatGVT_manuscript.docx": "806ccd13e9a52f9e72b19e3c2c47397ba4038d6fa74a8a3ebb96744b8cf75b17",
+    "fallback/corrected_no_new_run/ChatGVT_manuscript.pdf": "198791822177756ed3f648381f4e1d36694a6c5a2b5cca19962691d3845fe47d",
+    "fallback/corrected_no_new_run/manuscript.md": "a6a8b41b87f679c0f26b1ada89dc8f7ec189e1eee937754faefa71b376616211",
+    "fallback/overnight_original/ChatGVT_manuscript.docx": "c551fea5e7bbbef0e6fd98f65275eb024f0144c92b05a985a1a5455638201abe",
+    "fallback/overnight_original/ChatGVT_manuscript.pdf": "d3fb4ca47be9e1400ccc997ed2da9ed163fa2ca8a810525f71b94e547bbf0623",
+    "fallback/overnight_original/manuscript.md": "c673446f600128faed7f74c39a6df321113282001352e198c641b70eef4490e5"
+  }
+}

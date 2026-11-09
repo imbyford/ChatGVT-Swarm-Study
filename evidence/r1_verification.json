@@ -1,0 +1,40 @@
+{
+  "U_adapter_disable_enforced_all_128_layers": true,
+  "actual_input_tokens": 817502,
+  "actual_output_tokens": 31539,
+  "all_model_routes_verified": true,
+  "exact_adapter_gpu_tensors_per_arm": 256,
+  "exact_replay": true,
+  "freeze": {
+    "candidate_manifest_sha256": "a2c7a14743a243e1b6dc92d7d758ac82f08d7380eb8ec91c895a9046c26f3020",
+    "frozen_files": 241,
+    "maximum_output_tokens": 148608,
+    "maximum_requests": 945,
+    "model_manifest_sha256": "2c8b65d3e243f09e3771833fca61758501b5101f30360520e6c5f42d5b647117",
+    "suite_sha256": "b08b59163843a82a27c6b935764e905cf7e3b2d7ed1378e539ae330269c6768f"
+  },
+  "gpu_prompt_inventory_matches": 925,
+  "independent_animal_path_checks": 96,
+  "independent_human_table_checks": 216,
+  "ledger_sha256": "e407a6490a6b1c2e6a2f7ca792166ba3db8a49d1117d0ea871caea3161710382",
+  "remote_local_analysis_exact": true,
+  "requests": 925,
+  "requests_by_arm": {
+    "N": 310,
+    "U": 305,
+    "V": 310
+  },
+  "requests_by_task": {
+    "auxiliary": 116,
+    "fixture": 24,
+    "native": 72,
+    "physical": 353,
+    "uptake": 360
+  },
+  "reserved_output_tokens": 146048,
+  "response_status_counts": {
+    "invalid": 5,
+    "truncated": 37,
+    "valid": 883
+  }
+}

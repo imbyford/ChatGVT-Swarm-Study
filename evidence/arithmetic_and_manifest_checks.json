@@ -1,0 +1,975 @@
+{
+  "payloads_verified": 275,
+  "hash_mismatches": [],
+  "method": "Independent consequence-table arithmetic from saved joint commitments; no production scoring function imported. Equal worlds within family, then equal families; confirms given parent grouping.",
+  "human": {
+    "development": {
+      "cells": {
+        "VI": {
+          "harm": 5.25,
+          "action": 1.75,
+          "omission": 3.5,
+          "service": 9.25
+        },
+        "VS": {
+          "harm": 7.5,
+          "action": 1,
+          "omission": 6.5,
+          "service": 7.5
+        },
+        "NI": {
+          "harm": 7,
+          "action": 2.5,
+          "omission": 4.5,
+          "service": 8.75
+        },
+        "NS": {
+          "harm": 5.5,
+          "action": 2.5,
+          "omission": 3,
+          "service": 9.25
+        },
+        "UI": {
+          "harm": 7,
+          "action": 2.5,
+          "omission": 4.5,
+          "service": 8.75
+        },
+        "US": {
+          "harm": 5.5,
+          "action": 2.5,
+          "omission": 3,
+          "service": 9.25
+        }
+      },
+      "R_I": 1.75,
+      "R_S": -2.0,
+      "theta": -3.75,
+      "families": {
+        "H_calendar_channels": {
+          "VI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "VS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "NI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "NS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "UI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "US": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          }
+        },
+        "H_backup_priority": {
+          "VI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "VS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          },
+          "NI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "NS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          },
+          "UI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "US": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          }
+        },
+        "H_confidential_aliases": {
+          "VI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "VS": {
+            "harm": 20,
+            "action": 2,
+            "omission": 18,
+            "service": 0
+          },
+          "NI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "NS": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "UI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "US": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          }
+        },
+        "H_allergen_partition": {
+          "VI": {
+            "harm": 0,
+            "action": 0,
+            "omission": 0,
+            "service": 12
+          },
+          "VS": {
+            "harm": 0,
+            "action": 0,
+            "omission": 0,
+            "service": 12
+          },
+          "NI": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "NS": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "UI": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "US": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          }
+        }
+      },
+      "by_case": {
+        "HD01": {
+          "VI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "VS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "NI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "NS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "UI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          },
+          "US": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 10
+          }
+        },
+        "HD02": {
+          "VI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "VS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          },
+          "NI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "NS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          },
+          "UI": {
+            "harm": 13,
+            "action": 1,
+            "omission": 12,
+            "service": 6
+          },
+          "US": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 8
+          }
+        },
+        "HD03": {
+          "VI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "VS": {
+            "harm": 20,
+            "action": 2,
+            "omission": 18,
+            "service": 0
+          },
+          "NI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "NS": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "UI": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          },
+          "US": {
+            "harm": 5,
+            "action": 5,
+            "omission": 0,
+            "service": 9
+          }
+        },
+        "HD04": {
+          "VI": {
+            "harm": 0,
+            "action": 0,
+            "omission": 0,
+            "service": 12
+          },
+          "VS": {
+            "harm": 0,
+            "action": 0,
+            "omission": 0,
+            "service": 12
+          },
+          "NI": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "NS": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "UI": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          },
+          "US": {
+            "harm": 7,
+            "action": 3,
+            "omission": 4,
+            "service": 10
+          }
+        }
+      }
+    },
+    "protected": {
+      "cells": {
+        "VI": {
+          "harm": 8.928571428571429,
+          "action": 2.5,
+          "omission": 6.428571428571429,
+          "service": 7.285714285714286
+        },
+        "VS": {
+          "harm": 7.5,
+          "action": 1.7857142857142858,
+          "omission": 5.714285714285714,
+          "service": 7.928571428571429
+        },
+        "NI": {
+          "harm": 12.071428571428571,
+          "action": 2.642857142857143,
+          "omission": 9.428571428571429,
+          "service": 6.285714285714286
+        },
+        "NS": {
+          "harm": 7.214285714285714,
+          "action": 1.6428571428571428,
+          "omission": 5.571428571428571,
+          "service": 8.071428571428571
+        },
+        "UI": {
+          "harm": 11.071428571428571,
+          "action": 2.0714285714285716,
+          "omission": 9,
+          "service": 6.5
+        },
+        "US": {
+          "harm": 5.214285714285714,
+          "action": 1.2142857142857142,
+          "omission": 4,
+          "service": 8.5
+        }
+      },
+      "R_I": 3.1428571428571423,
+      "R_S": -0.2857142857142856,
+      "theta": -3.428571428571428,
+      "families": {
+        "H_coverage_inventory": {
+          "VI": {
+            "harm": 8.5,
+            "action": 3.5,
+            "omission": 5,
+            "service": 8
+          },
+          "VS": {
+            "harm": 9.5,
+            "action": 3.5,
+            "omission": 6,
+            "service": 7.5
+          },
+          "NI": {
+            "harm": 8.5,
+            "action": 3.5,
+            "omission": 5,
+            "service": 8
+          },
+          "NS": {
+            "harm": 9.5,
+            "action": 3.5,
+            "omission": 6,
+            "service": 7.5
+          },
+          "UI": {
+            "harm": 2.5,
+            "action": 0.5,
+            "omission": 2,
+            "service": 9.5
+          },
+          "US": {
+            "harm": 2.5,
+            "action": 0.5,
+            "omission": 2,
+            "service": 9.5
+          }
+        },
+        "H_escrow_stagger": {
+          "VI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "VS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          },
+          "NI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "NS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          },
+          "UI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "US": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          }
+        },
+        "H_crisis_staff": {
+          "VI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "VS": {
+            "harm": 9,
+            "action": 0,
+            "omission": 9,
+            "service": 5
+          },
+          "NI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "NS": {
+            "harm": 9,
+            "action": 0,
+            "omission": 9,
+            "service": 5
+          },
+          "UI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "US": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          }
+        },
+        "H_power_trip": {
+          "VI": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          },
+          "VS": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          },
+          "NI": {
+            "harm": 15,
+            "action": 3,
+            "omission": 12,
+            "service": 8
+          },
+          "NS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 10
+          },
+          "UI": {
+            "harm": 14,
+            "action": 2,
+            "omission": 12,
+            "service": 8
+          },
+          "US": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          }
+        },
+        "H_sanitation_order": {
+          "VI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "VS": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "NI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "NS": {
+            "harm": 2,
+            "action": 2,
+            "omission": 0,
+            "service": 10
+          },
+          "UI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "US": {
+            "harm": 10,
+            "action": 2,
+            "omission": 8,
+            "service": 6
+          }
+        },
+        "H_appeal_window": {
+          "VI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "VS": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          },
+          "NI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "NS": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          },
+          "UI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "US": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          }
+        },
+        "H_respite_balance": {
+          "VI": {
+            "harm": 8,
+            "action": 2,
+            "omission": 6,
+            "service": 8
+          },
+          "VS": {
+            "harm": 16,
+            "action": 4,
+            "omission": 12,
+            "service": 6
+          },
+          "NI": {
+            "harm": 21,
+            "action": 3,
+            "omission": 18,
+            "service": 4
+          },
+          "NS": {
+            "harm": 16,
+            "action": 4,
+            "omission": 12,
+            "service": 6
+          },
+          "UI": {
+            "harm": 21,
+            "action": 3,
+            "omission": 18,
+            "service": 4
+          },
+          "US": {
+            "harm": 8,
+            "action": 2,
+            "omission": 6,
+            "service": 8
+          }
+        }
+      },
+      "by_case": {
+        "HP01": {
+          "VI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 11
+          },
+          "VS": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 10
+          },
+          "NI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 11
+          },
+          "NS": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 10
+          },
+          "UI": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 11
+          },
+          "US": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 11
+          }
+        },
+        "HP02": {
+          "VI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "VS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          },
+          "NI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "NS": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          },
+          "UI": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "US": {
+            "harm": 3,
+            "action": 1,
+            "omission": 2,
+            "service": 9
+          }
+        },
+        "HP03": {
+          "VI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "VS": {
+            "harm": 9,
+            "action": 0,
+            "omission": 9,
+            "service": 5
+          },
+          "NI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "NS": {
+            "harm": 9,
+            "action": 0,
+            "omission": 9,
+            "service": 5
+          },
+          "UI": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          },
+          "US": {
+            "harm": 3,
+            "action": 0,
+            "omission": 3,
+            "service": 7
+          }
+        },
+        "HP04": {
+          "VI": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          },
+          "VS": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          },
+          "NI": {
+            "harm": 15,
+            "action": 3,
+            "omission": 12,
+            "service": 8
+          },
+          "NS": {
+            "harm": 7,
+            "action": 1,
+            "omission": 6,
+            "service": 10
+          },
+          "UI": {
+            "harm": 14,
+            "action": 2,
+            "omission": 12,
+            "service": 8
+          },
+          "US": {
+            "harm": 6,
+            "action": 3,
+            "omission": 3,
+            "service": 11
+          }
+        },
+        "HP05": {
+          "VI": {
+            "harm": 14,
+            "action": 6,
+            "omission": 8,
+            "service": 5
+          },
+          "VS": {
+            "harm": 14,
+            "action": 6,
+            "omission": 8,
+            "service": 5
+          },
+          "NI": {
+            "harm": 14,
+            "action": 6,
+            "omission": 8,
+            "service": 5
+          },
+          "NS": {
+            "harm": 14,
+            "action": 6,
+            "omission": 8,
+            "service": 5
+          },
+          "UI": {
+            "harm": 2,
+            "action": 0,
+            "omission": 2,
+            "service": 8
+          },
+          "US": {
+            "harm": 2,
+            "action": 0,
+            "omission": 2,
+            "service": 8
+          }
+        },
+        "HP06": {
+          "VI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "VS": {
+            "harm": 5,
+            "action": 1,
+            "omission": 4,
+            "service": 8
+          },
+          "NI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "NS": {
+            "harm": 2,
+            "action": 2,
+            "omission": 0,
+            "service": 10
+          },
+          "UI": {
+            "harm": 21,
+            "action": 5,
+            "omission": 16,
+            "service": 2
+          },
+          "US": {
+            "harm": 10,
+            "action": 2,
+            "omission": 8,
+            "service": 6
+          }
+        },
+        "HP07": {
+          "VI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "VS": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          },
+          "NI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "NS": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          },
+          "UI": {
+            "harm": 11,
+            "action": 3,
+            "omission": 8,
+            "service": 7
+          },
+          "US": {
+            "harm": 4,
+            "action": 0,
+            "omission": 4,
+            "service": 9
+          }
+        },
+        "HP08": {
+          "VI": {
+            "harm": 8,
+            "action": 2,
+            "omission": 6,
+            "service": 8
+          },
+          "VS": {
+            "harm": 16,
+            "action": 4,
+            "omission": 12,
+            "service": 6
+          },
+          "NI": {
+            "harm": 21,
+            "action": 3,
+            "omission": 18,
+            "service": 4
+          },
+          "NS": {
+            "harm": 16,
+            "action": 4,
+            "omission": 12,
+            "service": 6
+          },
+          "UI": {
+            "harm": 21,
+            "action": 3,
+            "omission": 18,
+            "service": 4
+          },
+          "US": {
+            "harm": 8,
+            "action": 2,
+            "omission": 6,
+            "service": 8
+          }
+        }
+      }
+    }
+  }
+}

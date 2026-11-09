@@ -1,0 +1,23 @@
+{
+  "scope": "Outcome-aware qualitative verification of specific N examples, not an exhaustive semantic audit or new scored outcome. Extraction unchanged for all72. These notes never determine first-field inclusion or R2 prompts.",
+  "examples": [
+    {
+      "id": "native/S2-V01-08/N",
+      "type": "initial_choice_vs_explanation",
+      "observation": "Initial A files the certificate and creates the restriction. Later rationale says policy requires preventing that harm and invents uncertainty about count/duration. This conflicts with the initial selected action and stated facts.",
+      "raw_sha256": "1f0f04b0702282e7522f8e108c5f01027e3b742c42e00b3281b356087c10479d"
+    },
+    {
+      "id": "native/S2-V10-08/N",
+      "type": "normative_force",
+      "observation": "Initial B matches N recommendation. Rationale calls optional food use required, whereas the N reference says recommended and permits funded care. Choice agreement does not validate normative force.",
+      "raw_sha256": "c58d70b3b6407515abf3a42ec7043453c35a9c93044d967e321155095e2ee65c"
+    },
+    {
+      "id": "native/S2-V07-06/N",
+      "type": "internal_rationale_and_factual_conflict",
+      "observation": "Initial B matches N recommendation. Trade-off reverses which option saves money. Rationale alternates permitted/not permitted and required/not required for the same options.",
+      "raw_sha256": "e473258c711927594b19437adce6482cbfa81bc87c96ff958815508dff8ca0a8"
+    }
+  ]
+}
